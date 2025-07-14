@@ -101,7 +101,7 @@ One single unmapped power tower can sometimes trace to a missing interconnector 
 Can you see the power tower that's missing from the bottom Left corner?
 
 1. Download the transmission grid data of your country using the [Map It📍](https://MapYourGrid.org/map-it/) page.
-2. Press CTRL+F and filter by `power=substation`.
+2. Press CTRL+F and filter by `type:way power=substation`.
 3. With the installed todo plugin window press `Add`. 
 4. Switch back to your transmission grid layer.
 4. You can now step through all substations by pressing `Mark`.
