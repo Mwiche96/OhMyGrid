@@ -486,14 +486,14 @@ setTimeout(() => {
   const html = `
     <div class="popup-success">
       <p>🎉 <strong>Great!</strong> Now go back to JOSM and check if it is downloading. Depending on the country, this may take <em>60 seconds or more</em>. The grid of some countries are to large to be mapped on a national level. However, you can zoom in and click on regions or states.</p>
-      <p>For <strong>tools and hints</strong> selections, you will need to download the geojson file. Afterwards drag and drop the file into JOSM.</p>
+      <p>For <strong>Osmose and GEM tools and hints</strong> selections, you will need to download the geojson file. Afterwards drag and drop the file into JOSM. For wikidata and powerplantmatching, the layer will be directly loaded in JOSM.</p>
       <p>⚠️ <strong>If nothing happens:</strong></p>
       <ol>
         <li>Check if your ad-blocker is off</li>
         <li>Make sure JOSM is open</li>
         <li>Make sure Remote Control is enabled in JOSM</li>
         <li>If it’s enabled but still not working, toggle it off and on again</li>
-        <li>Note that hint layers do not work on national layers. In this case, please load the data onto a national layer.</li>
+        <li>Note that hint layers do not work on regional layers. In this case, please load the data onto a national layer.</li>
       </ol>
     </div>
   `;
@@ -621,19 +621,14 @@ async function fetchWikidataAndDownload(sovName) {
   const url = `https://raw.githubusercontent.com/open-energy-transition/osm-wikidata-toolset/main/`
             + `${folder}/${fileName}`;
 
-  const resp = await fetch(url);
+// First, check if the file actually exists to provide a clean error message
+  const resp = await fetch(url, { method: 'HEAD' });
   if (!resp.ok) {
     return alert(`No Wikidata ${type.replace(/_/g,' ')} file for ${sovName}.`);
   }
-  const geojson = await resp.json();
 
-  // Trigger download
-  const blob = new Blob([JSON.stringify(geojson, null,2)], {type:'application/json'});
-  const a    = document.createElement('a');
-  a.href     = URL.createObjectURL(blob);
-  a.download = `${sovName.replace(/\s+/g,'_')}_wikidata_${type}.geojson`;
-  a.click();
-  URL.revokeObjectURL(a.href);
+  const layerName = `${sovName}-wikidata`;
+  sendUrlToJosm(url, layerName);
 }
 
 async function fetchPPMAndDownload(sovName) {
@@ -656,16 +651,23 @@ async function fetchPPMAndDownload(sovName) {
     return alert(`No PPM file found for ${sovName}.`);
   }
 
-  const geojson = await resp.json();
-  const blob = new Blob([JSON.stringify(geojson, null, 2)], { type: 'application/json' });
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = `${sovName.replace(/\s+/g, '_')}_ppm_${type}.geojson`;
-  a.click();
-  URL.revokeObjectURL(a.href);
+  const layerName = `${sovName}-ppm`;
+  sendUrlToJosm(url, layerName);
 }
 
+// For direct opening of files in JOSM of hint layers
+function sendUrlToJosm(dataUrl, layerName) {
+  console.log("Setting JOSM layer name to:", layerName);
+  // We must encode the dataUrl itself to pass it as a parameter to the JOSM url.
+  const josmUrl = `http://localhost:8111/import?new_layer=true&layer_name=${encodeURIComponent(layerName)}&url=${encodeURIComponent(dataUrl)}`;
 
+  console.log(`Sending data URL to JOSM: ${dataUrl}`);
+  const iframe = document.createElement('iframe');
+  iframe.style.display = 'none';
+  iframe.src = josmUrl;
+  document.body.appendChild(iframe);
+  setTimeout(() => document.body.removeChild(iframe), 1000);
+}
 
 // JOSM integration function
 function sendToJosm(query, areaName) {
@@ -777,7 +779,7 @@ fetch('../data/regionsv2.geojson')
   })
   .catch(error => console.error('Regions GeoJSON error:', error));
 </script>
-
+<!-- ENd-->
 ??? info "Map Legend for the recommended [MapCSS](starter-kit.md#coloring-your-grid-map-and-legend) (Click Me)"
     <img 
       src="https://raw.githubusercontent.com/open-energy-transition/color-my-grid/refs/heads/main/legend/power-grid-legend.png" 
