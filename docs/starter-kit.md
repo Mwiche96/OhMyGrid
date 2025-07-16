@@ -12,8 +12,8 @@ This starter kit empowers you how to map your first line of the electrical trans
 
 For professional large scale grid mapping, editing lines the visualkkization of the total electrical grid in your editor we recommend JOSM. However, if you only want to add small changes, edits, notes or fixme tags, the iD editor in combination with OpenInframap and MapComplete might be the ideal tools. These tools also provide much better usability for field mapping tasks if you want to validate data. Click on of the two tutorials you would like to start with:
 
-1. JOSM Starter Kit for large scale mapping.
-2. iD and MapComplete for small scale mapping and field mapping. 
+1. [JOSM Starter Kit for large scale mapping](starter-kit.md#josm-starter-kit)
+2. [iD and MapComplete for small scale mapping and field mapping](starter-kit.md#id-and-mapcomplete-starter-kit) 
 
 ## <div class="stradegy-header">JOSM Starter Kit</div></h3>
     
@@ -127,12 +127,13 @@ Our community is constantly investigating transmission lines that are suitable f
 
 
 ## **<div class="tools-header"> Avoid these common mistakes :name_badge:</div>**
-Mapping is an iterative process and mistakes happen. This should not stop you from mapping; simply map what you can verify based on your skillset. If a tower, lines or attributes are missing, our quality assurance tool Osmose will automatically detect this.
 
 <div style="float: right; margin: 5px 0 10px 20px; width: 350px;">
   <img src="../images/starter-kit/power-towers-without-lines.jpg" class="img-border" style="width: 100%;"> </a>
   <figcaption class="image-caption">In particular, in the dense urban areas that are widespread in Nigeria, it can be very difficult to determine the route of the lines in satellite images. Therefore, mappers simply place unconnected power towers that appear as blue squares at higher zoom levels.</figcaption>
 </div>
+
+Mapping is an iterative process and mistakes happen. This should not stop you from mapping; simply map what you can verify based on your skillset. If a tower, lines or attributes are missing, our quality assurance tool Osmose will automatically detect this.
 
 1. Our tools focus on transmission grids, that’s why you don’t see lines below 90 kV. To see already mapped lines below 90 kV or lines tagged with power=minor_line, download the whole area you’re working on with the green arrow pointing down.
 2. When mapping, make sure to not go across the border of the country you’re working on (visible dashed orange lines). Otherwise, you may find yourself mapping something that already exists, but hasn’t been downloaded in JOSM.
@@ -166,7 +167,10 @@ The following image is take from the report Key technology components of electri
 
 ## <div class="tools-header">Still "On the Line" and Motivated to Continue?</div>
 
-Well done on making it this far! We are offering free, hands-on transmission grid mapping workshops to people who have tried the Starter-Kit. You are very welcome to join our [community chat](https://discord.gg/a5znpdFWfD) called _📍-mapyourgrid_ on the PyPSA-Earth discord channel. Here you can ask questions, and interact with the community. For mapping specific questions and to participate in our free personalized training, please join our [📍-mapyourgrid-support-and-training](https://discord.gg/fBw7ARTUeR) channel. Check out our [Tools and Strategies](tools.md) to learn how to find your own new lines and become a grid mapping expert! You are also welcome to join our community calls and tutorials to learn more about the mapping process and the initiative.
+Well done on making it this far! We are offering free, hands-on transmission grid mapping workshops to people who have tried the Starter-Kit. You are very welcome to join our [community chat](https://discord.gg/a5znpdFWfD) called _📍-mapyourgrid_ on the PyPSA-Earth discord channel. Here you can ask questions, and interact with the community. For mapping specific questions and to participate in our free personalized training, please join our [📍-mapyourgrid-support-and-training](https://discord.gg/fBw7ARTUeR) channel. 
+
+Check out our [Tools and Strategies](tools.md) to learn how to find your own new lines and become a grid mapping expert! You are also welcome to join our community calls and tutorials to learn more about the mapping process and the initiative. The OpenStreetMap Wiki pages [The Power Network](https://wiki.openstreetmap.org/wiki/Power_networks) and [Key:Power](https://wiki.openstreetmap.org/wiki/Key:power) provide an overview of how to map different power infrastructure.
+
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FBerlin&showPrint=0&title=Community%20live%20sessions&src=Y182ODE3NjE1MGIzMjY4MGRkZmUzMGM1ZTE1MDU0YTc5MTVhMzY2NmY1OGY5NjkxOGVjOTZhNDJjZWQwODQ2ZGVmQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23AD1457" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 
@@ -185,5 +189,3 @@ Before mapping power infrastructure, get familiar with OpenStreetMap (OSM):
     - Check detailed mapping guidelines in the OSM Wiki. 
     
 Even small edits like missing towers or bits of power lines make a big difference by helping others complete the grid. Don't worry about making mistakes. Mapping is an iterative process, and the OpenStreetMap community can detect anything that is missing or wrongly tagged.
-    
-The OpenStreetMap Wiki pages [The Power Network](https://wiki.openstreetmap.org/wiki/Power_networks) and [Key:Power](https://wiki.openstreetmap.org/wiki/Key:power) provide an overview of how to map different power infrastructure.
