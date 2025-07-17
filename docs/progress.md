@@ -573,7 +573,7 @@ You can find more stats for #mapyourgrid at [OhsomeNowstats](https://stats.now.o
 
 ## **<div class="tools-header">Line Length Growth per Country </div>**
 
-This table shows the total growth in line length for all countries around the world, as calculated using preprocessed staticailly data of [ohsome stats](https://stats.now.ohsome.org/).
+This table shows the total growth in line length for all countries around the world, as calculated using pre-processed statistical data of [ohsome stats](https://stats.now.ohsome.org/).
 
 --8<-- "docs/data/power_line_length_table.html"
 
