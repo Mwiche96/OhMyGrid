@@ -49,38 +49,6 @@ If this is your first time grid mapping, please go through the [Starter-Kit](sta
                 <option value="7040:8">Power support line management suggestion (Class 8)</option>
                 <option value="7040:95">missing power=line in the area (Class 95)</option>
               </optgroup>
-              <optgroup label="Power substation, ref not integrated (item 7190)">
-                <option value="7190:2">Power substation is not known by the operator or misses substation=* value (Class 2)</option>
-                <option value="7190:22">Power line branch not known by the operator (Class 22)</option>
-              </optgroup>
-              <optgroup label="Power plant (item 8270)">
-                <option value="8270:1">Power plant not integrated, geocoded at municipality level (Class 1)</option>
-                <option value="8270:6">Wind turbine not integrated (Class 6)</option>
-              </optgroup>
-              <optgroup label="Power substation (item 8280)">
-                <option value="8280:1">Power substation missing in OSM or without tag "ref:FR:RTE" (Class 1)</option>
-                <option value="8280:11">Minor distribution power substation missing in OSM (Class 11)</option>
-                <option value="8280:21">Power line branch is missing in OSM or without tag "ref:FR:RTE" (Class 21)</option>
-                <option value="8280:94">power=substation from opendata (Class 94)</option>
-              </optgroup>
-              <optgroup label="Power substation, could be integrated (item 8281)">
-                <option value="8281:3">Power substation, integration suggestion (Class 3)</option>
-                <option value="8281:13">Power minor distribution substation, integration suggestion (Class 13)</option>
-                <option value="8281:23">Power line branch, integration suggestion (Class 23)</option>
-                <option value="8281:94">power=substation from opendata (Class 94)</option>
-              </optgroup>
-              <optgroup label="Power substation, need update (item 8282)">
-                <option value="8282:4">Power substation update (Class 4)</option>
-                <option value="8282:24">Power line branch update (Class 24)</option>
-              </optgroup>
-              <optgroup label="Power support (item 8290)">
-                <option value="8290:1">Power support not integrated (Class 1)</option>
-                <option value="8290:2">Power support, line management suggestion (Class 2)</option>
-                <option value="8290:10">Power line not integrated (Class 10)</option>
-                <option value="8290:1001">Power pole not integrated (Class 1001)</option>
-                <option value="8290:1004">Power pole update (Class 1004)</option>
-                <option value="8290:1011">Power pole not integrated (Class 1011)</option>
-              </optgroup>
     </select>
     <div class="query-version">Warning: GeoJSON file. "Open" in JOSM, but do not "upload" this layer</div>
 </div>
@@ -526,7 +494,8 @@ async function fetchOsmoseAndDownload(sovName) {
   const apiUrl = 
     `https://osmose.openstreetmap.fr/api/0.3/issues.json?` +
     `country=${encodeURIComponent(base)}` +
-    `&item=${item}&class=${cls}&limit=500`;
+    `&item=${item}&class=${cls}&limit=500` +
+    `&useDevItem=all`;
 
   const resp = await fetch(apiUrl);
   if (!resp.ok) throw new Error(`Osmose API ${resp.statusText}`);
