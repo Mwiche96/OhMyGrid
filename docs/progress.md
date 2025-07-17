@@ -570,3 +570,10 @@ You can find more stats for #mapyourgrid at [OhsomeNowstats](https://stats.now.o
 ![Flag Suriname](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Suriname.svg){width=20px} [Suriname](countrypages/Suriname.md) - 
 ![Flag Uruguay](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uruguay.svg){width=20px} [Uruguay](countrypages/Uruguay.md) - 
 ![Flag Venezuela](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Venezuela.svg){width=20px} [Venezuela](countrypages/Venezuela.md) - 
+
+## **<div class="tools-header">Line Length Growth per Country </div>**
+
+This table shows the total growth in line length for all countries around the world, as calculated using preprocessed staticailly data of [ohsome stats](https://stats.now.ohsome.org/).
+
+--8<-- "docs/data/power_line_length_table.html"
+
