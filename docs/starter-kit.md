@@ -17,8 +17,9 @@ For professional large scale grid mapping, editing lines and visualizing the tot
 Click on one of the two tutorials you would like to start with:
 
 <div>
-  <a href="starter-kit.md#josm-starter-kit" style="display: inline-block; padding: 10px 15px; background-color: #2050a0; color: white; text-decoration: none; font-size: 18px; border-radius: 8px;">JOSM Starter-Kit for Large Scale Mapping</a>
-  <a href="starter-kit.md#id-and-mapcomplete-starter-kit" style="display: inline-block; padding: 10px 15px; background-color: #2A6D3C; color: white; text-decoration: none; font-size: 18px; border-radius: 8px; margin-top: 6px;">iD and MapComplete Starter-Kit for Small Scale Mapping and Field Mapping</a>
+  <a href="#josm-starter-kit" style="display: inline-block; padding: 10px 15px; background-color: #2050a0; color: white; text-decoration: none; font-size: 18px; border-radius: 8px;">JOSM Starter-Kit for Large Scale Mapping</a> </br>
+
+  <a href="#id-and-mapcomplete-starter-kit" style="display: inline-block; padding: 10px 15px; background-color: #2A6D3C; color: white; text-decoration: none; font-size: 18px; border-radius: 8px; margin-top: 6px;">iD and MapComplete Starter-Kit for Small Scale Mapping and Field Mapping</a>
 </div>
 
 ## <div class="stradegy-header">JOSM Starter Kit</div></h3>
