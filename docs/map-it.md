@@ -749,7 +749,7 @@ fetch('../data/regionsv2.geojson')
   .catch(error => console.error('Regions GeoJSON error:', error));
 </script>
 <!-- ENd-->
-??? info "Map Legend for the recommended [MapCSS](starter-kit.md#coloring-your-grid-map-and-legend) (Click Me)"
+??? info "Map Legend for the recommended [MapCSS](starter-kit.md#3-add-visual-clarity-with-custom-map-styles) (Click Me)"
     <img 
       src="https://raw.githubusercontent.com/open-energy-transition/color-my-grid/refs/heads/main/legend/power-grid-legend.png" 
       class="img-border image-caption" 

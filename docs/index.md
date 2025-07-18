@@ -106,4 +106,12 @@ body_class: landing-page
       </a>
     </div>
   </div>
+  <div class="sponsored-by-section">
+  <h3 class="section-title">Sponsored By</h3>
+  <div class="sponsor-logo">
+    <a href="https://www.breakthroughenergy.org/" target="_blank" rel="noopener">
+      <img src="images/logos/be-logo.png" alt="Sponsor Logo" class="sponsor-logo-img">
+    </a>
+  </div>
 </div>
+

@@ -150,7 +150,7 @@ For a safe mapping, we recommend you reading about [good practices](https://wiki
 You don’t need to be a grid expert to start mapping, but a little knowledge helps!
 The following documents and materials will give you a basic understanding of how to map an electrical grid.
 
-The [Learning Curve](https://www.youtube.com/@TheLearningCurveBenila/videos),is a youtube channel that provides multiple videos that will help you understand the basics of the electrical grid needed for grid mapping:
+The [Learning Curve](https://www.youtube.com/@TheLearningCurveBenila/videos), is a YouTube channel that will help you understand the fundamental knowledge of the electrical grid. Here some video we recommend for grid mappers. 
 
 1. [Electrical Line Supports - Transmission Towers & Poles](https://www.youtube.com/watch?v=AB1qYsiDm0M)
 1. [Components of Overhead Transmission Lines](https://www.youtube.com/watch?v=A6fwq3yHRXQ)
