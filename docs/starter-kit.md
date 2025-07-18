@@ -176,16 +176,27 @@ Check out our [Tools and Strategies](tools.md) to learn how to find your own new
 
 ## <div class="stradegy-header">iD and MapComplete Starter Kit</div></h3>
 
-Before mapping power infrastructure, get familiar with OpenStreetMap (OSM):
+Although editors such as iD and MapComplete offer a simpler way to contribute to smaller grid mapping, they quickly reach their limits with large lines and complex geometries. However, these platforms have clear advantages for mapping in the field using mobile devices compared to JOSM.
 
-1. Create an OSM account. [Sign up here](https://www.openstreetmap.org/user/new). 
-2. Learn basic mapping with the in-browser editor (iD) :
-    - Use the [iD Beginners' Guide](https://learnosm.org/en/beginner/id-editor/) to get starter. 
-    - Start small. Add missing streets, parks, buildings in your area. 
-3. Find missing power infrastructure near you. 
-    - Go to [Open Infrastructure Map](https://openinframap.org/).
-    - Click "Find my location" on the top right corner, or search your city. 
-    - See a missing line or substation nearby ? Map it ! Use the iD editor. 
-    - Check detailed mapping guidelines in the OSM Wiki. 
-    
-Even small edits like missing towers or bits of power lines make a big difference by helping others complete the grid. Don't worry about making mistakes. Mapping is an iterative process, and the OpenStreetMap community can detect anything that is missing or wrongly tagged.
+Also, if you just want to add a note or report an issue, or if you want to suggest the addition of power towers or substations in your area, this platform offers a great way to make a quick contribution. Taking images in the field with MapComplete is also key to validating satellite-based mapping where detailed, high-resolution images are missing. Taking images can also be important for deriving relevant metadata, such as wind [turbine power capacities](https://mapcomplete.org/openwindpowermap.html?z=13&lat=39.548330293512805&lon=9.219887340880064). We are currently working on extending this functionality to power towers to enable more accurate estimation of transmission line voltages.
+
+### <div class="stradegy-header">Reporting Issues in the Grid</div></h3>
+
+The fastest and easiest way to contribute to your electrical grid is by adding notes where you see missing or incorrect information in OpenStreetMap. You can do this fully anonymously, no login required.
+
+<div style="float: right; margin: 5px 0 10px 20px; width: 350px;">
+  <img src="../images/starter-kit/easy-notes.jpg" class="img-border" style="width: 100%;">
+  <figcaption class="image-caption">Open Infrastructure Map (left) and the iD Editor (right) provide a mobile-ready, easy-to-use way to report issues. Click to enlarge.</figcaption>
+</div>
+
+#### Steps to Report an Issue
+
+1. Go to the [Open Infrastructure Map](https://openinframap.org/#2/26/12).
+2. Click **Find my location** in the top-right corner or search for your city.
+3. Click on a substation, power tower, power line, or power plant where you want to report an issue.
+4. In the description window, click the **OpenStreetMap** logo.
+5. The [OpenStreetMap.org](https://www.openstreetmap.org/) interface will now open at that location.
+6. Click the **Add a note to the map** button on the right-hand panel.
+7. Add a short description of the issue, and include the hashtag `#mapyourgrid` so we can find your note.
+
+ Reporting such smaller issues will significantly improve the long-term quality of your local grid's data.
