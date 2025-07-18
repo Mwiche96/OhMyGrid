@@ -122,6 +122,8 @@ Large industrial facilities require huge amounts of energy and therefore have th
 1. Switch back to your transmission grid layer.
 1. You can now step trouth all substations by pressing `Mark`.
 
+For more highly industrialised countries, loading all industries from OSM can sometimes lead to an overwhelming amount of information, when this happens it can be convenient to filtter out smaller industries that may not offer useful information. To do this we have the [osm-industries](https://github.com/open-energy-transition/osm-industries) tool. This script allows you to create a layer of filtered industries that you can load into JOSM as a geojson file. The script also allows you to determine your own threshhold value for filtering, the default value being 10,000sqm or 1 hectare.
+
 
 ### <div class="tools-header"> Connect WikiData</div></h3>
 
