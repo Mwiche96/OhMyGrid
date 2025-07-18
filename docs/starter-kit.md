@@ -14,7 +14,7 @@ This starter kit empowers you how to map your first line of the electrical trans
 
 For professional large scale grid mapping, editing lines and visualizing the total electrical grid in your editor we recommend JOSM. However, if you only want to add small changes, edits, notes or fixme tags, the iD editor in combination with OpenInframap and MapComplete might be the ideal tools. These tools also provide much better usability for field mapping tasks if you want to validate data.
 
-Click on one of the two tutorials you would like to start with:
+Click on one of the two Starter-Kits you would like to start with:
 
 <div>
   <a href="#josm-starter-kit" style="display: inline-block; padding: 10px 15px; background-color: #2050a0; color: white; text-decoration: none; font-size: 18px; border-radius: 8px;">JOSM Starter-Kit for Large Scale Mapping</a> </br>
