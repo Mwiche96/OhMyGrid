@@ -1,5 +1,5 @@
 <div class="page-headers">
-<h1>Starter Kit </h1>
+<h1>Starter-Kit </h1>
 </div>
 
 This starter kit empowers you how to map your first line of the electrical transmission grid. If you ever get stuck with the Starter Kit or would like to provide feedback, please contact us via our [community chat](https://discord.gg/fBw7ARTUeR) or <a href="mailto:MapYourGrid@openenergytransition.org" target="_blank" rel="noopener"> via email</a>. A MapYourGrid member will help you finish your first line and set up your environment.
@@ -12,7 +12,7 @@ This starter kit empowers you how to map your first line of the electrical trans
 
 For professional large scale grid mapping, editing lines the visualkkization of the total electrical grid in your editor we recommend JOSM. However, if you only want to add small changes, edits, notes or fixme tags, the iD editor in combination with OpenInframap and MapComplete might be the ideal tools. These tools also provide much better usability for field mapping tasks if you want to validate data. Click on of the two tutorials you would like to start with:
 
-1. [JOSM Starter Kit for large scale mapping](starter-kit.md#josm-starter-kit)
+1. [JOSM Starter-Kit for large scale mapping](starter-kit.md#josm-starter-kit)
 2. [iD and MapComplete for small scale mapping and field mapping](starter-kit.md#id-and-mapcomplete-starter-kit) 
 
 ## <div class="stradegy-header">JOSM Starter Kit</div></h3>
@@ -174,22 +174,22 @@ Check out our [Tools and Strategies](tools.md) to learn how to find your own new
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FBerlin&showPrint=0&title=Community%20live%20sessions&src=Y182ODE3NjE1MGIzMjY4MGRkZmUzMGM1ZTE1MDU0YTc5MTVhMzY2NmY1OGY5NjkxOGVjOTZhNDJjZWQwODQ2ZGVmQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23AD1457" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 
-## <div class="stradegy-header">iD and MapComplete Starter Kit</div></h3>
+## <div class="stradegy-header">iD and MapComplete Starter-Kit</div></h3>
 
-Although editors such as iD and MapComplete offer a simpler way to contribute to smaller grid mapping, they quickly reach their limits with large lines and complex geometries. However, these platforms have clear advantages for mapping in the field using mobile devices compared to JOSM.
+Although editors such as iD and MapComplete offer a simpler way to contribute to smaller grid mapping, they quickly reach their limits with large lines and complex geometries. However, these platforms have clear advantages for mapping in the field using mobile devices compared to JOSM. For people who prefer iD over JOSM, the following tutorials can also be used to map on a PC.
 
 Also, if you just want to add a note or report an issue, or if you want to suggest the addition of power towers or substations in your area, this platform offers a great way to make a quick contribution. Taking images in the field with MapComplete is also key to validating satellite-based mapping where detailed, high-resolution images are missing. Taking images can also be important for deriving relevant metadata, such as wind [turbine power capacities](https://mapcomplete.org/openwindpowermap.html?z=13&lat=39.548330293512805&lon=9.219887340880064). We are currently working on extending this functionality to power towers to enable more accurate estimation of transmission line voltages.
 
 ### <div class="stradegy-header">Reporting Issues in the Grid</div></h3>
 
-The fastest and easiest way to contribute to your electrical grid is by adding notes where you see missing or incorrect information in OpenStreetMap. You can do this fully anonymously, no login required.
+The fastest and easiest way to contribute to your electrical grid is by adding notes where you see missing or incorrect information in OpenStreetMap. You can do this fully anonymously—no login required.
 
 <div style="float: right; margin: 5px 0 10px 20px; width: 350px;">
   <img src="../images/starter-kit/easy-notes.jpg" class="img-border" style="width: 100%;">
   <figcaption class="image-caption">Open Infrastructure Map (left) and the iD Editor (right) provide a mobile-ready, easy-to-use way to report issues. Click to enlarge.</figcaption>
 </div>
 
-#### Steps to Report an Issue
+**Steps to Report an Issue**
 
 1. Go to the [Open Infrastructure Map](https://openinframap.org/#2/26/12).
 2. Click **Find my location** in the top-right corner or search for your city.
@@ -199,4 +199,78 @@ The fastest and easiest way to contribute to your electrical grid is by adding n
 6. Click the **Add a note to the map** button on the right-hand panel.
 7. Add a short description of the issue, and include the hashtag `#mapyourgrid` so we can find your note.
 
- Reporting such smaller issues will significantly improve the long-term quality of your local grid's data.
+Reporting such smaller issues will significantly improve the long-term quality of your local grid's data.
+
+### <div class="stradegy-header">Add Power Towers or Substations using iD</div></h3>
+
+<div style="float: right; margin: 5px 0 10px 20px; width: 350px;">
+  <img src="../images/starter-kit/easy-edit.jpg" class="img-border" style="width: 100%;">
+  <figcaption class="image-caption">To place a power tower, you first have to set a node and then add a tag (left). To save your edits on a mobile device using the iD Editor (right), you have to close the inspector panel on the left so that the Save button is visible. Click to enlarge.</figcaption>
+</div>
+
+Have you spotted some power towers, power plants, or substations near your place that are still missing and want to quickly map them yourself? This can be done on your mobile device or PC using the iD editor. In this way, you can also correct voltages, circuits, or other errors you see in Open Infrastructure Map.
+
+**Add Power Towers**
+
+1. Go to the [Open Infrastructure Map](https://openinframap.org/#2/26/12).
+1. Click **Find my location** in the top-right corner or search for your city.
+1. Zoom in until you see the small `Edit` button in the lower right corner and press it.
+1. [Create an OpenStreetMap account](https://www.openstreetmap.org/user/new?cookie_test=true&referer=%2Fedit%3Feditor%3Did) and log in to the `Edit` mode by pressing the button on the top panel.
+1. You will now see all OpenStreetMap and `Bing` Satellite imagery underneath. Depending on your region, you might want to switch to different satellite imagery by pressing the Background button in the right panel.
+1. By pressing the `Point` symbol in the upper panel, you can now place a node. Now tag this node as a Power Tower using the `Edit Feature` that will appear on the left side. Although filling out the other fields is optional, you are welcome to provide additional information if you know more about the type of power tower.
+1. Upload your data by pressing `Save`. On mobile devices, you first have to hide the left window by toggling the `Inspect` button at the top.
+1. Add a `Changeset Comment` with a brief description of your mapping activity. If you find our efforts, documentation and tools helpful, please include the hashtag #mapyourgrid in the changeset comment to let us know.
+
+**Add Substations**
+
+<div style="float: right; margin: 5px 0 10px 20px; width: 350px;">
+  <img src="../images/starter-kit/id-substation.jpg" class="img-border" style="width: 100%;">
+  <figcaption class="image-caption">For mapping substations in iD we recommend using a PC. Click to enlarge.</figcaption>
+</div>
+
+1. Go to the [Open Infrastructure Map](https://openinframap.org/#2/26/12).
+1. Click **Find my location** in the top-right corner or search for your city.
+1. Zoom in until you see the small `Edit` button in the lower right corner and press it.
+1. [Create an OpenStreetMap account](https://www.openstreetmap.org/user/new?cookie_test=true&referer=%2Fedit%3Feditor%3Did) and log in.
+1. By pressing the `Area` symbol in the upper panel, you can now mark the substation. Tag this area as a `Substation` using the `Edit Feature` that will appear on the left side. Add voltages, operators, or other fields if you have this information.
+1. Now upload this information by pressing `Save`.
+1. Add a `Changeset Comment` with a brief description of your mapping activity. If you find our efforts, documentation and tools helpful, please include the hashtag #mapyourgrid in the changeset comment to let us know.
+
+### <div class="stradegy-header">Map Transmission Lines using iD </div></h3>
+
+iD also offers you the option of extending Transmission Lines, also known as Power Lines, or creating new Transmission Lines. Even if this is theoretically possible on a mobile device, we recommend doing this with a mouse and keyboard on a PC.
+
+<div style="float: right; margin: 5px 0 10px 20px; width: 350px;">
+  <img src="../images/starter-kit/extend-line-id.jpg" class="img-border" style="width: 100%;">
+  <figcaption class="image-caption">For mapping substations in iD we recommend using a PC. Click to enlarge.</figcaption>
+  <img src="../images/starter-kit/multiple-towers-id.jpg" class="img-border" style="width: 100%;">
+  <figcaption class="image-caption">Depending on the region you are mapping, regularly switching between satellite images can help you identify power towers much more easily. Click to enlarge.</figcaption>
+</div>
+
+1. First, you have to set a Power Tower if you don't already have a line you want to extend.
+2. Then press the Line symbol in the upper panel. Click on the power tower and draw the line to the next power tower.
+3. Click on the node you have just created and make it a power tower with the `Inspect` window on the left side.
+4. Afterwards, press on the line. In the `Inspect` window on the left side, you are now able to set the feature of this line as `Power Line`.
+5. If you know further important information about the line like the voltage, operator, or the circuits, you are welcome to add this or leave these fields empty.
+6. To further continue the line, select the power tower and press `CTRL C` to copy the tower. Now place it on the next tower you find.
+7. Afterwards, continue the line as far as you can by connecting all the power towers you have just set.
+8. Now upload this information by pressing `Save`.
+9. Add a `Changeset Comment` with a brief description of your mapping activity. If you find our efforts, documentation, and tools helpful, please include the hashtag #mapyourgrid in the changeset comment to let us know.
+
+### <div class="stradegy-header">Add Missing Tags using MapComplete </div></h3>
+
+<div style="float: right; margin: 5px 0 10px 20px; width: 350px;">
+  <img src="../images/starter-kit/mapcomplete.jpg" class="img-border" style="width: 100%;">
+  <figcaption class="image-caption">MapComplete allows you to add missing information to objects like wind turbines (left). The platform allows you to upload images so that others can derive information like power output of the wind turbine. Click to enlarge.</figcaption>
+</div>
+
+The [MapComplete](https://mapcomplete.org/) platform provides an easy way to identify missing tags [like the power output of a wind turbine](https://mapcomplete.org/openwindpowermap.html?z=13&lat=39.55702450000146&lon=9.226502599999435#node/5271617498) that has already been mapped in OpenStreetMap. Like iD, the platform can be used from a PC but also from a mobile device. A special feature is the ability to upload images. In the case of a wind turbine, for example, this enables another mapper to estimate the output on the basis of this data. We are currently in development to extend this feature to Power Towers to derive the voltages, number of circuits, or cables from these images.
+
+1. Open [MapComplete](https://mapcomplete.org/) and select the thematic map like `Wind power generators` that you would like to improve.
+2. Jump to your location using the crosshair symbol in the lower right corner.
+3. Search for wind turbines in your region that are missing information.
+4. Press on the wind turbine symbol. You can now add the capacity or take a picture with your mobile device to let others derive the output power.
+5. Afterwards, press `Save`.
+
+
+
