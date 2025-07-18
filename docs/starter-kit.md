@@ -2,18 +2,24 @@
 <h1>Starter-Kit </h1>
 </div>
 
-This starter kit empowers you how to map your first line of the electrical transmission grid. If you ever get stuck with the Starter Kit or would like to provide feedback, please contact us via our [community chat](https://discord.gg/fBw7ARTUeR) or <a href="mailto:MapYourGrid@openenergytransition.org" target="_blank" rel="noopener"> via email</a>. A MapYourGrid member will help you finish your first line and set up your environment.
-
 <div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
-  
-  <img src="../images/openinframap-portugal.jpg" class="img-border" style="width: 100%;"> 
-  <figcaption class="image-caption"><a href="https://openinframap.org/#6.54/39.026/-7.548" target="_blank">Open Infrastructure Map</a> showing the detailed transmission and distribution grid in Portugal. Click to enlarge.</figcaption>
+<img src="../images/openinframap-portugal.jpg" class="img-border" style="width: 100%;">
+<figcaption class="image-caption">
+<a href="https://openinframap.org/#6.54/39.026/-7.548" target="_blank">Open Infrastructure Map</a> showing the detailed transmission and distribution grid in Portugal. Click to enlarge.
+</figcaption>
 </div>
 
-For professional large scale grid mapping, editing lines the visualkkization of the total electrical grid in your editor we recommend JOSM. However, if you only want to add small changes, edits, notes or fixme tags, the iD editor in combination with OpenInframap and MapComplete might be the ideal tools. These tools also provide much better usability for field mapping tasks if you want to validate data. Click on of the two tutorials you would like to start with:
+This starter kit empowers you how to map your first line of the electrical transmission grid. If you ever get stuck with the Starter Kit or would like to provide feedback, please contact us via our [community chat](https://discord.gg/fBw7ARTUeR) or [via email](mailto:MapYourGrid@openenergytransition.org). A MapYourGrid member will help you finish your first line and set up your environment.
 
-1. [JOSM Starter-Kit for large scale mapping](starter-kit.md#josm-starter-kit)
-2. [iD and MapComplete for small scale mapping and field mapping](starter-kit.md#id-and-mapcomplete-starter-kit) 
+
+For professional large scale grid mapping, editing lines and visualizing the total electrical grid in your editor we recommend JOSM. However, if you only want to add small changes, edits, notes or fixme tags, the iD editor in combination with OpenInframap and MapComplete might be the ideal tools. These tools also provide much better usability for field mapping tasks if you want to validate data.
+
+Click on one of the two tutorials you would like to start with:
+
+<div>
+  <a href="starter-kit.md#josm-starter-kit" style="display: inline-block; padding: 10px 15px; background-color: #2050a0; color: white; text-decoration: none; font-size: 18px; border-radius: 8px;">JOSM Starter-Kit for Large Scale Mapping</a>
+  <a href="starter-kit.md#id-and-mapcomplete-starter-kit" style="display: inline-block; padding: 10px 15px; background-color: #2A6D3C; color: white; text-decoration: none; font-size: 18px; border-radius: 8px; margin-top: 6px;">iD and MapComplete Starter-Kit for Small Scale Mapping and Field Mapping</a>
+</div>
 
 ## <div class="stradegy-header">JOSM Starter Kit</div></h3>
     
