@@ -323,7 +323,7 @@ MapYourGrid layers additional tools, methodologies, and community-driven feedbac
     These issues are visualized directly in [Open Infrastructure Map](https://openinframap.org/#2/26/12), giving mappers clear targets for improving the dataset.
 
 
-6. **Statistical Monitoring with Health Scores**
+6. **Statistical Monitoring with Health Scores (Under Construction)**
 
     Tools like [ohsome stats](https://stats.now.ohsome.org/) provide macro-level insights into mapping activity. They help detect:
 
@@ -334,22 +334,22 @@ MapYourGrid layers additional tools, methodologies, and community-driven feedbac
     Hashtag based tracking also enables performance monitoring and campaign evaluation across time and geography. All this statistical data, along with the osmose issues, is used to calculate a health score for the electrical grid. 
 
 
-7. **Integration and Interoperability Tests**
+7. **Integration and Interoperability Tests (Under Construction)**
 
     We routinely test how well OSM electrical data integrates with external systems and applications. This ensures that the data model is not only internally consistent but also compatible with real-world use cases, including load flow analysis, planning tools, and emergency response platforms. We test the dataset against other open and proprietary energy system models and frameworks to verify structural and semantic compatibility. Interoperability ensures that OSM-based grid data can be adopted widely, fostering trust among academic and industrial users.
 
 
-8. **Sensitivity Analysis**
+8. **Sensitivity Analysis (Under Construction)**
 
     By simulating changes in voltage, topology, or component tagging, we measure how sensitive derived outputs (e.g., load estimations or reliability models) are to input variations. This helps identify critical data points where higher accuracy or verification is essential.
 
 
-9. **Expert and Peer Cross-Validation**
+9. **Expert and Peer Cross-Validation (Under Construction)**
 
     Experienced technical mappers and energy system experts regularly review the data, particularly in complex regions with overlapping voltages, substations, or unusual infrastructure types. In combination with qualitative comparisons with third-party studies, statistics or official electrical grid maps, these experts gather all insights about data quality. They are capable of comaring different validation results to approve, release and version control electrical grid data. They can compare different validation results in order to approve, release and control the version of electrical grid data. This allows them to update the community on any significant grid data issues that have been identified.
 
 
-10. **AI-Assisted Random Sample and Field Validation**
+10. **AI-Assisted Random Sample and Field Validation (Under Construction)**
 
     We leverage AI to detect unmapped infrastructure from satellite imagery and flag anomalies in existing data. Random samples are then validated on the ground through local partners, combining remote detection with field-level truthing.
 
