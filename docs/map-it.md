@@ -179,6 +179,32 @@ async function initQueryUI() {
   // 2. Create two sibling containers, then insert them above the map
   const mapEl = document.getElementById('map');
 
+    // Add instructional text below the map
+  const introBox = document.createElement('div');
+  introBox.id = 'map-intro';
+  introBox.style = `
+    background: #f9f9f9;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 1em 0;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    line-height: 1.5;
+  `;
+  introBox.innerHTML = `
+    <strong>📍 Click on the country you want to load in JOSM</strong><br/>
+    <ol style="margin: 0.5em 0 0 1em; padding-left: 1em;">
+      <li>Zoom in to select states or provinces</li>
+      <li>Click on Tools and Hints to download data layers to support grid mapping</li>
+      <li>Don't forget to checkout the Map Legend, Good First Lines and Curated Electrical Grid Maps below.</li>
+      
+    </ol>
+    `;
+
+  // Insert after the map
+  mapEl.parentNode.insertBefore(introBox, mapEl.nextSibling);
+
   // — Row 1 title —
   const overpassTitle = document.createElement('div');
   overpassTitle.className = 'tools-header';
@@ -624,6 +650,7 @@ async function fetchPPMAndDownload(sovName) {
   sendUrlToJosm(url, layerName);
 }
 
+
 // For direct opening of files in JOSM of hint layers
 function sendUrlToJosm(dataUrl, layerName) {
   console.log("Setting JOSM layer name to:", layerName);
@@ -748,6 +775,9 @@ fetch('../data/regionsv2.geojson')
   })
   .catch(error => console.error('Regions GeoJSON error:', error));
 </script>
+
+
+
 <!-- ENd-->
 ??? info "Map Legend for the recommended [MapCSS](starter-kit.md#3-add-visual-clarity-with-custom-map-styles) (Click Me)"
     <img 
@@ -818,7 +848,7 @@ fetch('../data/regionsv2.geojson')
   }
 </script>
 
-## <div class="tools-header">Mapping Guidelines and Code of Mappers</div>
+## <div class="tools-header">Mapping Guidelines</div>
 The following list provides the main good practices for mapping different power infrastructure in OpenStreetMap:
 
 * [Power networks](https://wiki.openstreetmap.org/wiki/Power_networks)
