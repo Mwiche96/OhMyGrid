@@ -1,11 +1,13 @@
 <div class="page-headers">
 <h1>Tools and Strategies</h1>
 </div>
-Using the right tools and strategies is fundamental to mapping the electrical grid efficiently and accurately. The following strategies and tools will help you to extend existing transmission grid networks on OpenStreetMap. As a rule of thumb: The larger the towers and substations, the higher the voltage and the greater their relevance to the transmission grid. Priority should therefore be given to large, high-voltage infrastructure first. Please consider the following strategies and the associated processes as recommendations only. Ultimately, the most efficient strategy is the one that enables you to work on the electrical grid with passion and motivation over a longer period of time. The strategies can be divided roughly into two phases:
+Using the right tools and strategies is fundamental to mapping the electrical grid efficiently and accurately. The following strategies and tools will help you to extend existing transmission grid networks on OpenStreetMap. As a rule of thumb: The larger the towers and substations, the higher the voltage and the greater their relevance to the transmission grid. Priority should therefore be given to large, high-voltage infrastructure first. Please consider the following strategies and the associated processes as recommendations only. Ultimately, the most efficient strategy is the one that enables you to work on the electrical grid with passion and motivation over a longer period of time. The strategies can be divided into two phases, with a quality assurance and validation process running alongside them.
 
-1. **[Pioneer Mapping Strategies](tools.md#pioneer-mapping-strategies-and-tools)**: To ensure the power grid has the best possible coverage, we recommend beginning with Pioneer Mapping in each country. Several strategies are employed at this stage to identify the location of all lines, power poles, and substations. Rather than reducing issues in the grid, the main focus is on increasing coverage and extending the geographic information of the grid. This may result in an increased total number of issues in the grid. These strategies focus primarily on mapping the geographical location of power lines, towers, plants and substations, rather than technical grid details. They require good eyesight, fast mapping skills and an understanding of situations in which satellite data is insufficient for consistent grid mapping.
+**[Pioneer Mapping Strategies](tools.md#pioneer-mapping-strategies-and-tools)**: To ensure the power grid has the best possible coverage, we recommend beginning with Pioneer Mapping in each country. Several strategies are employed at this stage to identify the location of all lines, power poles, and substations. Rather than reducing issues in the grid, the main focus is on increasing coverage and extending the geographic information of the grid. This may result in an increased total number of issues in the grid. These strategies focus primarily on mapping the geographical location of power lines, towers, plants and substations, rather than technical grid details. They require good eyesight, fast mapping skills and an understanding of situations in which satellite data is insufficient for consistent grid mapping.
 
-2. **[Technical Mapping Strategies](tools.md#technical-mapping-strategies)**: This phase involves solving more complex grid issues that require a fundamental understanding of the electrical grid. This includes mapping voltages, the number of circuits and routing issues. During this phase, the initial mapping work is validated against multiple sources to ensure its plausibility. These sources could include official maps from grid operators, statistics about grid length, and other official data. The main focus of these strategies is to minimise the number of complex quality issues in the grid.
+**[Technical Mapping Strategies](tools.md#technical-mapping-strategies)**: This phase involves solving more complex grid issues that require a fundamental understanding of the electrical grid. This includes mapping voltages, the number of circuits and routing issues. During this phase, the initial mapping work is validated against multiple sources to ensure its plausibility. These sources could include official maps from grid operators, statistics about grid length, and other official data. The main focus of these strategies is to minimise the number of complex quality issues in the grid.
+
+**[Quality Assurance and Validation](tools.md#quality-assurance-and-validation)**
 
 
 ## <div class="stradegy-header">Pioneer Mapping Strategies and Tools</div></h3>
@@ -263,3 +265,12 @@ Follow the steps below to help improve rejected power plants in OSM:
 6. Improve tagging to enhance the quality of OSM data.
 
 
+## <div class="stradegy-header">Quality Assurance and Validation</div></h3>
+
+The OpenStreetMap community has demonstrated that crowdsourced geographic data can be validated and maintained in order to create high-quality maps. To validate electrical grid data, multiple methodologies are combined to enhance and assess its quality. The foundation of this are the [OpenStreetMap basics rules of Verifiability](https://wiki.openstreetmap.org/wiki/Verifiability): 
+
+_At the core, "verifiability" is that everything you do can be demonstrated to be true or false by other mappers – the latter hopefully implying that there has been a change on the ground that needs mapping.
+
+* We apply this not only to the mapping data itself, but also to the way in which we record it – the geometries, tags and values we use to describe objects on the map. 
+* A tag/value combination and geometry is verifiable if and only if independent users observing the same feature would make the same observation every time. 
+* Objective criteria, clearly documented on the wiki, help to make tagging verifiable by individual mappers._

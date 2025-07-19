@@ -157,24 +157,6 @@ For a safe mapping, we recommend you reading about [good practices](https://wiki
     
     **⚠️ By following our [Code of Mappers](./code-of-mappers.md), we collectively protect the integrity of the OSM platform, foster trust with communities, and unlock the power of open data for a more resilient and just energy future.** 
 
-## **<div class="tools-header">What else? Learn the grid basics </div>**
-You don’t need to be a grid expert to start mapping, but a little knowledge helps!
-The following documents and materials will give you a basic understanding of how to map an electrical grid.
-
-The [Learning Curve](https://www.youtube.com/@TheLearningCurveBenila/videos), is a YouTube channel that will help you understand the fundamental knowledge of the electrical grid. Here some video we recommend for grid mappers. 
-
-1. [Electrical Line Supports - Transmission Towers & Poles](https://www.youtube.com/watch?v=AB1qYsiDm0M)
-1. [Components of Overhead Transmission Lines](https://www.youtube.com/watch?v=A6fwq3yHRXQ)
-1. [Comparison between HVAC and HVDC transmission system](https://www.youtube.com/watch?v=l9nHs8e0WUg)
-
-The following image is take from the report Key technology components of electricity grids Source: IEA - [Electricity Grids and Secure Energy Transitions](https://iea.blob.core.windows.net/assets/ea2ff609-8180-4312-8de9-494bcf21696d/ElectricityGridsandSecureEnergyTransitions.pdf).
-
-<div style="float: left; margin: 5px 0 20px 20px; width: 100%;">
-  <a href="../images/grid-design.png" target="_blank">
-  <img src="../images/grid-design.png" class="img-border" style="width: 100%;"> </a>
-  <figcaption class="image-caption">Key technology components of electricity grids Source: IEA - Electricity Grids and Secure Energy Transitions.</figcaption>
-</div>
-
 
 ## <div class="tools-header">Still "On the Line" and Motivated to Continue?</div>
 
@@ -191,7 +173,7 @@ Although editors such as iD and MapComplete offer a simpler way to contribute to
 
 Also, if you just want to add a note or report an issue, or if you want to suggest the addition of power towers or substations in your area, this platform offers a great way to make a quick contribution. Taking images in the field with MapComplete is also key to validating satellite-based mapping where detailed, high-resolution images are missing. Taking images can also be important for deriving relevant metadata, such as wind [turbine power capacities](https://mapcomplete.org/openwindpowermap.html?z=13&lat=39.548330293512805&lon=9.219887340880064). We are currently working on extending this functionality to power towers to enable more accurate estimation of transmission line voltages.
 
-### <div class="stradegy-header">Reporting Issues in the Grid</div></h3>
+### <div class="stradegy-header">Reporting Issues in the Grid using iD</div></h3>
 
 The fastest and easiest way to contribute to your electrical grid is by adding notes where you see missing or incorrect information in OpenStreetMap. You can do this fully anonymously—no login required.
 
@@ -247,7 +229,7 @@ Have you spotted some power towers, power plants, or substations near your place
 1. Now upload this information by pressing `Save`.
 1. Add a `Changeset Comment` with a brief description of your mapping activity. If you find our efforts, documentation and tools helpful, please include the hashtag #mapyourgrid in the changeset comment to let us know.
 
-### <div class="stradegy-header">Map Transmission Lines using iD </div></h3>
+### <div class="stradegy-header">Map Transmission Lines </div></h3>
 
 iD also offers you the option of extending Transmission Lines, also known as Power Lines, or creating new Transmission Lines. Even if this is theoretically possible on a mobile device, we recommend doing this with a mouse and keyboard on a PC.
 
@@ -283,5 +265,23 @@ The [MapComplete](https://mapcomplete.org/) platform provides an easy way to ide
 4. Press on the wind turbine symbol. You can now add the capacity or take a picture with your mobile device to let others derive the output power.
 5. Afterwards, press `Save`.
 
+
+## **<div class="tools-header">What else? Learn the grid basics </div>**
+You don’t need to be a grid expert to start mapping, but a little knowledge helps!
+The following documents and materials will give you a basic understanding of how to map an electrical grid.
+
+The [Learning Curve](https://www.youtube.com/@TheLearningCurveBenila/videos), is a YouTube channel that will help you understand the fundamental knowledge of the electrical grid. Here some video we recommend for grid mappers. 
+
+1. [Electrical Line Supports - Transmission Towers & Poles](https://www.youtube.com/watch?v=AB1qYsiDm0M)
+1. [Components of Overhead Transmission Lines](https://www.youtube.com/watch?v=A6fwq3yHRXQ)
+1. [Comparison between HVAC and HVDC transmission system](https://www.youtube.com/watch?v=l9nHs8e0WUg)
+
+The following image is take from the report Key technology components of electricity grids Source: IEA - [Electricity Grids and Secure Energy Transitions](https://iea.blob.core.windows.net/assets/ea2ff609-8180-4312-8de9-494bcf21696d/ElectricityGridsandSecureEnergyTransitions.pdf).
+
+<div style="float: left; margin: 5px 0 20px 20px; width: 100%;">
+  <a href="../images/grid-design.png" target="_blank">
+  <img src="../images/grid-design.png" class="img-border" style="width: 100%;"> </a>
+  <figcaption class="image-caption">Key technology components of electricity grids Source: IEA - Electricity Grids and Secure Energy Transitions.</figcaption>
+</div>
 
 
