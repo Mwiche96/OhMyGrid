@@ -128,7 +128,7 @@ Our community is constantly investigating transmission lines that are suitable f
 1. Now press the `Power Tower` <img src="../images/starter-kit/power-towers.png" class="icon-svg off-glb" style="width: 30px; height: auto;"> preset followed by `Apply Preset`.
 
 
-### **<div class="tools-header">7. Upload your Wwork :outbox_tray: </div>**
+### **<div class="tools-header">7. Upload your Edits to OpenStreetMap :outbox_tray: </div>**
 
 1. With having the `Data Layer` activated, press the Green Upload arrow pointing upwards <img src="../images/starter-kit/upload.png" class="icon-svg off-glb" style="width: 30px; height: auto;">. 
 1. A new window will apear in the right panel showing all the issues identified. Right-clicking on an issue will allow you to zoom in on it. Avoid ignoring this validation results. The only acceptable warning when uploading data is `Possible missing line support node within power line`. 
@@ -229,7 +229,7 @@ Have you spotted some power towers, power plants, or substations near your place
 1. Now upload this information by pressing `Save`.
 1. Add a `Changeset Comment` with a brief description of your mapping activity. If you find our efforts, documentation and tools helpful, please include the hashtag #mapyourgrid in the changeset comment to let us know.
 
-### <div class="stradegy-header">Map Transmission Lines </div></h3>
+### <div class="stradegy-header">Map Transmission Lines using iD</div></h3>
 
 iD also offers you the option of extending Transmission Lines, also known as Power Lines, or creating new Transmission Lines. Even if this is theoretically possible on a mobile device, we recommend doing this with a mouse and keyboard on a PC.
 
