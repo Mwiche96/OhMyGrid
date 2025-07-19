@@ -62,7 +62,7 @@ Get started by clicking on one of the OpenStreetMap editors:
 2. Another important Preset your will need is `Add Node`. You will find it under `Tools` → `Add Node`. 
 
     
-### **<div class="tools-header">3. Add visual clarity with custom map styles :art:</div>**
+### **<div class="tools-header">3. Add Visual Clarity with Custom Map Styles :art:</div>**
 
 <div style="float: right; margin: 5px 0 10px 20px; width: 350px;">
   <a href="https://raw.githubusercontent.com/open-energy-transition/color-my-grid/refs/heads/main/legend/power-grid-legend.png" target="_blank">
@@ -128,7 +128,7 @@ Our community is constantly investigating transmission lines that are suitable f
 1. Now press the `Power Tower` <img src="../images/starter-kit/power-towers.png" class="icon-svg off-glb" style="width: 30px; height: auto;"> preset followed by `Apply Preset`.
 
 
-### **<div class="tools-header">7. Upload your work :outbox_tray: </div>**
+### **<div class="tools-header">7. Upload your Wwork :outbox_tray: </div>**
 
 1. With having the `Data Layer` activated, press the Green Upload arrow pointing upwards <img src="../images/starter-kit/upload.png" class="icon-svg off-glb" style="width: 30px; height: auto;">. 
 1. A new window will apear in the right panel showing all the issues identified. Right-clicking on an issue will allow you to zoom in on it. Avoid ignoring this validation results. The only acceptable warning when uploading data is `Possible missing line support node within power line`. 
@@ -137,7 +137,7 @@ Our community is constantly investigating transmission lines that are suitable f
 
 
 
-## **<div class="tools-header"> Avoid these common mistakes :name_badge:</div>**
+## **<div class="tools-header"> Avoid these common Mistakes :name_badge:</div>**
 
 <div style="float: right; margin: 5px 0 10px 20px; width: 350px;">
   <img src="../images/starter-kit/power-towers-without-lines.jpg" class="img-border" style="width: 100%;"> </a>
@@ -153,7 +153,7 @@ Mapping is an iterative process and mistakes happen. This should not stop you fr
 For a safe mapping, we recommend you reading about [good practices](https://wiki.openstreetmap.org/wiki/Good_practice).
 
 !!! note
-    **⚠️ In some countries, mapping power lines is restricted. Always verify local guidelines, connect with the OSM local community first, or check out the [local projects](https://wiki.openstreetmap.org/wiki/Power_networks#Local_projects).**
+    **⚠️ In some countries, mapping power lines is restricted. Always verify local guidelines, connect with the OSM local community first, or check out the [local projects](https://wiki.openstreetmap.org/wiki/Power_networks#Local_projects). If you can't find a local community, please send us an [email](mailto:MapYourGrid@openenergytransition.org) and we will help you set up a local group.**
     
     **⚠️ By following our [Code of Mappers](./code-of-mappers.md), we collectively protect the integrity of the OSM platform, foster trust with communities, and unlock the power of open data for a more resilient and just energy future.** 
 

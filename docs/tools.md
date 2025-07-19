@@ -16,7 +16,7 @@ Please consider the following strategies and the associated processes as recomme
 
 ## <div class="stradegy-header">Pioneer Mapping Strategies and Tools</div></h3>
 
-### **<div class="tools-header">todo Plugin :white_check_mark:</div>**
+### **<div class="tools-header">Todo Plugin :white_check_mark:</div>**
 The todo plugin is used for almost all pioneer mapping strategies, systematically stepping through a dataset of `hints`.
 
 <div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
