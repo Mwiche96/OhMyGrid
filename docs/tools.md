@@ -46,7 +46,7 @@ To map efficiently and quickly, you need to know how to select all the nodes alo
 
 <div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
   <img src="../images/osmose-unfinished-transmission-lines.jpg" class="img-border" style="width: 100%;">
-  <figcaption class="image-caption"> The Osmose Unfinished power transmission line (Class 2) issue shows all transmission lines that are not connected to a substation. Click to enlarge.</figcaption>
+  <figcaption class="image-caption"> The Osmose "Unfinished power transmission line" issues reveal all transmission lines that are not connected to a substation. Click to enlarge.</figcaption>
 </div>
 
 ### <div class="tools-header">Continue Open Lines</div>
