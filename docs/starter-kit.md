@@ -250,7 +250,7 @@ iD also offers you the option of extending Transmission Lines, also known as Pow
 8. Now upload this information by pressing `Save`.
 9. Add a `Changeset Comment` with a brief description of your mapping activity. If you find our efforts, documentation, and tools helpful, please include the hashtag #mapyourgrid in the changeset comment to let us know.
 
-## <div class="stradegy-header">MapComplete Starter-Kit</div></h3>
+## <div class="tools-header">MapComplete Starter-Kit</div></h3>
 
 <div style="float: right; margin: 5px 0 10px 20px; width: 350px;">
   <img src="../images/starter-kit/mapcomplete.jpg" class="img-border" style="width: 100%;">
