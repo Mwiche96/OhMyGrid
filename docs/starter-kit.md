@@ -9,18 +9,21 @@
 </figcaption>
 </div>
 
-This starter kit empowers you how to map your first line of the electrical transmission grid. If you ever get stuck with the Starter Kit or would like to provide feedback, please contact us via our [community chat](https://discord.gg/fBw7ARTUeR) or [via email](mailto:MapYourGrid@openenergytransition.org). A MapYourGrid member will help you finish your first line and set up your environment.
+This starter kit empowers you how to map your first line of the electrical transmission grid. If you ever get stuck with the Starter Kit or would like to provide feedback, please contact us via our [community chat](https://discord.gg/fBw7ARTUeR) or [via email](mailto:MapYourGrid@openenergytransition.org). A MapYourGrid community member will help you finish your first line and set up your environment.
 
+We recommend JOSM for professional, large-scale grid mapping and to inspect the electrical grid. However, if you only want to make minor edits or leave notes without installing anything, the iD editor in combination with Open Infrastructure Map and MapComplete is a better choice. These tools also offer enhanced usability for field mapping tasks and data validation.
 
-For professional large scale grid mapping, editing lines and visualizing the total electrical grid in your editor we recommend JOSM. However, if you only want to add small changes, edits, notes or fixme tags, the iD editor in combination with OpenInframap and MapComplete might be the ideal tools. These tools also provide much better usability for field mapping tasks if you want to validate data.
-
-Click on one of the two Starter-Kits you would like to start with:
+Get started by clicking on one of the OpenStreetMap editors:
 
 <div>
-  <a href="#josm-starter-kit" style="display: inline-block; padding: 10px 15px; background-color: #2050a0; color: white; text-decoration: none; font-size: 18px; border-radius: 8px;">JOSM Starter-Kit for Large Scale Mapping</a> </br>
+  <a href="#josm-starter-kit" style="display: inline-block; padding: 10px 15px; background-color: #2050a0; color: white; text-decoration: none; font-size: 18px; border-radius: 8px;"><strong>JOSM Starter-Kit</strong> - Large Scale Mapping</a></br>
 
-  <a href="#id-and-mapcomplete-starter-kit" style="display: inline-block; padding: 10px 15px; background-color: #2A6D3C; color: white; text-decoration: none; font-size: 18px; border-radius: 8px; margin-top: 6px;">iD and MapComplete Starter-Kit for Small Scale Mapping and Field Mapping</a>
+  <a href="#id-starter-kit" style="display: inline-block; padding: 10px 15px; background-color: #2A6D3C; color: white; text-decoration: none; font-size: 18px; border-radius: 8px; margin-top: 6px;"><strong>iD Starter-Kit</strong> - Small Scale and Field Mapping</a></br>
+
+  <a href="#mapcomplete-starter-kit" style="display: inline-block; padding: 10px 15px; background-color: #2A6D3C; color: white; text-decoration: none; font-size: 18px; border-radius: 8px; margin-top: 6px;"><strong>MapComplete Starter-Kit</strong> - Mapping Missing Tags</a>
+
 </div>
+
 
 ## <div class="stradegy-header">JOSM Starter Kit</div></h3>
     
@@ -182,7 +185,7 @@ Check out our [Tools and Strategies](tools.md) to learn how to find your own new
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FBerlin&showPrint=0&title=Community%20live%20sessions&src=Y182ODE3NjE1MGIzMjY4MGRkZmUzMGM1ZTE1MDU0YTc5MTVhMzY2NmY1OGY5NjkxOGVjOTZhNDJjZWQwODQ2ZGVmQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23AD1457" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 
-## <div class="stradegy-header">iD and MapComplete Starter-Kit</div></h3>
+## <div class="stradegy-header">iD Starter-Kit</div></h3>
 
 Although editors such as iD and MapComplete offer a simpler way to contribute to smaller grid mapping, they quickly reach their limits with large lines and complex geometries. However, these platforms have clear advantages for mapping in the field using mobile devices compared to JOSM. For people who prefer iD over JOSM, the following tutorials can also be used to map on a PC.
 
@@ -265,7 +268,7 @@ iD also offers you the option of extending Transmission Lines, also known as Pow
 8. Now upload this information by pressing `Save`.
 9. Add a `Changeset Comment` with a brief description of your mapping activity. If you find our efforts, documentation, and tools helpful, please include the hashtag #mapyourgrid in the changeset comment to let us know.
 
-### <div class="stradegy-header">Add Missing Tags using MapComplete </div></h3>
+## <div class="stradegy-header">MapComplete Starter-Kit</div></h3>
 
 <div style="float: right; margin: 5px 0 10px 20px; width: 350px;">
   <img src="../images/starter-kit/mapcomplete.jpg" class="img-border" style="width: 100%;">
