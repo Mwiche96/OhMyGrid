@@ -11,8 +11,7 @@ Please consider the following strategies and the associated processes as recomme
 
 **[Technical Mapping Strategies](tools.md#technical-mapping-strategies)**: This phase involves solving more complex grid issues that require a fundamental understanding of the electrical grid. This includes mapping voltages, the number of circuits and routing issues. During this phase, the initial mapping work is validated against multiple sources to ensure its plausibility. These sources could include official maps from grid operators, statistics about grid length, and other official data. The main focus of these strategies is to minimise the number of complex quality issues in the grid.
 
-**[Quality Assurance and Validation](tools.md#quality-assurance-and-validation)**
-Quality assurance runs parallel to both mapping phases and ensures that all data is verifiable, follows agreed tagging standards, is traceable, and can be reviewed by others. Tools like JOSM, Osmose, ohsome stats, and Open Infrastructure Map, along with community feedback and AI-assisted checks, help maintain the accuracy and reliability of the electrical grid data on OpenStreetMap.
+**[Quality Assurance and Validation](tools.md#quality-assurance-and-validation)**: Quality assurance runs parallel to both mapping phases and ensures that all data is verifiable, follows agreed tagging standards, is traceable, and can be reviewed by others. Tools like JOSM, Osmose, ohsome stats, and Open Infrastructure Map, along with community feedback and AI-assisted checks, help maintain the accuracy and reliability of the electrical grid data on OpenStreetMap.
 
 
 ## <div class="stradegy-header">Pioneer Mapping Strategies and Tools</div></h3>
@@ -347,7 +346,7 @@ MapYourGrid layers additional tools, methodologies, and community-driven feedbac
 
 9. **Expert and Peer Cross-Validation**
 
-    Experienced technical mappers and energy system experts regularly review the data, particularly in complex regions with overlapping voltages, substations, or unusual infrastructure types. They are capable of comaring different validation results to approve, release and version control electrical grid data. Their feedback informs the community of any major grid issues identified.
+    Experienced technical mappers and energy system experts regularly review the data, particularly in complex regions with overlapping voltages, substations, or unusual infrastructure types. In combination with qualitative comparisons with third-party studies, statistics or official electrical grid maps, these experts gather all insights about data quality. They are capable of comaring different validation results to approve, release and version control electrical grid data. They can compare different validation results in order to approve, release and control the version of electrical grid data. This allows them to update the community on any significant grid data issues that have been identified.
 
 
 10. **AI-Assisted Spot Checks & Field Validation**
