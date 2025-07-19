@@ -38,11 +38,8 @@ To map efficiently and quickly, you need to know how to select all the nodes alo
 1. Press `A` and draw nodes as you follow the towers. This will create a long line of untagged nodes, all connected by a untagged way.
 1. Click on the way, and tag it as a power line.
 1. Click on the way again, and `CTRL+F` to open up search. Then paste as search string: `child selected type:node AND untagged`. This will select all untagged nodes of the way.
-1. Then you can tag all the selected nodes as towers in one go.
 1. Use the preset power tower or poles to set all nodes at once.
 1. If you ever lose this query, click the right arrow on the search window and select it from your history.
-
-
 
 <div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
   <img src="../images/osmose-unfinished-transmission-lines.jpg" class="img-border" style="width: 100%;">

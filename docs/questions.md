@@ -33,7 +33,7 @@ No, publishing grid data through MapYourGrid does not meaningfully increase secu
 MapYourGrid builds on a decade of public infrastructure mapping, including global comparisons showing alignment with government datasets. Our mission is to democratize access for resilience, transparency, and innovation, not to expose anything adversaries don’t already know. Our [Code of Mappers](code-of-mappers.md) outlines the shared values, responsibilities, and safe practices for individuals and organizations participating in grid mapping activities in OpenStreetMap. It is designed to safeguard communities, promote transparency, and protect sensitive areas while enabling open data for global development and energy resilience.
 
 
-### <div class="tools-header">How is data quality assured?</div>
+### <div class="tools-header">How is Data Quality and Validation Assured?</div>
 
 MapYourGrid builds on OpenStreetMap’s principle of [verifiability](https://wiki.openstreetmap.org/wiki/Verifiability), meaning all data must be observable and confirmable by others. Quality is ensured through:
 
@@ -44,8 +44,6 @@ MapYourGrid builds on OpenStreetMap’s principle of [verifiability](https://wik
 * Expert validation and random sample checks
 
 Together, these methods help maintain a reliable, crowdsourced electrical grid dataset. [Read more about our Quality Assurance and Validation](tools.md/#quality-assurance-and-validation strategy). 
-
-
 
 
 ### <div class="tools-header"> What are the roles of the team members? </div>
@@ -60,7 +58,7 @@ MapYourGrid is a non-profit initiative funded by several smaller organisations t
 
 MapYourGrid is led by [Open Energy Transition](https://openenergytransition.org/), a non-profit, and supported by [Datactivist](https://datactivist.coop/en/), [Jungle Bus](https://junglebus.io/en), [Dynartio](https://dynartio.com/) and [Infogeomatics](https://www.infrageomatics.com/). We are aligned with the values of OpenStreetMap's ecosystem and we act for a shared governance of the project within the community. The establishment of an official MapYourGrid governance board is planned for late 2025. Would you like to join or support us? Contact <a href="mailto:MapYourGrid@openenergytransition.org" target="_blank" rel="noopener">us via email</a>. 
 
-### <div class="tools-header"> Why do we prioritize transmission line ?  </div>
+### <div class="tools-header"> Why do we prioritize transmission line?  </div>
 
 The fastest way to broaden our impact right now is to map transmission power grids. Many aspects like the distribution grid substations will be added later to make the data more detailed and actionable.
 
