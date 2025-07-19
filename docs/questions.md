@@ -32,6 +32,22 @@ No, publishing grid data through MapYourGrid does not meaningfully increase secu
 
 MapYourGrid builds on a decade of public infrastructure mapping, including global comparisons showing alignment with government datasets. Our mission is to democratize access for resilience, transparency, and innovation, not to expose anything adversaries don’t already know. Our [Code of Mappers](code-of-mappers.md) outlines the shared values, responsibilities, and safe practices for individuals and organizations participating in grid mapping activities in OpenStreetMap. It is designed to safeguard communities, promote transparency, and protect sensitive areas while enabling open data for global development and energy resilience.
 
+
+### <div class="tools-header">How is data quality assured?</div>
+
+MapYourGrid builds on OpenStreetMap’s principle of [verifiability](https://wiki.openstreetmap.org/wiki/Verifiability), meaning all data must be observable and confirmable by others. Quality is ensured through:
+
+* Automated checks using tools like [JOSM Validator](https://josm.openstreetmap.de/wiki/Help/Dialog/Validator) and [Osmose](https://wiki.openstreetmap.org/wiki/Osmose)
+* Visual and tagging guidelines for consistent mapping
+* Optional human reviews via the `#MapYourGrid` tag
+* Analysis tools like [ohsome stats](https://stats.now.ohsome.org/) to detect gaps or anomalies
+* Expert validation and random sample checks
+
+Together, these methods help maintain a reliable, crowdsourced electrical grid dataset. [Read more about our Quality Assurance and Validation](tools.md/#quality-assurance-and-validation strategy). 
+
+
+
+
 ### <div class="tools-header"> What are the roles of the team members? </div>
 
 We are developers, data scientists, power grid experts, cartographers and OpenStreetMap contributors. Our roles range from software development and data modeling to community coordination and field knowledge. The core MapYourGrid team sees itself as a fertiliser for the community. We build bridges between individuals and organisations, create mapping tools, document strategies and good practices, and develop training materials. In order to test our own material and gather experience, we map all around the world in order to understand the needs of the diverse community.
@@ -98,13 +114,11 @@ Yes, as long as you credit OSM properly. Note that if you improve OSM data, you 
 
 ### <div class="tools-header"> What are iD, JOSM and Osmose you talk about? </div>
 
-These are tools for editing and validating data in OSM :
+These are tools for editing and validating data in OSM:
 
-iD : browser-based and beginner-friendly editor. It is the editor available when you click on "edit" on the [OSM website](https://openstreetmap.org)
-
-JOSM : advanced OpenStreetMap editor. Desktop software available at [https://josm.openstreetmap.de](https://josm.openstreetmap.de )
-
-[Osmose](https://osmose.openstreetmap.fr) : quality assurance tool that detects OpenStreetMap data issues.
+* iD: browser-based and beginner-friendly editor. It is the editor available when you click on "edit" on the [OSM website](https://openstreetmap.org)
+* JOSM: advanced OpenStreetMap editor. Desktop software available at [https://josm.openstreetmap.de](https://josm.openstreetmap.de )
+* [Osmose](https://osmose.openstreetmap.fr): quality assurance tool that detects OpenStreetMap data issues.
 
 ### <div class="tools-header"> What is a changeset? </div>
 
