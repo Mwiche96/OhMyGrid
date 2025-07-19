@@ -269,8 +269,35 @@ Follow the steps below to help improve rejected power plants in OSM:
 
 The OpenStreetMap community has demonstrated that crowdsourced geographic data can be validated and maintained in order to create high-quality maps. To validate electrical grid data, multiple methodologies are combined to enhance and assess its quality. The foundation of this are the [OpenStreetMap basics rules of Verifiability](https://wiki.openstreetmap.org/wiki/Verifiability): 
 
-_At the core, "verifiability" is that everything you do can be demonstrated to be true or false by other mappers – the latter hopefully implying that there has been a change on the ground that needs mapping.
 
-* We apply this not only to the mapping data itself, but also to the way in which we record it – the geometries, tags and values we use to describe objects on the map. 
-* A tag/value combination and geometry is verifiable if and only if independent users observing the same feature would make the same observation every time. 
-* Objective criteria, clearly documented on the wiki, help to make tagging verifiable by individual mappers._
+_At the core, "verifiability" is that everything you do can be demonstrated to be true or false by other mappers – the latter      hopefully implying that there has been a change on the ground that needs mapping._
+
+* _We apply this not only to the mapping data itself, but also to the way in which we record it – the geometries, tags and values we use to describe objects on the map._ 
+* _A tag/value combination and geometry is verifiable if and only if independent users observing the same feature would make the same observation every time._
+* _Objective criteria, clearly documented on the wiki, help to make tagging verifiable by individual mappers._
+
+When mapping the electrical grid, mappers should only label infrastructure if they can identify an object with a high degree of certainty, either by observing it on the ground or using satellite imagery. This ensures that the quantities mapped in OpenStreetMap are based on real observations and can be traced back to the mapper who labelled an object or characteristic as true. This fundamental rule makes OpenStreetMap a high-quality ground truth dataset used for many applications in academia and industry.
+
+Based on this basic principle, there are numerous OpenStreetMap-specific and additional developments that serve to ensure the highest quality standards in the long term:
+
+0. Local Mappers and Users of [Open Infrastructure Map](https://openinframap.org/#2/26/12) are encouraged to leave notes about any issues they encounter in the electrical grid data in combination with the #MapYourGrid hashtag. There is no need to log in or provide any personal details, making it extremely simple to report issues with electrical grid data. This is the easiest way to contribute electrical grid data, and it is also key for user validation.
+
+1. All edits are validated by [JOSM's Validator](https://josm.openstreetmap.de/wiki/Help/Dialog/Validator) before they are uploaded. Generic rulesets are used to avoid classic mapping errors. This includes missing or uncommon tag combinations, as well as unlikely geometries and tags such lines with power tower distances of multiple kilometres. The JSOM editor strongly discourages mappers from uploading data containing warnings. 
+
+2. Incorrect edits are highlighted using [map painting styles](starter-kit/#3-add-visual-clarity-with-custom-map-styles) specific to the electrical grid, making issues in the electrical system easy to spot.
+
+3. Ticking the 'I would like someone to review my edits' box enables you to request a human review of your edits in JOSM. This is recommended for all tutorial materials aimed at beginners, as well as for mapping with low-quality satellite imagery. Mappers can receive direct, electrical grid-specific support from the initiative by detecting the #mapyourgrid hashtag in the changesets of these edits.
+
+4. The [osmose data quality assurance](https://wiki.openstreetmap.org/wiki/Osmose) platform provides multiple tests specific to electrical grids to check the combination of tags and geometries. It tests the global grid once per day for issues like divergent voltage levels or unconnected transmission line. By identifying and separating these issues for high-voltage transmission grid infrastructure, these data can also be used to prioritise grid mapping. All these issues have also been integrated into [Open Infrastructure Map](https://openinframap.org/#2/26/12) to encourage users to work on unsolved osmose issues. 
+
+5. Analytical platforms like [ohsome stats](https://stats.now.ohsome.org/) enable us to identify unmaintained electrical grid data or grid mapping hotspots. They provide comprehensive data on the grid like line lengths, low power mapping activity, and suspicious changesets, as well as hashtag analytics.
+
+5. Integration Tests
+
+6. Sensitivity Tests
+
+7. Interoperatbility Tests 
+
+8. Cross Validation by Technical Mappers and Energy System Experts.  
+
+9. Random sample validation using AI detection and on-the-ground field mappers.
