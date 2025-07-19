@@ -195,8 +195,8 @@ async function initQueryUI() {
   introBox.innerHTML = `
     <strong>📍 Click on the country you want to load in JOSM</strong><br/>
     <ol style="margin: 0.5em 0 0 1em; padding-left: 1em;">
-      <li>Zoom in to select states or provinces</li>
-      <li>Click on Tools and Hints to download data layers to support grid mapping</li>
+      <li>Zoom in to select states or provinces.</li>
+      <li>Click on Tools and Hints to download data layers to support grid mapping.</li>
       <li>Don't forget to checkout the Map Legend, Good First Lines and Curated Electrical Grid Maps below.</li>
       
     </ol>
