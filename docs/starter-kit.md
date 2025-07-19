@@ -130,7 +130,7 @@ Our community is constantly investigating transmission lines that are suitable f
 
 ### **<div class="tools-header">7. Upload your Edits to OpenStreetMap :outbox_tray: </div>**
 
-1. With having the `Data Layer` activated, press the Green Upload arrow pointing upwards <img src="../images/starter-kit/upload.png" class="icon-svg off-glb" style="width: 30px; height: auto;">. 
+1. With having the `Data Layer` activated, press the green arrow pointing upwards <img src="../images/starter-kit/upload.png" class="icon-svg off-glb" style="width: 30px; height: auto;">. 
 1. A new window will apear in the right panel showing all the issues identified. Right-clicking on an issue will allow you to zoom in on it. Avoid ignoring this validation results. The only acceptable warning when uploading data is `Possible missing line support node within power line`. 
 1. Please set the `I would like someone to review my edits` tick box if your mapping has been strongly affected by uncertainties like low-quality satellite data, or if you are a beginner.
 1. You just mapped your First Good Line. Feel free to close more First Good Lines, but make sure you leave some for the others. You can use the [Tools and Strategies](tools.md) we have provided to find your own unmapped line. To support our initiative, please use the #MapYourGrid hashtag in the comments you make in the changeset.
