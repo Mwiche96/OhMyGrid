@@ -1,13 +1,18 @@
 <div class="page-headers">
 <h1>Tools and Strategies</h1>
 </div>
-Using the right tools and strategies is fundamental to mapping the electrical grid efficiently and accurately. The following strategies and tools will help you to extend existing transmission grid networks on OpenStreetMap. As a rule of thumb: The larger the towers and substations, the higher the voltage and the greater their relevance to the transmission grid. Priority should therefore be given to large, high-voltage infrastructure first. Please consider the following strategies and the associated processes as recommendations only. Ultimately, the most efficient strategy is the one that enables you to work on the electrical grid with passion and motivation over a longer period of time. The strategies can be divided into two phases, with a quality assurance and validation process running alongside them.
+Using the right tools and strategies is fundamental to mapping the electrical grid efficiently and accurately. The following strategies and tools will help you to extend existing transmission grid networks on OpenStreetMap. 
+
+> As a rule of thumb: **The larger the towers and substations, the higher the voltage and the greater their relevance to the transmission grid. Priority should therefore be given to large, high-voltage infrastructure first.** 
+
+Please consider the following strategies and the associated processes as recommendations only. Ultimately, the most efficient strategy is the one that enables you to work on the electrical grid with passion and motivation over a longer period of time. The strategies can be divided into two phases, with a quality assurance and validation process running alongside them.
 
 **[Pioneer Mapping Strategies](tools.md#pioneer-mapping-strategies-and-tools)**: To ensure the power grid has the best possible coverage, we recommend beginning with Pioneer Mapping in each country. Several strategies are employed at this stage to identify the location of all lines, power poles, and substations. Rather than reducing issues in the grid, the main focus is on increasing coverage and extending the geographic information of the grid. This may result in an increased total number of issues in the grid. These strategies focus primarily on mapping the geographical location of power lines, towers, plants and substations, rather than technical grid details. They require good eyesight, fast mapping skills and an understanding of situations in which satellite data is insufficient for consistent grid mapping.
 
 **[Technical Mapping Strategies](tools.md#technical-mapping-strategies)**: This phase involves solving more complex grid issues that require a fundamental understanding of the electrical grid. This includes mapping voltages, the number of circuits and routing issues. During this phase, the initial mapping work is validated against multiple sources to ensure its plausibility. These sources could include official maps from grid operators, statistics about grid length, and other official data. The main focus of these strategies is to minimise the number of complex quality issues in the grid.
 
 **[Quality Assurance and Validation](tools.md#quality-assurance-and-validation)**
+Quality assurance runs parallel to both mapping phases and ensures that all data is verifiable, follows agreed tagging standards, is traceable, and can be reviewed by others. Tools like JOSM, Osmose, ohsome stats, and Open Infrastructure Map, along with community feedback and AI-assisted checks, help maintain the accuracy and reliability of the electrical grid data on OpenStreetMap.
 
 
 ## <div class="stradegy-header">Pioneer Mapping Strategies and Tools</div></h3>
@@ -265,39 +270,90 @@ Follow the steps below to help improve rejected power plants in OSM:
 6. Improve tagging to enhance the quality of OSM data.
 
 
-## <div class="stradegy-header">Quality Assurance and Validation</div></h3>
+## <div class="stradegy-header">Quality Assurance and Validation</div>
 
-The OpenStreetMap community has demonstrated that crowdsourced geographic data can be validated and maintained in order to create high-quality maps. To validate electrical grid data, multiple methodologies are combined to enhance and assess its quality. The foundation of this are the [OpenStreetMap basics rules of Verifiability](https://wiki.openstreetmap.org/wiki/Verifiability): 
+Crowdsourced geographic data, when curated and validated properly, can rival the quality of traditionally sourced datasets. The OpenStreetMap (OSM) community has proven this time and again — and MapYourGrid builds on this foundation to ensure the highest quality standards for mapping global electrical infrastructure.
+
+At the core of MapYourGrid’s validation approach are the [OpenStreetMap principles of verifiability](https://wiki.openstreetmap.org/wiki/Verifiability):
+
+> **"At the core, "verifiability" is that everything you do can be demonstrated to be true or false by other mappers."**
+
+This principle applies to every aspect of mapping: the physical presence of infrastructure, the accuracy of geometries, and the clarity of tags and values. A tag and geometry are considered verifiable only if another mapper, with the same inputs, would record them identically. This objective, evidence-based method is what makes OSM a trusted source for academic research, governmental planning, and industrial analysis.
+
+MapYourGrid layers additional tools, methodologies, and community-driven feedback mechanisms on top of this foundation to ensure data accuracy, completeness, and reliability. Here's how we do it:
+
+1. **Professional Training, Standards and Support in Electrical Grid Mapping**
+
+    The MapYourGrid initiative recognizes that high-quality data begins with knowledgeable contributors. We invest in building mapper capacity through structured training, professional-grade documentation, and standards aligned with both OSM norms and the energy sector’s expectations. We support decentralized data stewardship by empowering local mappers to guide regional efforts, ensuring that data remains both accurate and contextually relevant over time.
+
+2. **User Feedback and Crowdsourced Issue Reporting**
+
+    We encourage anyone using [Open Infrastructure Map](https://openinframap.org/#2/26/12) to report issues using the **#MapYourGrid** hashtag. Notes can be added without an account, lowering the barrier to participation. These community-sourced observations help identify outdated, misclassified, or missing infrastructure — making user feedback a cornerstone of validation.
 
 
-_At the core, "verifiability" is that everything you do can be demonstrated to be true or false by other mappers – the latter      hopefully implying that there has been a change on the ground that needs mapping._
+3. **Pre-Upload Error Detection with JOSM Validator**
 
-* _We apply this not only to the mapping data itself, but also to the way in which we record it – the geometries, tags and values we use to describe objects on the map._ 
-* _A tag/value combination and geometry is verifiable if and only if independent users observing the same feature would make the same observation every time._
-* _Objective criteria, clearly documented on the wiki, help to make tagging verifiable by individual mappers._
+    Before data is uploaded to OSM, it is automatically scanned using the [JOSM Validator](https://josm.openstreetmap.de/wiki/Help/Dialog/Validator). This tool checks for common mapping errors such as: Illogical tag combinations, Unusual geometries (e.g., excessively long spans between power towers) or Incomplete or deprecated data.
 
-When mapping the electrical grid, mappers should only label infrastructure if they can identify an object with a high degree of certainty, either by observing it on the ground or using satellite imagery. This ensures that the quantities mapped in OpenStreetMap are based on real observations and can be traced back to the mapper who labelled an object or characteristic as true. This fundamental rule makes OpenStreetMap a high-quality ground truth dataset used for many applications in academia and industry.
+    Warnings are prominently flagged, and mappers are discouraged from uploading until they are resolved — promoting a high standard of data hygiene.
 
-Based on this basic principle, there are numerous OpenStreetMap-specific and additional developments that serve to ensure the highest quality standards in the long term:
 
-0. Local Mappers and Users of [Open Infrastructure Map](https://openinframap.org/#2/26/12) are encouraged to leave notes about any issues they encounter in the electrical grid data in combination with the #MapYourGrid hashtag. There is no need to log in or provide any personal details, making it extremely simple to report issues with electrical grid data. This is the easiest way to contribute electrical grid data, and it is also key for user validation.
+4. **Visual Quality Checks with Custom Map Styles**
 
-1. All edits are validated by [JOSM's Validator](https://josm.openstreetmap.de/wiki/Help/Dialog/Validator) before they are uploaded. Generic rulesets are used to avoid classic mapping errors. This includes missing or uncommon tag combinations, as well as unlikely geometries and tags such lines with power tower distances of multiple kilometres. The JSOM editor strongly discourages mappers from uploading data containing warnings. 
+    Custom [map painting styles](starter-kit.md/#3-add-visual-clarity-with-custom-map-styles) specific to power infrastructure make it easier to spot errors visually within JOSM. These styles highlight anomalies, such as disconnected segments or misclassified equipment, empowering mappers to perform visual audits in real time.
 
-2. Incorrect edits are highlighted using [map painting styles](starter-kit/#3-add-visual-clarity-with-custom-map-styles) specific to the electrical grid, making issues in the electrical system easy to spot.
 
-3. Ticking the 'I would like someone to review my edits' box enables you to request a human review of your edits in JOSM. This is recommended for all tutorial materials aimed at beginners, as well as for mapping with low-quality satellite imagery. Mappers can receive direct, electrical grid-specific support from the initiative by detecting the #mapyourgrid hashtag in the changesets of these edits.
+5. **Human-in-the-Loop Review Option**
 
-4. The [osmose data quality assurance](https://wiki.openstreetmap.org/wiki/Osmose) platform provides multiple tests specific to electrical grids to check the combination of tags and geometries. It tests the global grid once per day for issues like divergent voltage levels or unconnected transmission line. By identifying and separating these issues for high-voltage transmission grid infrastructure, these data can also be used to prioritise grid mapping. All these issues have also been integrated into [Open Infrastructure Map](https://openinframap.org/#2/26/12) to encourage users to work on unsolved osmose issues. 
+    By enabling the “I would like someone to review my edits” option in JOSM, contributors can request peer validation. The #mapyourgrid hashtag allows us to track these submissions and offer direct support, especially for:
 
-5. Analytical platforms like [ohsome stats](https://stats.now.ohsome.org/) enable us to identify unmaintained electrical grid data or grid mapping hotspots. They provide comprehensive data on the grid like line lengths, low power mapping activity, and suspicious changesets, as well as hashtag analytics.
+    * New contributors working through tutorials
+    * Edits based on unclear or low-resolution satellite imagery
 
-5. Integration Tests
+    These reviews can involve experienced mappers or electrical grid specialists, offering both technical accuracy and mentoring.
 
-6. Sensitivity Tests
 
-7. Interoperatbility Tests 
+6. **Daily Automated QA via Osmose**
 
-8. Cross Validation by Technical Mappers and Energy System Experts.  
+    The [Osmose QA platform](https://wiki.openstreetmap.org/wiki/Osmose) runs automated checks daily on the global grid data, focusing on:
 
-9. Random sample validation using AI detection and on-the-ground field mappers.
+    * Inconsistent voltage tagging
+    * Isolated or unconnected transmission lines
+    * Redundant or deprecated tagging
+
+    These issues are visualized directly in [Open Infrastructure Map](https://openinframap.org/#2/26/12), giving mappers clear targets for improving the dataset.
+
+
+6. **Statistical Monitoring with ohsome Stats**
+
+    Tools like [ohsome stats](https://stats.now.ohsome.org/) provide macro-level insights into mapping activity. They help detect:
+
+    * Under-mapped regions or infrastructure gaps by comparing national line length statistics with OpenStreetMap
+    * Unusual tagging patterns or mapping anomalies
+    * Inactive areas with aging or outdated grid data
+
+    Hashtag based tracking also enables performance monitoring and campaign evaluation across time and geography.
+
+
+7. **Integration and Interoperability Tests**
+
+    We routinely test how well OSM electrical data integrates with external systems and applications. This ensures that the data model is not only internally consistent but also compatible with real-world use cases, including load flow analysis, planning tools, and emergency response platforms. We test the dataset against other open and proprietary energy system models and frameworks to verify structural and semantic compatibility. Interoperability ensures that OSM-based grid data can be adopted widely, fostering trust among academic and industrial users.
+
+
+8. **Sensitivity Analysis**
+
+    By simulating changes in voltage, topology, or component tagging, we measure how sensitive derived outputs (e.g., load estimations or reliability models) are to input variations. This helps identify critical data points where higher accuracy or verification is essential.
+
+
+9. **Expert and Peer Cross-Validation**
+
+    Experienced technical mappers and energy system experts regularly review the data, particularly in complex regions with overlapping voltages, substations, or unusual infrastructure types. They are capable of comaring different validation results to approve, release and version control electrical grid data. Their feedback informs the community of any major grid issues identified.
+
+
+10. **AI-Assisted Spot Checks & Field Validation**
+
+    We leverage AI to detect unmapped infrastructure from satellite imagery and flag anomalies in existing data. Random samples are then validated on the ground through local partners, combining remote detection with field-level truthing.
+
+
+Together, these layers of validation — spanning crowdsourcing, automation, expert review, and AI — make MapYourGrid not just a mapping initiative, but a quality-assured knowledge infrastructure for the global energy transition.
+
