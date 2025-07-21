@@ -722,3 +722,35 @@ aside.md-banner a>div {
   font-size: 3.5rem;
   margin-bottom: 0.75rem;
 }
+
+.starter-kit-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #2050a0;
+}
+.btn-primary:hover {
+  background-color: #1c467f;
+}
+
+.btn-nav {
+  background-color: #2f2626; /* main navbar color */
+}
+.btn-nav:hover {
+  background-color: #5f4c4c; /* hover accent */
+}

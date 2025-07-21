@@ -16,13 +16,10 @@ We recommend JOSM for professional, large-scale grid mapping and to inspect the 
 
 Get started by clicking on one of the OpenStreetMap editors:
 
-<div>
-  <a href="#josm-starter-kit" style="display: inline-block; padding: 10px 15px; background-color: #2050a0; color: white; text-decoration: none; font-size: 18px; border-radius: 8px;"><strong>JOSM Starter-Kit</strong> - Large Scale Mapping</a></br>
-
-  <a href="#id-starter-kit" style="display: inline-block; padding: 10px 15px; background-color: #2A6D3C; color: white; text-decoration: none; font-size: 18px; border-radius: 8px; margin-top: 6px;"><strong>iD Starter-Kit</strong> - Small Scale and Field Mapping</a></br>
-
-  <a href="#mapcomplete-starter-kit" style="display: inline-block; padding: 10px 15px; background-color: #2A6D3C; color: white; text-decoration: none; font-size: 18px; border-radius: 8px; margin-top: 6px;"><strong>MapComplete Starter-Kit</strong> - Mapping Missing Tags</a>
-
+<div class="starter-kit-buttons">
+  <a href="#josm-starter-kit" class="btn btn-primary"><strong>JOSM Starter‑Kit</strong> – Large‑Scale Mapping</a> 
+  <a href="#id-starter-kit" class="btn btn-secondary"><strong>iD Starter‑Kit</strong> – Small‑Scale & Field Mapping</a>
+  <a href="#mapcomplete-starter-kit" class="btn btn-secondary"><strong>MapComplete Starter‑Kit</strong> – Missing Tags Mapping</a>
 </div>
 
 

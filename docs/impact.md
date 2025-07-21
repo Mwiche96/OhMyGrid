@@ -2,26 +2,35 @@
 <h1>Impact </h1>
 </div>
 
-OpenStreetMap’s unique value in creating high quality data for sustainable development has been proven by multiple initatives all around the world: 
-
-1. The [The Humanitarian OpenStreetMap Team](https://www.hotosm.org/) is the main mapping tool used for providing high-quality data for fast decision-making in early disaster response. 419,000 volunteer mappers have supported this initiative. The platform is a collaboration between multiple organisations, including satellite imaging providers such as Maxar and the Red Cross. It ensures that life-saving decisions are traceable and verifiable, providing the highest standard of data. As the electrical grid is highly affected by significant increases in extreme weather events, electrical grid data [plays a key role in disaster response](https://github.com/USAFORUNHCRhive/turkana-grid-mapping). 
-
-1. [The Global Electrification Platform](https://electrifynow.energydata.info/) is the World Bank’s main tool for estimating electrification in rural communities of 58 countries. It uses OpenStreetMap data to map infrastructure like roads, buildings, and settlements, helping identify off-grid populations. This geospatial data feeds into energy models that support planning of grid and off-grid electrification pathways, making GEP a central resource for energy access planning in developing regions.
-
-## **<div class="tools-header">How and why is it used for the Electrical Grid?</div>**
-**When you map towers, substations, powerplants in OpenStreetMap, you are essentially adding valuable data that is used by many different entities.**<br>
-
 <div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
   <a href="https://pypsa-earth.readthedocs.io/en/latest/index.html" target="_blank">
   <img src="../images/impact/pypsa-earth-india.jpg" class="img-border" style="width: 100%;"> </a>
   <figcaption class="image-caption">The PyPSA-Earth open-source energy system model uses OpenStreetMap data to study the future of energy around the world. Click to enlarge.</figcaption>
 </div> 
 
+
+OpenStreetMap’s unique value in creating high quality data for sustainable development has been proven by multiple initatives all around the world: 
+
+1. The [The Humanitarian OpenStreetMap Team](https://www.hotosm.org/) is the main mapping tool used for providing high-quality data for fast decision-making in early disaster response. 419,000 volunteer mappers have supported this initiative. The platform is a collaboration between multiple organisations, including satellite imaging providers such as Maxar and the Red Cross. It ensures that life-saving decisions are traceable and verifiable, providing the highest standard of data. As the electrical grid is highly affected by significant increases in extreme weather events, electrical grid data [plays a key role in disaster response](https://github.com/USAFORUNHCRhive/turkana-grid-mapping). 
+
+1. [The Global Electrification Platform](https://electrifynow.energydata.info/) is the World Bank’s main tool for estimating electrification in rural communities of 58 countries. It uses OpenStreetMap data to map infrastructure like roads, buildings, and settlements, helping identify off-grid populations. This geospatial data feeds into energy models that support planning of grid and off-grid electrification pathways, making the Global Electrification Platform a central resource for energy access planning in developing regions.
+
+## **<div class="tools-header">How and why is it used for the Electrical Grid?</div>**
+**When you map towers, substations, powerplants in OpenStreetMap, you are essentially adding valuable data that is used by many different entities.**<br>
+
+<div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
+  <a href="https://pypsa-earth.readthedocs.io/en/latest/index.html" target="_blank">
+  <img src="../images/impact/data-processing-PyPSA-EUR.png" class="img-border" style="width: 100%;"> </a>
+  <figcaption class="image-caption">The PyPSA-Earth open-source energy system model uses OpenStreetMap data to study the future of energy around the world. Click to enlarge.</figcaption>
+</div> 
+
+
 OpenStreetMap’s electrical grid data is actively used by grid operators, academic institutions, government agencies, local authorities, and private organizations. This data plays a crucial role in energy modeling and planning, informing both policy development and investment decisions. 
 
 These simulations help evaluate technology options, policy impacts, and pathways to full electrification—especially in developing countries. Energy models are essential for advancing decarbonization goals and achieving sustainable development. However, the effectiveness of these models depends heavily on the **quality and completeness of the data** they rely on.
 
-High-quality, up-to-date data is vital for planning and investing in power infrastructure. Enhancing the current state of the OpenStreetMap electrical grid significantly improves the reliability and impact of these planning tools. For example, [PyPSA Earth](https://pypsa-earth.readthedocs.io/en/latest/index.html), an open-source global energy system model, uses OpenStreetMap grid data as the foundation for constructing its electricity grid for [regions all around the world](https://pypsa-earth.readthedocs.io/en/latest/users_list.html#).
+OpenStreetMap data used by [PyPSA Earth](https://pypsa-earth.readthedocs.io/en/latest/index.html), an open-source global energy system model is clustered into larger regional electrical hubs to simplify the power system model and improve computational efficiency. Enhancing the current state of the OpenStreetMap electrical grid significantly improves the reliability and impact of these planning tools. This data forms the basis of the electricity grid for [regions all around the world](https://pypsa-earth.readthedocs.io/en/latest/users_list.html#). 
+
 
 --- 
 
