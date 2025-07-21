@@ -1,9 +1,14 @@
 <div class="page-headers">
-<h1>Impact of Open Electrical Grid Data </h1>
+<h1>Impact </h1>
 </div>
 
-## **<div class="tools-header">How and why is it used?</div>**
+OpenStreetMap’s unique value in creating high quality data for sustainable development has been proven by multiple initatives all around the world: 
 
+1. [The Humanitarian OpenStreetMap Team](https://www.hotosm.org/) is today the main mapping tool providing fast decision making ready high quality data for early desaster reponse. 419000 volenteering mappers have supported this initative. This platform is a collaboration between multiple organisations, including satellite imaging providers such as Maxar, and organisations such as the Red Cross. It ensures that life-saving decisions are traceable and verifiable, providing the highest standard of data. Their main focus on the electrical grid lies in the [distribution grid](https://github.com/USAFORUNHCRhive/turkana-grid-mapping).
+
+1. [The Global Electrification Platform](https://electrifynow.energydata.info/) is the World Bank’s main tool for estimating electrification in rural communities in 58 countries. It uses OpenStreetMap data to map infrastructure like roads, buildings, and settlements, helping identify off-grid populations. This geospatial data feeds into energy models that support planning of grid and off-grid electrification pathways, making GEP a central resource for energy access planning in developing regions.
+
+## **<div class="tools-header">How and why is it used?</div>**
 **When you map towers, substations, powerplants in OpenStreetMap, you are essentially adding valuable data that is used by many different entities.**<br>
 
 <div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
@@ -12,8 +17,7 @@
   <figcaption class="image-caption">The PyPSA-Earth open-source energy system model uses OpenStreetMap data to study the future of energy around the world. Click to enlarge.</figcaption>
 </div> 
 
-
-OpenStreetMap’s electrical grid data is actively used by grid operators, academic institutions, government agencies, local authorities, and private organizations. This data plays a crucial role in energy modeling and planning, informing both policy development and investment decisions.
+OpenStreetMap’s electrical grid data is actively used by grid operators, academic institutions, government agencies, local authorities, and private organizations. This data plays a crucial role in energy modeling and planning, informing both policy development and investment decisions. 
 
 These simulations help evaluate technology options, policy impacts, and pathways to full electrification—especially in developing countries. Energy models are essential for advancing decarbonization goals and achieving sustainable development. However, the effectiveness of these models depends heavily on the **quality and completeness of the data** they rely on.
 
@@ -23,7 +27,7 @@ High-quality, up-to-date data is vital for planning and investing in power infra
 
 ### Use by Major Institutions
 
-Organizations such as the **World Bank** and the **International Energy Agency (IEA)** rely on OpenStreetMap data for regional and continental energy analyses. In many cases, OpenStreetMap provides the **only available** source of open, accessible infrastructure data. Making such data publicly available adds considerable **societal value** for planning and clean energy transitions, while also creating **economic value** for the private sector.
+Organizations such as the **World Bank** and the **International Energy Agency (IEA)** rely on OpenStreetMap data for regional and continental energy analyses. Of the 1,072 open energy related datasets released by the World Bank on EnergyData.info, 533 energy-related datasets depend on OpenStreetMap. In many cases, OpenStreetMap provides the **only available** source of open, accessible infrastructure data. Making such data publicly available adds considerable **societal value** for planning and clean energy transitions, while also creating **economic value** for the private sector.
 
 One of the major global challenges in the clean energy transition is the modernization and expansion of transmission infrastructure. The IEA emphasizes the need for reliable data and collaborative platforms to support this effort:
 
@@ -146,7 +150,7 @@ How does mapping have an impact? When you map towers, substations, powerplants i
 
 Disclaimer: These organisations are not affiliated with MapYourGrid nor endorse it. All logos and brand names are the property of their respective owners. Usage here is for informational purposes only, identifying organisations that utilise OpenStreetMap data.
 
-**International Energy Agency**  ![IEA logo](images/impact/International-energy-agency-logo.png){width=30px} 
+**International Energy Agency - (Click Me)**  ![IEA logo](images/impact/International-energy-agency-logo.png){width=30px} 
 ??? "Energy and AI Observatory"
     
     === "[Energy and AI Observatory (link)](https://www.iea.org/data-and-statistics/data-tools/energy-and-ai-observatory)"
@@ -157,7 +161,7 @@ Disclaimer: These organisations are not affiliated with MapYourGrid nor endorse 
     === "[Latin America Energy Outlook Interactive Map (link)](https://www.iea.org/data-and-statistics/data-tools/latin-america-energy-outlook-interactive-map)"
         ![map](images/impact/iea-latinmap.jpg){: .img-border }
 
-**US Department of Homeland Security**  ![US dep logo](images/impact/us-homeland.png){width=30px} 
+**US Department of Homeland Security - (Click Me)**  ![US dep logo](images/impact/us-homeland.png){width=30px} 
 ??? "Homeland Infrastructure Foundation-Level Data (HIFLD)"
     
     === "[Homeland Infrastructure Foundation-Level Data (HIFLD) (link)](https://hifld-geoplatform.hub.arcgis.com/datasets/3486fb60feb2454c99232248fdf624ec_0/explore)"
@@ -170,32 +174,32 @@ Disclaimer: These organisations are not affiliated with MapYourGrid nor endorse 
         ![map](images/impact/africa_grid_explorer.jpg){: .img-border }
 
 
-**PyPSA-Earth** ![PyPSA-Earth](images/impact/pypsa-earth-logo.png){: width=70px} **+** **PyPSA-Eur** ![PyPSA-Eur](images/impact/pypsa-eur-logo.jpg){: width=30px}
+**PyPSA-Earth - (Click Me)** ![PyPSA-Earth](images/impact/pypsa-earth-logo.png){: width=70px} **+** **PyPSA-Eur** ![PyPSA-Eur](images/impact/pypsa-eur-logo.jpg){: width=30px}
 ??? "PyPSA Earth and Europe use OpenStreetMap data for energy system studies all around the world."
     
     === "[PyPSA-Earth (link)](https://pypsa-earth.readthedocs.io/)"
         ![map](images/impact/pypsa-earth.jpg){: .img-border }
 
-**Enedis**  ![Enedis](images/impact/enedis-logo.png){width=70px} 
+**Enedis - (Click Me)**  ![Enedis](images/impact/enedis-logo.png){width=70px} 
 ??? "The French utility company Enedis, operating the electricity distribution network, mapped power poles and substations with the help of a strong local OpenStreetMap community."
     
     === "[Enedis (link)](https://enedis.openstreetmap.fr/)"
         ![map](images/impact/enedis-osm.png){: .img-border }
 
 
-**Global Renewables Watch**  ![Enedis](images/impact/ms-logo.png){width=70px} 
+**Global Renewables Watch - (Click Me)**  ![Enedis](images/impact/ms-logo.png){width=70px} 
 ??? "The Global Renewables Watch maps and measures renewable energy installations and their estimated capacities at the subnational, national, and global levels. The machine learning behind the detection process is mainly trained using OpenStreetMap data."
     
     === "[Global Renewables Watch (link)](https://www.globalrenewableswatch.org/)"
         ![map](images/renewable-watch.png){: .img-border }
  
-**CONAHCYT (Gobierno de Mexico)**  ![CONAHCYT logo](images/impact/conahcyt.png){width=70px} 
+**CONAHCYT (Gobierno de Mexico - (Click Me))**  ![CONAHCYT logo](images/impact/conahcyt.png){width=70px} 
 ??? "Mapa del Sistema Eléctrico Nacional"
     
     === "[Mapa del Sistema Eléctrico Nacional (link)](https://energia.conacyt.mx/planeas/electricidad/sistema-electrico-nacional)"
         ![map](images/impact/mexicogov-map.png){: .img-border }
  
-**European Commission - Joint Research Centre**  ![EUC logo](images/impact/euc-logo.jpg){width=40px} 
+**European Commission - Joint Research Centre - (Click Me)**  ![EUC logo](images/impact/euc-logo.jpg){width=40px} 
 ??? "Africa Knowledge Platform"
     
     === "[Africa Knowledge Platform (link)](https://africa-knowledge-platform.ec.europa.eu/explore_maps)"
@@ -204,67 +208,67 @@ Disclaimer: These organisations are not affiliated with MapYourGrid nor endorse 
     **More Information**
     - The electricity network data on the image is a mix of World Bank and OpenStreetMap data 
  
-**IRENA**  ![GWA logo](images/impact/irenalogo.jpg){width=55px} 
+**IRENA - (Click Me)**  ![GWA logo](images/impact/irenalogo.jpg){width=55px} 
 ??? "Global Atlas for Renewable Energy"
     
     === "[Global Atlas for Renewable Energy (link)](https://globalatlas.irena.org/workspace)"
         ![map](images/impact/irenaatlas.png){: .img-border }
  
-**Global Wind Atlas**  ![GWA logo](images/impact/globalwindatlaslogo.jpg){width=15px} 
+**Global Wind Atlas - (Click Me)**  ![GWA logo](images/impact/globalwindatlaslogo.jpg){width=15px} 
 ??? "Global Wind Atlas"
     
     === "[Global Wind Atlas (link)](https://globalwindatlas.info/en/)"
         ![map](images/impact/globalwindatlas.jpg){: .img-border }
 
-**Fraunhofer ISE**  ![Fraunhofer logo](images/impact/fraunhoferlogo.jpg){width=45px} 
+**Fraunhofer ISE - (Click Me)**  ![Fraunhofer logo](images/impact/fraunhoferlogo.jpg){width=45px} 
 ??? "Energy Charts"
     
     === "[Energy Charts(link)](https://www.energy-charts.info/map/map.htm?l=en&c=DE&country=DE&lines=1110000&pp-source=bnetza&pp-bitmap=none)"
         ![map](images/impact/fraunhofermap.jpg){: .img-border }
 
-**ESMAP, IFC, VIDA** ![ESMAP](images/impact/ESMAP-logo.svg){width=45px} ![IFC](images/impact/IFC-logo.svg){width=65px} ![VIDA](images/impact/vida-logo.jpg){width=45px}
+**ESMAP, IFC, VIDA - (Click Me)** ![ESMAP](images/impact/ESMAP-logo.svg){width=45px} ![IFC](images/impact/IFC-logo.svg){width=65px} ![VIDA](images/impact/vida-logo.jpg){width=45px}
 ??? "Distributed Renewable Energy (DRE) Atlas"
     
     === "[Distributed Renewable Energy (DRE) Atlas(link)](https://dre.energydata.info/)"
         ![map](images/impact/DRE-atlas.jpg){: .img-border }
 
-**GridRaven** ![GridRaven](images/impact/raven.png){width=15px} 
+**GridRaven - (Click Me)** ![GridRaven](images/impact/raven.png){width=15px} 
 ??? "Dynamic Line Ratings with precision weather forecasting"
     
     === "[Dynamic Line Ratings with precision weather forecasting](https://claw.gridraven.com/world)"
         ![map](images/impact/GridRaven.jpg){: .img-border }
 
-**windPRO** ![windPRO](images/impact/Windpro_v2_rgb.png){width=15px}
+**windPRO - (Click Me)** ![windPRO](images/impact/Windpro_v2_rgb.png){width=15px}
 ??? "windPRO is an industry standard for designing, planning, and evaluating wind and solar energy projects."
     
     === "[windPRO is an industry standard for designing, planning, and evaluating wind and solar energy projects](https://help.emd.dk/mediawiki/index.php/EMD_Electrical_Grid_Map)"
         ![map](images/impact/WindPro.jpg){: .img-border } 
 
-**ETAP** ![etap](images/impact/etap.jpg){width=25px}
+**ETAP - (Click Me)** ![etap](images/impact/etap.jpg){width=25px}
 ??? "ETAP® provides market-leading software and hardware solutions serving all stages of the electrical system lifecycle for utilities, infrastructure, industries and buildings."
     
     === "[ETAP® provides market-leading software and hardware solutions serving all stages of the electrical system lifecycle for utilities, infrastructure, industries and buildings](https://etap.com/product/gis-for-electric)"
         ![map](images/impact/etap-osm.jpg){: .img-border } 
 
-**GlitreNett** ![glitrenett](images/impact/GlitreNett.svg){width=40px}
+**GlitreNett - (Click Me)** ![glitrenett](images/impact/GlitreNett.svg){width=40px}
 ??? "DataArena intends to inform and provide information about the status of the Norway electrical grid capacity." 
     
     === "[DataArena intends to inform and provide information about the status of the Norway electrical grid capacity.](https://etap.com/product/gis-for-electric)"
         ![map](images/impact/data-area-norway.jpg){: .img-border } 
 
-**MAPOG** ![mapog](images/impact/MAPOG-logo.png){width=40px}
+**MAPOG - (Click Me)** ![mapog](images/impact/MAPOG-logo.png){width=40px}
 ??? "How GIS Enhances Power Grid Mapping and Energy Infrastructure Planning." 
     
     === "[How GIS Enhances Power Grid Mapping and Energy Infrastructure Planning.](https://www.mapog.com/power-grid-and-infrastructure-mapping-and-planning-using-gis/)"
         ![map](images/impact/MAPOG.jpg){: .img-border } 
 
-**dvlp.energy** ![dvlp.energy](images/impact/dvlp-logo-purple.svg){width=40px}
+**dvlp.energy - (Click Me)** ![dvlp.energy](images/impact/dvlp-logo-purple.svg){width=40px}
 ??? "With dvlp.energy, you can quickly and easily find the right space for your solar, wind or storage projects — and keep track of your entire project pipeline at all times." 
     
     === "[](https://www.dvlp.energy/en)"
         ![map](images/impact/dvlp-energy.jpg){: .img-border } 
 
-**Roseau Technologies** ![Roseau Technologies](images/impact/roseau.svg){width=40px}
+**Roseau Technologies - (Click Me)** ![Roseau Technologies](images/impact/roseau.svg){width=40px}
 ??? "Modern and ergonomic software solutions for straightforward electricity distribution grid design." 
     
     === "[](https://www.roseautechnologies.com/en/home/)"
