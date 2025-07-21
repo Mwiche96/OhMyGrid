@@ -4,11 +4,11 @@
 
 OpenStreetMap’s unique value in creating high quality data for sustainable development has been proven by multiple initatives all around the world: 
 
-1. [The Humanitarian OpenStreetMap Team](https://www.hotosm.org/) is today the main mapping tool providing fast decision making ready high quality data for early desaster reponse. 419000 volenteering mappers have supported this initative. This platform is a collaboration between multiple organisations, including satellite imaging providers such as Maxar, and organisations such as the Red Cross. It ensures that life-saving decisions are traceable and verifiable, providing the highest standard of data. Their main focus on the electrical grid lies in the [distribution grid](https://github.com/USAFORUNHCRhive/turkana-grid-mapping).
+1. The [The Humanitarian OpenStreetMap Team](https://www.hotosm.org/) is the main mapping tool used for providing high-quality data for fast decision-making in early disaster response. 419,000 volunteer mappers have supported this initiative. The platform is a collaboration between multiple organisations, including satellite imaging providers such as Maxar and the Red Cross. It ensures that life-saving decisions are traceable and verifiable, providing the highest standard of data. As the electrical grid is highly affected by significant increases in extreme weather events, electrical grid data [plays a key role in disaster response](https://github.com/USAFORUNHCRhive/turkana-grid-mapping). 
 
-1. [The Global Electrification Platform](https://electrifynow.energydata.info/) is the World Bank’s main tool for estimating electrification in rural communities in 58 countries. It uses OpenStreetMap data to map infrastructure like roads, buildings, and settlements, helping identify off-grid populations. This geospatial data feeds into energy models that support planning of grid and off-grid electrification pathways, making GEP a central resource for energy access planning in developing regions.
+1. [The Global Electrification Platform](https://electrifynow.energydata.info/) is the World Bank’s main tool for estimating electrification in rural communities of 58 countries. It uses OpenStreetMap data to map infrastructure like roads, buildings, and settlements, helping identify off-grid populations. This geospatial data feeds into energy models that support planning of grid and off-grid electrification pathways, making GEP a central resource for energy access planning in developing regions.
 
-## **<div class="tools-header">How and why is it used?</div>**
+## **<div class="tools-header">How and why is it used for the Electrical Grid?</div>**
 **When you map towers, substations, powerplants in OpenStreetMap, you are essentially adding valuable data that is used by many different entities.**<br>
 
 <div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
