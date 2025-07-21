@@ -351,5 +351,5 @@ MapYourGrid layers additional tools, methodologies, and community-driven feedbac
     We leverage AI to detect unmapped infrastructure from satellite imagery and flag anomalies in existing data. Random samples are then validated on the ground through local partners, combining remote detection with field-level truthing.
 
 
-Together, these layers of validation — spanning crowdsourcing, automation, expert review, and AI — make MapYourGrid not just a mapping initiative, but a quality-assured knowledge infrastructure for the global energy transition.
+Together, these layers of validation, spanning crowdsourcing, automation, expert review, and AI, make MapYourGrid not just a mapping initiative, but a quality-assured knowledge infrastructure for the global energy transition.
 
