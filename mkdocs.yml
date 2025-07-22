@@ -82,9 +82,6 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - attr_list
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.snippets
 
 
 plugins:

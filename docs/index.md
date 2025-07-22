@@ -3,7 +3,6 @@ hide:
   - navigation
   - toc
   - footer
-body_class: landing-page
 ---
 
 <div class="hero-section">
@@ -28,15 +27,15 @@ body_class: landing-page
 <div class="initiative-section">
   <div class="initiative-content">
     <h2>Help Map the World's Electricity Grids to Power a Fossil-Free Future</h2>
-    <p> Fossil fuels are responsible for over 75% of global greenhouse gas emissions. You can play a vital role in supporting the energy transition by helping to map electrical grids in your local area. These grids need modernization to meet the demands of electrification and decarbonization, but a lack of reliable data is a <a href="https://iea.blob.core.windows.net/assets/70f2de45-6d84-4e07-bfd0-93833e205c81/ElectricityGridsandSecureEnergyTransitions.pdf" target="_blank" rel="noopener">major barrier</a>. Grid data provides governments, utilities, developers, and researchers with the information needed to plan effectively. That's where you come in.</p>
-    <p>Despite the urgent need to expand and upgrade electricity infrastructure, there is currently no open global standard for cross-border grid data. OpenStreetMap has emerged as the unofficial, de facto standard used by both industry and academia. Some countries have good grid coverage, but many in the Global South are still lacking. This gap limits rural energy access and slows down climate action:</p>
-    <blockquote>
+    <p> Fossil fuels are responsible for over 75% of global greenhouse gas emissions. You can play a vital role in supporting the energy transition by helping to map electrical grids in your local area. These grids need modernization and expansion to meet the demands of electrification and decarbonization, but a lack of reliable data is a <a href="https://iea.blob.core.windows.net/assets/70f2de45-6d84-4e07-bfd0-93833e205c81/ElectricityGridsandSecureEnergyTransitions.pdf" target="_blank" rel="noopener">major barrier</a>. Grid data provides governments, utilities, developers, and researchers with the information needed to plan effectively. That's where you come in.</p>
+    <p>In recent years, OpenStreetMap has emerged as the de facto standard for global electrical grid data. However, many developing countries are still lagging behind. This gap limits rural energy access and slows down climate action:</p>
+    <blockquote class="blockquote">
       Improve data reliability and availability to better assess and manage risks for clean energy projects in emerging market and developing economies.
     </blockquote>
     <p class="reference">
       Key Recommendation - International Energy Agency: <a href="https://www.iea.org/events/from-taking-stock-to-taking-action-how-to-implement-the-cop28-energy-goals" target="_blank" rel="noopener">How to implement the COP28 energy goals</a>
     </p>
-    <p>That is why <a href="https://openenergytransition.org/" target="_blank" rel="noopener">Open Energy Transition</a> has launched this open initiative in collaboration with <a href="https://datactivist.coop/en/" target="_blank" rel="noopener">Datactivist</a>, <a href="https://junglebus.io/" target="_blank" rel="noopener">Jungle Bus</a>, <a href="https://dynartio.com/" target="_blank" rel="noopener">Dynartio</a> and <a href="https://www.infrageomatics.com/" target="_blank" rel="noopener">Infrageomatics</a>. We are working with the OpenStreetMap community, organisations and individuals around the world to not only create an <a href="https://www.nature.com/articles/s41597-025-04550-7" target="_blank" rel="noopener">open digital twin of the European grid</a>, but also to expand the global coverage of the transmission grid in OpenStreetMap from around 70% to 98% by 2028. It's ambitious yet achievable with your help.</p> 
+    <p>This is why <a href="https://openenergytransition.org/" target="_blank" rel="noopener">Open Energy Transition</a> has launched this open initiative in collaboration with <a href="https://datactivist.coop/en/" target="_blank" rel="noopener">Datactivist</a>, <a href="https://junglebus.io/" target="_blank" rel="noopener">Jungle Bus</a>, <a href="https://dynartio.com/" target="_blank" rel="noopener">Dynartio</a> and <a href="https://www.infrageomatics.com/" target="_blank" rel="noopener">Infrageomatics</a>. We are working with the OpenStreetMap community, organisations and individuals around the world to not only create an <a href="https://www.nature.com/articles/s41597-025-04550-7" target="_blank" rel="noopener">open digital twin of the European grid</a>, but also to expand the global coverage of the transmission grid in OpenStreetMap from around 70% to 98% by 2028. It's ambitious yet achievable with your help.</p> 
 
   <a href="https://openinframap.org/#3.34/8.66/41.06/B,E,L,N,P" target="_blank">
   <img src="images/openinframap_crop.png" alt="Grid Illustration" class="initiative-content" style="width: 120%; border: 4px solid #2a6d3c;">
