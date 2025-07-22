@@ -1,4 +1,4 @@
-name: 📈 Update Power Plant Capacity Stats
+name: 📈 Update Power Plant Capacity and Substation Stats
 
 on:
   workflow_dispatch: {} # Allows manual triggering
@@ -29,24 +29,24 @@ jobs:
           echo "Current directory: $(pwd)"
           echo "Contents of docs/py-scripts/:"
           ls -la docs/py-scripts/ || echo "Directory not found"
-          echo "Script exists: $(test -f docs/py-scripts/plant-capacity-added.py && echo 'YES' || echo 'NO')"
+          echo "Script exists: $(test -f docs/py-scripts/power-ways.py && echo 'YES' || echo 'NO')"
 
       - name: 🚀 Run plant capacity script
         timeout-minutes: 25  # Set timeout for just this step
         run: |
           echo "Starting Python script execution at $(date)"
-          python docs/py-scripts/plant-capacity-added.py
+          python docs/py-scripts/power-ways.py
           echo "Python script completed at $(date)"
 
       - name: 🔍 Debug - Check output file
         run: |
           echo "Contents of docs/data/:"
           ls -la docs/data/ || echo "Directory not found"
-          echo "JSON file exists: $(test -f docs/data/plant-capacity.json && echo 'YES' || echo 'NO')"
-          if [ -f docs/data/plant-capacity.json ]; then
-            echo "JSON file size: $(wc -c < docs/data/plant-capacity.json) bytes"
+          echo "JSON file exists: $(test -f docs/data/power-stats.json && echo 'YES' || echo 'NO')"
+          if [ -f docs/data/power-stats.json ]; then
+            echo "JSON file size: $(wc -c < docs/data/power-stats.json) bytes"
             echo "JSON file contents:"
-            cat docs/data/plant-capacity.json
+            cat docs/data/power-stats.json
           fi
 
       - name: 💾 Commit & push if changed
@@ -55,4 +55,4 @@ jobs:
           author_name: github-actions[bot]
           author_email: github-actions[bot]@users.noreply.github.com
           message: "chore: weekly power plant capacity update 🤖"
-          add: 'docs/data/plant-capacity.json'
+          add: 'docs/data/power-stats.json'
