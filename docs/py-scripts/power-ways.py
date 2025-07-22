@@ -126,7 +126,7 @@ def fetch_substation_count():
     overpass_url = "https://overpass-api.de/api/interpreter"
     
     query = """
-    [out:json][timeout:900];
+    [out:json][timeout:920];
                 
     nwr["power"="substation"](user_touched:"Andreas Hernandez","Tobias Augspurger","davidtt92","Mwiche","relaxxe")->.subs;
     nwr["power"="substation"](user: "Russ","map-dynartio","overflorian","nlehuby","ben10dynartio","InfosReseaux")(newer:"2025-03-01T00:00:00Z")->.more_subs;
