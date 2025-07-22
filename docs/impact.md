@@ -21,23 +21,26 @@ OpenStreetMap’s unique value in creating high quality data for sustainable dev
 ## **<div class="tools-header">How and why is it used for the Electrical Grid?</div>**
 **When you map towers, substations, powerplants in OpenStreetMap, you are essentially adding valuable data that is used by many different entities.**<br>
 
-<div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
-  <a href="https://pypsa-earth.readthedocs.io/en/latest/index.html" target="_blank">
-  <img src="../images/impact/data-processing-PyPSA-EUR.png" class="img-border" style="width: 100%;"> </a>
-  <figcaption class="image-caption">The PyPSA-Eur open-source energy system model uses OpenStreetMap data to study the future of energy around the world. Click to enlarge.</figcaption>
-</div> 
-
 OpenStreetMap’s electrical grid data is actively used by grid operators, academic institutions, government agencies, local authorities, and private organizations. This data plays a crucial role in energy modeling and planning, informing both policy development and investment decisions. 
 
 These simulations help evaluate technology options, policy impacts, and pathways to full electrification—especially in developing countries. Energy models are essential for advancing decarbonization goals and achieving sustainable development. However, the effectiveness of these models depends heavily on the **quality and completeness of the data** they rely on.
 
-OpenStreetMap data used by [PyPSA Earth](https://pypsa-earth.readthedocs.io/en/latest/index.html), an open-source global energy system model is clustered into larger regional electrical hubs to simplify the power system model and improve computational efficiency. However, the energy potential of entire regions is underestimated if lines and substations are missing. Therefore, improving the current state of the OpenStreetMap electrical grid significantly enhances the reliability and effectiveness of this planning tool for energy studies in [regions all around the world](https://pypsa-earth.readthedocs.io/en/latest/users_list.html#). 
+<div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
+  <a href="https://pypsa-earth.readthedocs.io/en/latest/index.html" target="_blank">
+  <img src="../images/impact/data-processing-PyPSA-EUR.png" class="img-border" style="width: 100%;"> </a>
+  <figcaption class="image-caption">The PyPSA-Eur framework is used to cluster transmission lines and substations into larger energy links and buses between different regions. Image Source: <a href="https://pypsa-earth.readthedocs.io/en/latest/index.html" target="_blank">Modelling the high-voltage grid using open data for
+Europe and beyond</a>- Click to enlarge.</figcaption> 
+</div> 
+
+### Open Source Energy System Modelling
+
+OpenStreetMap data used by [PyPSA Earth](https://pypsa-earth.readthedocs.io/en/latest/index.html), an open-source global energy system model is clustered into larger regional electrical hubs to simplify the power system model and improve computational efficiency. However, the energy potential of entire regions is underestimated if lines and substations are missing. Therefore, improving the current state of the OpenStreetMap electrical grid significantly enhances the reliability and effectiveness of this planning tool for energy studies in [regions all around the world](https://pypsa-earth.readthedocs.io/en/latest/users_list.html#). Initial attempts to use OpenStreetMap data for energy modeling are being made by the German Aerospace Center with the [SciGrid](https://www.dlr.de/en/ve/research-and-transfer/projects/project-scigrid) project starting in 2014. Afterwards project like [OSMoGrid](https://github.com/ie3-institute/OSMoGrid), [GridTool](https://github.com/IEE-TUGraz/GridTool), [osmTGmod](https://github.com/wupperinst/osmTGmod) and [OpenGridMap](https://github.com/opengridmap) have continoued this development first focusing on the German electrical grid.
 
 --- 
 
-### Use by Major Institutions
+###  Valued by International Organizations
 
-Organizations such as the **World Bank** and the **International Energy Agency (IEA)** rely on OpenStreetMap data for regional and continental energy analyses. Of the 1,072 open energy related datasets released by the World Bank on EnergyData.info, 533 energy-related datasets depend on OpenStreetMap. In many cases, OpenStreetMap provides the **only available** source of open, accessible infrastructure data. Making such data publicly available adds considerable **societal value** for planning and clean energy transitions, while also creating **economic value** for the private sector.
+Organizations such as the **World Bank** and the **International Energy Agency (IEA)** rely on OpenStreetMap data for regional and continental energy analyses. In many cases, OpenStreetMap provides the **only available** source of open, accessible infrastructure data. Making such data publicly available adds considerable **societal value** for planning and clean energy transitions, while also creating **economic value** for the private sector.
 
 One of the major global challenges in the clean energy transition is the modernization and expansion of transmission infrastructure. The IEA emphasizes the need for reliable data and collaborative platforms to support this effort:
 
