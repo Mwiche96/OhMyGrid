@@ -15,6 +15,8 @@ OpenStreetMap’s unique value in creating high quality data for sustainable dev
 
 1. [The Global Electrification Platform](https://electrifynow.energydata.info/) is the World Bank’s main tool for estimating electrification in rural communities of 58 countries. It uses OpenStreetMap data to map infrastructure like roads, buildings, and settlements, helping identify off-grid populations. This geospatial data feeds into energy models that support planning of grid and off-grid electrification pathways, making the Global Electrification Platform a central resource for energy access planning in developing regions.
 
+1. [EnergyData.info – Open Data Portal](https://energydata.info/dataset/?q=OpenStreetMap) hosts over 1,000 datasets to support global energy development. Of the 1,072 open datasets released by the World Bank on this platform, 533 are energy-related and depend directly on OpenStreetMap data. This underscores the critical role that OSM plays in enabling open, geospatially-aware energy analytics worldwide.
+
 ## **<div class="tools-header">How and why is it used for the Electrical Grid?</div>**
 **When you map towers, substations, powerplants in OpenStreetMap, you are essentially adding valuable data that is used by many different entities.**<br>
 
