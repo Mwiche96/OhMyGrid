@@ -145,7 +145,7 @@ def fetch_substation_count():
         response = requests.post(
             overpass_url, 
             data={"data": query},
-            timeout=600  # 10 minutes timeout
+            timeout=920  # 10 minutes timeout
         )
         
         print(f"Substations response status code: {response.status_code}")
