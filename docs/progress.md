@@ -58,6 +58,16 @@ MapYourGrid measures its progress at user, hashtag and country level. If you use
   </div>
 
   <div class="progress-item">
+    <label>Total estimated substations added by mappers of the MapYourGrid funding organisations:</label>
+    <div class="progress">
+      <div class="progress-bar" id="substation-bar" style="background-color: #17a2b8;"></div>
+    </div>
+    <span id="substation-count">Loading…</span>
+    <br>
+    <span id="substation-updated" style="font-size:0.8em; color:#666">Last updated: —</span>
+  </div>
+
+  <div class="progress-item">
     <label>Total estimated power towers added by people using the <code>#MapYourGrid</code>:</label>
     <div class="progress">
       <div class="progress-bar" id="community-tower-bar" style="background-color: #28a745;"></div>
@@ -91,7 +101,8 @@ MapYourGrid measures its progress at user, hashtag and country level. If you use
   const LINE_LENGTH_GOAL = 5000;
   const COMMUNITY_TOWER_GOAL = 5000;
   const COMMUNITY_LINE_LENGTH_GOAL = 2500;
-  const PLANT_CAPACITY_GOAL = 5000
+  const PLANT_CAPACITY_GOAL = 5000;
+  const SUBSTATION_GOAL = 250
 
    // —— UPDATE Ohsome (#MapYourGrid) ——
   async function updateOhsome() {
@@ -273,7 +284,7 @@ async function loadPlantCapacity() {
     capacityUpdatedEl.textContent = 'Last updated: —';
 
     try {
-      const resp = await fetch('/data/plant-capacity.json');
+      const resp = await fetch('/data/power-stats.json');
       if (!resp.ok) throw new Error(resp.statusText);
       const { total_capacity_mw, updated } = await resp.json();
 
@@ -284,6 +295,30 @@ async function loadPlantCapacity() {
       console.error('Error loading plant capacity', err);
       capacityCountEl.textContent = 'In Progress Feature';
       capacityUpdatedEl.textContent = '';
+    }
+  }
+
+async function loadSubstationCount() {
+    const substationCountEl = document.getElementById('substation-count');
+    const substationBar = document.getElementById('substation-bar');
+    const substationUpdatedEl = document.getElementById('substation-updated');
+
+    substationCountEl.textContent = 'Loading…';
+    substationBar.style.width = '0%';
+    substationUpdatedEl.textContent = 'Last updated: —';
+
+    try {
+      const resp = await fetch('/data/power-stats.json');
+      if (!resp.ok) throw new Error(resp.statusText);
+      const { substation_count, updated } = await resp.json();
+
+      substationCountEl.textContent = substation_count.toLocaleString('en-US');
+      substationBar.style.width = Math.min(100, substation_count / SUBSTATION_GOAL * 100) + '%';
+      substationUpdatedEl.textContent = `Last updated: ${new Date(updated).toLocaleString()}`;
+    } catch (err) {
+      console.error('Error loading substation capacity', err);
+      substationCountEl.textContent = 'In Progress Feature';
+      substationUpdatedEl.textContent = '';
     }
   }
 
@@ -327,6 +362,7 @@ async function loadPlantCapacity() {
 
     loadLineLength();
     loadPlantCapacity();
+    loadSubstationCount();
 
     // Try Community Stats cache
     const csCache = attemptCacheLoad('MapYourGrid-community-stats', oneHour);
@@ -356,6 +392,7 @@ async function loadPlantCapacity() {
         loadLineLength();
         loadCommunityStats(); 
         loadPlantCapacity();
+        loadSubstationCount();
       });
     }
   });
