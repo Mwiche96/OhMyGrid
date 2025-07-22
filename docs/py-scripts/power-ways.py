@@ -3,6 +3,7 @@ import json
 import re
 from datetime import datetime
 import sys
+import time
 
 def convert_to_mw(value):
     """
@@ -126,10 +127,10 @@ def fetch_substation_count():
     overpass_url = "https://overpass-api.de/api/interpreter"
     
     query = """
-    [out:json][timeout:920];
+    [out:json][timeout:1300];
                 
     nwr["power"="substation"](user_touched:"Andreas Hernandez","Tobias Augspurger","davidtt92","Mwiche","relaxxe")->.subs;
-    nwr["power"="substation"](user: "Russ","map-dynartio","overflorian","nlehuby","ben10dynartio","InfosReseaux")(newer:"2025-03-01T00:00:00Z")->.more_subs;
+    nwr["power"="substation"](user:"Russ","map-dynartio","overflorian","nlehuby","ben10dynartio","InfosReseaux")(newer:"2025-03-01T00:00:00Z")->.more_subs;
 
     (
      .subs;
@@ -145,7 +146,7 @@ def fetch_substation_count():
         response = requests.post(
             overpass_url, 
             data={"data": query},
-            timeout=600  # 10 minutes timeout
+            timeout=1300  # 10 minutes timeout
         )
         
         print(f"Substations response status code: {response.status_code}")
@@ -167,6 +168,8 @@ def fetch_substation_count():
         elements = data.get("elements", [])
         if not elements:
             print("ERROR: Substation count query returned no elements.")
+            print("–– raw Overpass JSON (first 2000 chars) ––")
+            print(json.dumps(data, indent=2)[:2000])
             return None
             
         count_tags = elements[0].get("tags", {})
@@ -208,6 +211,10 @@ def fetch_power_data():
     if not plant_data:
         print("ERROR: Failed to fetch power plant data")
         return None
+    
+    print("Pausing for 20 seconds before next request...")
+    time.sleep(30) 
+    
     
     # Fetch substation data
     substation_data = fetch_substation_count()
