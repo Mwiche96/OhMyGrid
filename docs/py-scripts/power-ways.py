@@ -124,7 +124,7 @@ def fetch_substation_count():
     Fetches substation data from the Overpass API and counts total substations.
     """
     print("Starting Overpass API request for substations...")
-    overpass_url = "https://overpass.openstreetmap.fr/api/interpreter"
+    overpass_url = "https://overpass-api.de/api/interpreter"
     
     query = """
     [out:json][timeout:1300];
