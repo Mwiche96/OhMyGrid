@@ -74,38 +74,40 @@ hide:
 </div>
 
 <div class="who-we-are-section">
-  <h2>Who We Are</h2>
-  <p class="lead-statement">
-    MapYourGrid is a free, open-source initiative supported by the following organizations. We want to empower a global community of citizens and organizations to create and maintain data on the core infrastructures of our modern society. Our open data can be used in public administration, industry, academia, and more. Would you like to join or support us? Contact <a href="mailto:MapYourGrid@openenergytransition.org" target="_blank" rel="noopener">us via email</a>. 
-  </p>
-  <div class="partners-grid">
-      <div class="partner-item">
-      <a href="https://openenergytransition.org/" target="_blank" rel="noopener">
-        <img src="images/logos/oet-logo.png" alt="Open Energy Transition Logo" class="partner-logo">
-        </a>
-        </div>
-    <div class="partner-item">
-      <a href="https://datactivist.coop/en/" target="_blank" rel="noopener">
-        <img src="images/logos/datactivist-logo.png" alt="Datactivist Logo" class="partner-logo"> 
-      </a>
-    </div>
-        <div class="partner-item">
-      <a href="https://dynartio.com/" target="_blank" rel="noopener">
-        <img src="images/logos/dynartio-logo.svg" alt="Dynartio Logo" class="partner-logo"> 
-      </a>
-    </div>
-    <div class="partner-item">
-      <a href="https://junglebus.io/" target="_blank" rel="noopener">
-        <img src="images/logos/junglebus-logo.jpg" alt="Jungle Bus Logo" class="partner-logo-smaller"> 
-      </a>
-    </div>
-    <div class="partner-item">
-      <a href="https://www.infrageomatics.com/" target="_blank" rel="noopener">
-        <img src="images/logos/infrageomatics-logo.jpg" alt="Infrageomatics Logo" class="partner-logo"> 
-      </a>
-    </div>
-  </div>
-  <div class="sponsored-by-section">
+<h2>Who We Are</h2>
+<p class="lead-statement">
+MapYourGrid is a free, open-source initiative supported by the following organizations. We want to empower a global community of citizens and organizations to create and maintain data on the core infrastructures of our modern society. Our open data can be used in public administration, industry, academia, and more. Would you like to join or support us? Contact <a href="mailto:MapYourGrid@openenergytransition.org" target="_blank" rel="noopener">us via email</a>. 
+</p>
+<div class="partners-grid">
+<div class="partner-item">
+<a href="https://openenergytransition.org/" target="_blank" rel="noopener">
+<img src="images/logos/oet-logo.png" alt="Open Energy Transition Logo" class="partner-logo">
+</a>
+</div>
+<div class="partner-item">
+<a href="https://datactivist.coop/en/" target="_blank" rel="noopener">
+<img src="images/logos/datactivist-logo.png" alt="Datactivist Logo" class="partner-logo"> 
+</a>
+</div>
+<div class="partner-item">
+<a href="https://dynartio.com/" target="_blank" rel="noopener">
+<img src="images/logos/dynartio-logo.svg" alt="Dynartio Logo" class="partner-logo"> 
+</a>
+</div>
+<div class="partner-item">
+<a href="https://junglebus.io/" target="_blank" rel="noopener">
+<img src="images/logos/junglebus-logo.jpg" alt="Jungle Bus Logo" class="partner-logo-smaller"> 
+</a>
+</div>
+<div class="partner-item">
+<a href="https://www.infrageomatics.com/" target="_blank" rel="noopener">
+<img src="images/logos/infrageomatics-logo.jpg" alt="Infrageomatics Logo" class="partner-logo"> 
+</a>
+</div>
+</div>
+</div>
+
+<div class="sponsored-by-section">
   <h3 class="section-title">Sponsored By</h3>
   <div>
     <a href="https://www.breakthroughenergy.org/" target="_blank" rel="noopener">
