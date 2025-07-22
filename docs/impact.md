@@ -21,7 +21,7 @@ OpenStreetMap’s unique value in creating high quality data for sustainable dev
 <div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
   <a href="https://pypsa-earth.readthedocs.io/en/latest/index.html" target="_blank">
   <img src="../images/impact/data-processing-PyPSA-EUR.png" class="img-border" style="width: 100%;"> </a>
-  <figcaption class="image-caption">The PyPSA-Earth open-source energy system model uses OpenStreetMap data to study the future of energy around the world. Click to enlarge.</figcaption>
+  <figcaption class="image-caption">The PyPSA-Eur open-source energy system model uses OpenStreetMap data to study the future of energy around the world. Click to enlarge.</figcaption>
 </div> 
 
 
