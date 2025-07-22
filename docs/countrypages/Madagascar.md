@@ -42,7 +42,7 @@ International connections:<br>
 ## Progress map
 
 <center>
-<img src="https://raw.githubusercontent.com/ben10dynartio/MapYourGrid-website-files/refs/heads/main/docs/images/maps_countries/MG/high-voltage-network.jpg" width="60%">
+<img src="https://raw.githubusercontent.com/ben10dynartio/ohmygrid-website-files/refs/heads/main/docs/images/maps_countries/MG/high-voltage-network.jpg" width="60%">
 <img src="../../images/maps_countries_legend_progress.jpg" width="50%">
 </center>
 
@@ -50,10 +50,10 @@ International connections:<br>
 
 ## Grid connectivity overview
 
-Grid connectivity summary (nb of substations x nb of connections) :<br>4x3
+Grid connectivity summary (nb of substations x nb of connections) :<br>5x4 + 2x1
 
 <center>
-<img src="https://raw.githubusercontent.com/ben10dynartio/MapYourGrid-website-files/refs/heads/main/docs/images/maps_countries/MG/grid-connectivity.jpg" width="60%">
+<img src="https://raw.githubusercontent.com/ben10dynartio/ohmygrid-website-files/refs/heads/main/docs/images/maps_countries/MG/grid-connectivity.jpg" width="60%">
 <img src="../../images/maps_countries_legend_grid.jpg" width="50%">
 </center>
 
