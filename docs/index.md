@@ -107,7 +107,7 @@ MapYourGrid is a free, open-source initiative supported by the following organiz
 </div>
 </div>
 
-<div class="sponsored-by-section">
+<div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
   <h3 class="section-title">Sponsored By</h3>
   <div>
     <a href="https://www.breakthroughenergy.org/" target="_blank" rel="noopener">
