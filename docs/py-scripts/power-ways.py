@@ -3,6 +3,7 @@ import json
 import re
 from datetime import datetime
 import sys
+import time
 
 def convert_to_mw(value):
     """
@@ -208,6 +209,10 @@ def fetch_power_data():
     if not plant_data:
         print("ERROR: Failed to fetch power plant data")
         return None
+    
+    print("Pausing for 20 seconds before next request...")
+    time.sleep(20) 
+    
     
     # Fetch substation data
     substation_data = fetch_substation_count()
