@@ -175,6 +175,9 @@ hide:
   </form>
 </div>
 
+
+
+<!--Script for the progress numbers, insert stuff above this-->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
 
