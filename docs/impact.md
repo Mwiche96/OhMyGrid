@@ -167,7 +167,7 @@ Disclaimer: These organisations are not affiliated with MapYourGrid nor endorse 
 **International Energy Agency**  ![IEA logo](images/impact/International-energy-agency-logo.png){width=30px} 
 ??? "Energy and AI Observatory (Click Me)"
     
-    "[**Link to website**](https://www.iea.org/data-and-statistics/data-tools/energy-and-ai-observatory)"
+    [**Link to website**](https://www.iea.org/data-and-statistics/data-tools/energy-and-ai-observatory)
     
     ![map](images/impact/powerandai.jpg){: .img-border }
  
@@ -297,7 +297,7 @@ Disclaimer: These organisations are not affiliated with MapYourGrid nor endorse 
 **dvlp.energy** ![dvlp.energy](images/impact/dvlp-logo-purple.svg){width=40px}
 ??? "With dvlp.energy, you can quickly and easily find the right space for your solar, wind or storage projects. (Click Me)" 
     
-    [**Link to website**](https://www.dvlp.energy/en)"
+    [**Link to website**](https://www.dvlp.energy/en)
         
     ![map](images/impact/dvlp-energy.jpg){: .img-border } 
 
