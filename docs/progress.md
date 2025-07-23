@@ -64,7 +64,7 @@ We contribute to mapping the grid all around the world. Discover our main contri
 
 
   <div class="progress-item">
-    <label>Contributors mapping with <code>#MapYourGrid</code> and <code>#ohmygrid</code> hashtag:</label>
+    <label>Contributors mapping with <code>#MapYourGrid</code> hashtag:</label>
     <div class="progress"> <div class="progress-bar" id="contributors-bar" style="background-color: #28a745;"></div> </div>
     <span id="contributors-count">Loading…</span>
   </div>
@@ -182,13 +182,15 @@ We contribute to mapping the grid all around the world. Discover our main contri
       const dataArray = await Promise.all(responses.map(resp => resp.json()));
 
       // Aggregate the results (sum of users and edits)
-      const total = dataArray.reduce((acc, data) => {
-        acc.users += data.result.users ?? 0;
-        acc.edits += data.result.edits ?? 0;
-        return acc;
-      }, { users: 0, edits: 0 });
+      const totalEdits = dataArray.reduce((acc, data) => {
+      acc += data.result.edits ?? 0;
+      return acc;
+      }, 0);
 
-      const { users, edits } = total;
+      const OHMYGRID_LEGACY_USERS = 3; //Hazem, Jbcharron, nolan, (cidomo but he also used the new one)
+      const mapyourgridData = dataArray[0]; // mapyourgrid is first in the array
+      const users = (mapyourgridData.result.users ?? 0) + OHMYGRID_LEGACY_USERS;
+      const edits = totalEdits;
 
       // write DOM
       contribCountEl.textContent = users.toLocaleString();
