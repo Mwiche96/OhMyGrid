@@ -2,7 +2,7 @@
 <h1>Starter-Kit </h1>
 </div>
 
-<div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
+<div style="float: right; margin: 5px 0 20px 20px; width: 450px;">
 <a href="https://openinframap.org/#6.54/39.026/-7.548" target="_blank">
 <img src="../images/openinframap-portugal.jpg" class="img-border icon-svg off-glb" style="width: 100%;"></a> 
 <figcaption class="image-caption">

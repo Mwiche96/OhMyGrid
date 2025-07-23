@@ -7,9 +7,9 @@ Using the right tools and strategies is fundamental to mapping the electrical gr
 
 Please consider the following strategies and the associated processes as recommendations only. Ultimately, the most efficient strategy is the one that enables you to work on the electrical grid with passion and motivation over a longer period of time. The strategies can be divided into two phases, with a quality assurance and validation process running alongside them.
 
-**[Pioneer Mapping Strategies](tools.md#pioneer-mapping-strategies-and-tools)**: To ensure the power grid has the best possible coverage, we recommend beginning with Pioneer Mapping in each country. Several strategies are employed at this stage to identify the location of all lines, power poles, and substations. Rather than reducing issues in the grid, the main focus is on increasing coverage and extending the geographic information of the grid. This may result in an increased total number of issues in the grid. These strategies focus primarily on mapping the geographical location of power lines, towers, plants and substations, rather than technical grid details. They require good eyesight, fast mapping skills and an understanding of situations in which satellite data is insufficient for consistent grid mapping.
+**[Pioneer Mapping Strategies](tools.md#pioneer-mapping-strategies-and-tools)**: To ensure the power grid has the best possible coverage, we recommend beginning with Pioneer Mapping in each country. Several strategies are employed at this stage to identify the location of all lines, power poles, and substations. Rather than reducing issues in the grid, the main focus is on increasing extending geographic coverage of the grid. This may result in an increased total number of issues in the grid. These strategies focus primarily on mapping the geographical location of power lines, towers, plants and substations, rather than technical grid details. They require good eyesight, fast mapping skills and an understanding of situations in which satellite data is insufficient for consistent grid mapping.
 
-**[Technical Mapping Strategies](tools.md#technical-mapping-strategies)**: This phase involves solving more complex grid issues that require a fundamental understanding of the electrical grid. This includes mapping voltages, the number of circuits and routing issues. During this phase, the initial mapping work is validated against multiple sources to ensure its plausibility. These sources could include official maps from grid operators, statistics about grid length, and other official data. The main focus of these strategies is to minimise the number of complex quality issues in the grid.
+**[Technical Mapping Strategies](tools.md#technical-mapping-strategies)**: This phase involves solving complex grid issues that require a fundamental understanding of the electrical grid. This includes mapping voltages, the number of circuits and routing issues. During this phase, the initial mapping work is validated against multiple sources to ensure its plausibility. These sources could include official maps from grid operators, statistics about grid length, and other official data. The main focus of these strategies is to minimise the number of complex quality issues in the grid.
 
 **[Quality Assurance and Validation](tools.md#quality-assurance-and-validation)**: Quality assurance runs parallel to both mapping phases and ensures that all data is verifiable, follows agreed tagging standards, is traceable, and can be reviewed by others. Tools like JOSM, Osmose, ohsome stats, and Open Infrastructure Map, along with community feedback and AI-assisted checks, help maintain the accuracy and reliability of the electrical grid data on OpenStreetMap.
 
@@ -17,16 +17,16 @@ Please consider the following strategies and the associated processes as recomme
 ## <div class="stradegy-header">Pioneer Mapping Strategies and Tools</div></h3>
 
 ### **<div class="tools-header">Todo Plugin :white_check_mark:</div>**
-The todo plugin is used for almost all pioneer mapping strategies, systematically stepping through a dataset of `hints`.
+The Todo plugin is used for almost all pioneer mapping strategies, systematically stepping through a dataset of `hints`.
 
 <div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
   <img src="../images/todo.jpg" class="img-border" style="width: 100%;">
-  <figcaption class="image-caption"> A simple but very efficient way of mapping the network is the continuation of “Unfinished Transmission Lines loaded into the todo plugin”. Click to enlarge.</figcaption>
+  <figcaption class="image-caption"> A simple but very efficient way of mapping the network is the continuation of “Unfinished Transmission Lines loaded into the Todo plugin”. Click to enlarge.</figcaption>
 </div>
 
 1. Download any hint data layer into JOSM, or select other OpenStreetMap objects that you have filtered with `CTRL+F`.
-1. Download the todo plugin for JSOM. `Edit → Preferences`. Search for todo, mark it and press OK. Press `Windows → Todo list` to show the Todo list window. 
-1. Press CTRL + A  to select all objects in the hint layer. Press the Add in the todo plugin window (`Windows → Todo list`)
+1. Download the Todo plugin for JSOM. `Edit → Preferences`. Search for Todo, mark it and press OK. Press `Windows → Todo list` to show the Todo list window. 
+1. Press CTRL + A  to select all objects in the hint layer. Press the Add in the Todo plugin window (`Windows → Todo list`)
 1. Switch back to the OSM data layer.
 1. You can now systematically step through all the hints by pressing Mark.
 
@@ -52,7 +52,7 @@ _Continue Open Lines_ is the most efficient and most beginner friendly strategy.
 
 1. Select `Unfinished power transmission line (Class 2) (recommended for beginners ⭐)` from the drop-down menu, then click on the country or state you wish to map. 
 2. Now drag and drop the GeoJSON file you have just downloaded into you JSOM window.
-3. Press `CTRL+A` to select all the location you have selected and press `Add` in the window of the todo list plugin.
+3. Press `CTRL+A` to select all the location you have selected and press `Add` in the window of the Todo list plugin.
 4. Click on `Default Transmission (90 kV+)` in the `Transmission Overpass Query` selected and download the tranmission grid data into another layer in JOSM. Activate this layer.
 4. You can now step through all issues by pressing `Mark`.
 
@@ -105,7 +105,7 @@ Can you see the power tower that's missing from the bottom Left corner?
 
 1. Download the transmission grid data of your country using the [Map It📍](https://MapYourGrid.org/map-it/) page.
 2. Press CTRL+F and filter by `type:way power=substation`.
-3. With the installed todo plugin window press `Add`. 
+3. With the installed Todo plugin window press `Add`. 
 4. Switch back to your transmission grid layer.
 4. You can now step through all substations by pressing `Mark`.
 
@@ -121,14 +121,14 @@ Large industrial facilities require huge amounts of energy and therefore have th
 1. Download the transmission grid data of your country using the [Map It📍](https://MapYourGrid.org/map-it/) page.
 1. Download the industrial areas of your country using into a new layer using the [Map It📍](https://MapYourGrid.org/map-it/) page.
 1. Press CTRL+F and filter by `type:way landuse=industrial`.
-1. With the installed todo plugin window press `Add`. 
+1. With the installed Todo plugin window press `Add`. 
 1. Switch back to your transmission grid layer.
 1. You can now step trouth all substations by pressing `Mark`.
 
 For more highly industrialised countries, loading all industries from OSM can sometimes lead to an overwhelming amount of information. When this happens, it can be convenient to filter out smaller industries that may not offer useful insights. To do this, we have the [osm-industries](https://github.com/open-energy-transition/osm-industries) tool. This script allows you to create a layer of filtered industries that you can load into JOSM as a GeoJSON file. The script also lets you specify your own threshold value for filtering, with the default set to 10,000 sqm (1 hectare).
 
 
-### <div class="tools-header"> Connect WikiData</div></h3>
+### <div class="tools-header">Connect WikiData</div></h3>
 
 <div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
     <img src="../images/wikipedia-wikidata.jpg" class="img-border" alt="Wikidata Comparison GeoJSON Output">
@@ -177,16 +177,16 @@ The OpenData plugin will allow you to load all kinds of GIS formats directly int
       ⚠️ Please use these datasets as hint layers. Do not copy/data from these maps directly into OpenStreetMap. Each data point of the transmission network must be set manually and <a href="https://wiki.openstreetmap.org/wiki/Verifiability">verified</a> with official satellite data provided by the OpenStreetMap community.
 
 ### <div class="tools-header"> Searching and solving fixme tags</div></h3>
-OpenStreetMap allows mappers to quickly mark an object that seems to be wrong and needs fixing using the [Key:fixme](https://wiki.openstreetmap.org/wiki/Key:fixme) tag. For example, you can write `fixme=wrong voltage` if you think the voltage on a line is incorrect, but you don't know the correct value. A small F will then be visible on the edge of the symbol to indicate the fixme tag. Stepping through all the `fixme` tags in a country is also a great way to search for errors in the grid that you can try to fix. We recommend using the `todo list` plugin for this.
+OpenStreetMap allows mappers to quickly mark an object that seems to be wrong and needs fixing using the [Key:fixme](https://wiki.openstreetmap.org/wiki/Key:fixme) tag. For example, you can write `fixme=wrong voltage` if you think the voltage on a line is incorrect, but you don't know the correct value. A small F will then be visible on the edge of the symbol to indicate the fixme tag. Stepping through all the `fixme` tags in a country is also a great way to search for errors in the grid that you can try to fix. We recommend using the `Todo` plugin for this.
 
 <div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
-    <img src="../images/fixme.jpg" class="img-border float-right" alt="Fixme tags loaded in the todo list.">
-  <figcaption class="image-caption">Fixme tags loaded in the todo list.</figcaption>
+    <img src="../images/fixme.jpg" class="img-border float-right" alt="Fixme tags loaded in the Todo list.">
+  <figcaption class="image-caption">Fixme tags loaded in the Todo list.</figcaption>
 </div>
 
 1. Download the grid you want to look into using at the [Map It📍](https://MapYourGrid.org/map-it/) page.
 2. Press `CTRL+F`and search for `fixme=*`.
-3. In the todo list window press `Add`.
+3. In the Todo list window press `Add`.
 4. After you fixed and issues please remove the fixme tag.
 
 ### <div class="tools-header">Open Infrastructure Map - Nighttime Lights and Osmose </div></h3>
