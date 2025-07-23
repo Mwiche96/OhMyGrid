@@ -3,7 +3,7 @@
 </div>
 
 <div style="float: right; margin: 5px 0 20px 20px; width: 450px;">
-<img src="../images/MapYourGrid-Global-Progress.jpg" class="img-border" style="width: 100%;"></a> 
+<img src="../images/progress/mapyourgrid-globalprogress.jpg" class="img-border" style="width: 100%;"></a> 
 <figcaption class="image-caption">Global overview of all lines mapped by MapYourGrid. Click to enlarge.
 </figcaption>
 </div>
