@@ -70,8 +70,10 @@ hide:
       <h3>Contribute to your Country</h3>
       <p>Apply advanced mapping strategies and tools to your local transmission grid.</p>
     </a>
-  </div>
 </div>
+
+</div>
+
 
 <div class="who-we-are-section">
 <h2>Who We Are</h2>
@@ -113,5 +115,31 @@ MapYourGrid is a free, open-source initiative supported by the following organiz
       <img src="images/logos/be-logo.png" alt="Sponsor Logo" style="max-height: 40px; width: auto;" class="off-glb">
     </a>
   </div>
+</div>
+</div>
+
+<div class="get-involved-section">
+<h2 style="margin-bottom: 0.5rem; font-size: 2em; color: #205b2a;">Subscribe to Our Newsletter</h2>
+  <p style="max-width: 700px; margin: 0 auto 2rem; font-size: 1.1em; color: #555555;">
+    Stay informed about the latest tools, campaigns, and open data releases. We will be constantly posting, do not miss out.
+  </p>
+
+  <form action="https://your-subscription-link" method="post" target="_blank" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5em;">
+    <input 
+      type="email" 
+      name="EMAIL" 
+      placeholder="Your email address" 
+      required 
+      style="padding: 0.8em 1em; width: 280px; max-width: 90%; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; text-align: center;"
+    >
+    <button 
+      type="submit" 
+      style="padding: 0.8em 1.5em; background-color: #2c8a4b; color: white; font-weight: 600; border: none; border-radius: 6px; font-size: 1rem; cursor: pointer; transition: background 0.3s;"
+      onmouseover="this.style.backgroundColor='#256f3d'" 
+      onmouseout="this.style.backgroundColor='#2c8a4b'"
+    >
+      📬 Subscribe
+    </button>
+  </form>
 </div>
 
