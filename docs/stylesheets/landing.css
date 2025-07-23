@@ -288,14 +288,10 @@ body.landing-page header.md-header {
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
-.stat-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 15px rgba(42, 109, 60, 0.1);
-}
-
 .stat-icon {
   margin-bottom: 1rem;
-  color: #036d7a; /* Icon color */
+  font-size: 36px;
+  line-height: 1;
 }
 
 .stat-number-wrapper {
@@ -367,8 +363,8 @@ body.landing-page header.md-header {
   margin: 0 auto 2.5rem auto; /* Center align and add bottom margin */
   color: #4a5568; /* Match paragraph text color */
   line-height: 1.7;
-  font-size: 0.9rem;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 440;
 }
 
 .partners-grid {
