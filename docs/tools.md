@@ -278,6 +278,7 @@ This principle applies to every aspect of mapping: the physical presence of infr
 
 MapYourGrid layers additional tools, methodologies, and community-driven feedback mechanisms on top of this foundation to ensure data accuracy, completeness, and reliability. Here's how we do it:
 
+
 0. **Professional Training, Standards and Support in Electrical Grid Mapping**
 
     The MapYourGrid initiative recognizes that high-quality data begins with knowledgeable contributors. We invest in building mapper capacity through structured training, professional-grade documentation, and standards aligned with both OSM norms and the energy sector’s expectations. We support decentralized data stewardship by empowering local mappers to guide regional efforts, ensuring that data remains both accurate and contextually relevant over time.
@@ -317,7 +318,13 @@ MapYourGrid layers additional tools, methodologies, and community-driven feedbac
     * Isolated or unconnected transmission lines
     * Redundant or deprecated tagging
 
-    These issues are visualized directly in [Open Infrastructure Map](https://openinframap.org/#2/26/12), giving mappers clear targets for improving the dataset.
+    These issues are visualized directly in [Open Infrastructure Map](https://openinframap.org/#2/26/12), giving mappers clear targets for improving the dataset. 
+    <div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
+    <img src="../images/kenya-tanzania.jpg" class="img-border" alt="PPM Rejected Power Plants GeoJSON">
+    <figcaption class="image-caption"> Special care is taken to validate and investigate interconnectors between different countries like the <a href=https://openinframap.org/#6.7/-1.627/37.017> Kenya-Tanzania interconnector</a>. 
+    </figcaption>   
+</div>
+
 
 
 6. **Statistical Monitoring with Health Scores (Under Construction)**
