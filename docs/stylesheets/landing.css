@@ -185,6 +185,7 @@ body.landing-page header.md-header {
   color: #2A6D3C;
   font-size: 2.5rem;
   margin-bottom: 2rem;
+  margin-top: 1rem;
   font-weight: 700;
 }
 
@@ -253,10 +254,102 @@ body.landing-page header.md-header {
   line-height: 1;
 }
 
+/* ==== OUR MAPPING SECTION ============================================================================== */
+.our-mapping-section {
+  padding: 2rem 2rem 4rem 2rem;
+  background-color: #f8f9fa; /* Light grey background */
+  text-align: center;
+}
+
+.our-mapping-section h2 {
+  color: #54a36a;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.stat-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.stat-icon {
+  margin-bottom: 1rem;
+  font-size: 36px;
+  line-height: 1;
+}
+
+.stat-number-wrapper {
+  background-color: #e9f5e9; /* Light green background for the number */
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.stat-number {
+  color: #2a6d3c; /* Dark green text color */
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.stat-label {
+  color: #4a5568;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.stat-number-wrapper {
+  background-color: #e9f5e9; /* Light green background for the number */
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 1rem;
+  /* Add flexbox to handle main number and subtext */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.2; /* Adjust line height for tighter packing */
+}
+
+.stat-subtext {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #25382a; /* A slightly lighter green */
+  display: block; /* Ensure it takes its own line */
+  margin-top: 4px;
+}
+
+/* Media for our mapping seciton */
+@media (max-width: 768px) {
+  .our-mapping-section h2 {
+    font-size: 2rem;
+  }
+  .stats-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+  }
+}
+
 /* ==== WHO WE ARE SECTION ==== */
 .who-we-are-section {
   padding: 0.5rem 2rem; /* Increased top/bottom padding */
-  background-color: #f8f9fa; /* Grey background to alternate */
+  background-color: #e9f5e9; /* Grey background to alternate */
   text-align: center;
 }
 
@@ -272,8 +365,8 @@ body.landing-page header.md-header {
   margin: 0 auto 2.5rem auto; /* Center align and add bottom margin */
   color: #4a5568; /* Match paragraph text color */
   line-height: 1.7;
-  font-size: 0.9rem;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 440;
 }
 
 .partners-grid {
