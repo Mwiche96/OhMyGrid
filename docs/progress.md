@@ -2,17 +2,23 @@
 <h1>Our Progress</h1>
 </div>
 
-MapYourGrid measures its progress at user, hashtag and country level. If you use our tools and training courses, we would be honored if you support our KPI. Just use the #MapYourGrid hashtag in your changesets or add your user id to our [KPI script](https://github.com/open-energy-transition/MapYourGrid/blob/main/.github/workflows/update-tower-count.yml). If you would like to contribute to our development or keep up to date with our progress, take a look at our public [organization project management](https://github.com/orgs/open-energy-transition/projects/25/views/7) and [roadmap](https://github.com/orgs/open-energy-transition/projects/25/views/13)
+<div style="float: right; margin: 5px 0 20px 20px; width: 450px;">
+<img src="../images/MapYourGrid-Global-Progress.jpg" class="img-border" style="width: 100%;"></a> 
+<figcaption class="image-caption">Global overview of all lines mapped by MapYourGrid. Click to enlarge.
+</figcaption>
+</div>
 
-<div class="hero-buttons">
+
+MapYourGrid measures its progress at user, hashtag and country level. We would be honoured to make your progress part of the initiative. If you use our tools and training courses please use the #MapYourGrid hashtag in your changesets or add your user id to our [KPI script](https://github.com/open-energy-transition/MapYourGrid/blob/main/.github/workflows/update-tower-count.yml). If you would like to contribute to our development or keep up to date with our progress, take a look at our public [organization project management](https://github.com/orgs/open-energy-transition/projects/25/views/7) and [roadmap](https://github.com/orgs/open-energy-transition/projects/25/views/13). You may have noticed that our KPIs currently prioritise coverage over data quality. This is because our initiative is working to increase coverage in low- and middle-income countries, resulting in more issues appearing in this grid. However, quality KPIs are currently under development and will be based on the [quality assurance layers that we are implementing simultaneously](tools.md/#quality-assurance-and-validation).
+
+
+<div class="starter-kit-buttons">
      <a href="#country-list" class="btn btn-primary">
       Country list 🌐
      </a>
       <a href="#community-mapping-progress" class="btn btn-primary">
         Community Mapping Progress 👥
       </a>
-</div>
-<div class="hero-buttons">
       <a href="#line-length-growth-per-country" class="btn btn-primary">
         Line Length Growth per Country 📈
       </a>
@@ -24,7 +30,7 @@ MapYourGrid measures its progress at user, hashtag and country level. If you use
 <!-- Countries Section -->
 ## **<div class="tools-header">Country list </div>**
 
-We contribute to mapping grid all around the world. Discover our main contributions in different countries:
+We contribute to mapping the grid all around the world. Discover our main contributions in different countries:
 
 ![Flag Bangladesh](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bangladesh.svg){width=20px} [Bangladesh](countrypages/Bangladesh.md) - 
 ![Flag Benin](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Benin.svg){width=20px} [Benin](countrypages/Benin.md) 
@@ -58,13 +64,13 @@ We contribute to mapping grid all around the world. Discover our main contributi
 
 
   <div class="progress-item">
-    <label>Contributors mapping with <code>#mapyourgrid</code> and <code>#ohmygrid</code> hashtag:</label>
+    <label>Contributors mapping with <code>#MapYourGrid</code> and <code>#ohmygrid</code> hashtag:</label>
     <div class="progress"> <div class="progress-bar" id="contributors-bar" style="background-color: #28a745;"></div> </div>
     <span id="contributors-count">Loading…</span>
   </div>
 
   <div class="progress-item">
-    <label>Total Edits for <code>#mapyourgrid</code> hashtag:</label>
+    <label>Total Edits for <code>#MapYourGrid</code> hashtag:</label>
     <div class="progress">
       <div class="progress-bar" id="edits-bar" style="background-color: #28a745;"></div> </div>
     <span id="edits-count">Loading…</span>
@@ -448,12 +454,12 @@ You can find more stats for #mapyourgrid at [OhsomeNowstats](https://stats.now.o
 
 This table shows the total growth in line length for all countries around the world, as calculated using pre-processed statistical data of [ohsome stats](https://stats.now.ohsome.org/).
 
---8<-- "docs/data/power_line_length_table.html"
+<iframe src="../data/power_line_length_table.html" width="100%" height="600px" style="border:none;"></iframe>
 
 <!-- Countries Section -->
 ## **<div class="tools-header">Interconnectors </div>**
 
-We mapped several international interconnectors, as it is shown on map below:
+We mapped several international interconnectors, as it is shown on the map below:
 
 <div style="text-align:center;">
 <img src="https://raw.githubusercontent.com/ben10dynartio/apps/refs/heads/main/osm_interconnectors/international-power-grid-connections.jpg" width="75%"></td>
