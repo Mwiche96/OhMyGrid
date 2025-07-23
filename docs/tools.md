@@ -65,7 +65,7 @@ _Continue Open Lines_ is the most efficent and most beginner friendly strategy. 
       <figcaption class="image-caption">Outdated satellite data results in larger gaps in the grid across many regions of Ecuador. These gaps can be spotted by lines that end abruptly rather than in a round circle, indicating a substation. Click to enlarge.</figcaption>
 </div>
 
-_Spot the gaps in the grid_ is a rather simple strategy but highly efficent. By using a bolt map coloring that highlights gaps in the grid and unconnected substation, is it easy to spot where are gaps in the grid. Unlike the 'Continue Open Lines' strategy, this approach is more flexible and relies on human judgement to address obvious topological issues in the grid. This allows us to prioritise lines extending or connecting new regions of the grid — lines with topological relevance, in other words. 
+_Spot the gaps in the grid_ is a rather simple strategy but highly efficent. By using a bolt map coloring that highlights gaps in the grid and unconnected substation, is it easy to spot where are gaps in the grid. Unlike the 'Continue Open Lines' strategy, this approach is more flexible and relies on human judgement to address obvious topological issues in the grid. This allows us to prioritise lines extending or connecting new regions of the grid lines with topological relevance, in other words. 
 
 As most transmission lines end at substations, the map painting technique allows us to mark the quiet lines that do not end at a substation with a circle. Zooming out allows the mapper to familiarise themselves with the gaps and nationwide coverage of the grid. If you haven't yet added our mapCSS to color the grid, you can find the recommended low-density grids map painting for this strategy here <a href="https://raw.githubusercontent.com/open-energy-transition/color-my-grid/refs/heads/main/MapYourGrid-default.mapcss">here.</a>
 
@@ -268,7 +268,7 @@ Follow the steps below to help improve rejected power plants in OSM:
 
 ## <div class="stradegy-header">Quality Assurance and Validation</div>
 
-Crowdsourced geographic data, when curated and validated properly, can rival the quality of traditionally sourced datasets. The OpenStreetMap (OSM) community has proven this time and again — and MapYourGrid builds on this foundation to ensure the highest quality standards for mapping global electrical infrastructure.
+When properly curated and validated, crowdsourced geographic data can rival the quality of highly automated datasets. MapYourGrid builds on this foundation to ensure the highest quality standards for mapping global electrical infrastructure.
 
 At the core of MapYourGrid’s validation approach are the [OpenStreetMap principles of verifiability](https://wiki.openstreetmap.org/wiki/Verifiability):
 

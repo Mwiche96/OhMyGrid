@@ -56,7 +56,7 @@ Get started by clicking on one of the OpenStreetMap editors:
   <figcaption class="image-caption">Default MapYourGrid Presets in JOSM toolbar. Click to enlarge.</figcaption>
 </div>
 
-1. For ease of mapping, customise your top toolbar with presets if you have not used the default preferences. Right click the toolbar and choose `Configure toolbar`, then select `Presets → Man Made → Man Made/Power` and add `Power Towers`, `Power Portal`, `Power Substation`, `Power Plants`, `Power Line` and `Power Generators`. This are the main objects to will need for transmission grid mapping. 
+1. For ease of mapping, customise your top toolbar with presets if you have not used the default preferences. Right click the toolbar and choose `Configure toolbar`, then select `Presets → Man Made → Man Made/Power` and add `Power Towers`, `Power Portal`, `Power Substation`, `Power Plants`, `Power Line` and `Power Generators`. This are the main objects you will need for transmission grid mapping. 
 2. Another important Preset your will need is `Add Node`. You will find it under `Tools` → `Add Node`. 
 
     
@@ -175,7 +175,7 @@ Also, if you just want to add a note or report an issue, or if you want to sugge
 
 ### <div class="stradegy-header">Reporting Issues in the Grid using iD</div></h3>
 
-The fastest and easiest way to contribute to your electrical grid is by adding notes where you see missing or incorrect information in OpenStreetMap. You can do this fully anonymously—no login required.
+The fastest and easiest way to contribute to your electrical grid is by adding notes where you see missing or incorrect information in OpenStreetMap. You can do this fully anonymously with no login required.
 
 <div style="float: right; margin: 5px 0 10px 20px; width: 350px;">
   <img src="../images/starter-kit/easy-notes.jpg" class="img-border" style="width: 100%;">
