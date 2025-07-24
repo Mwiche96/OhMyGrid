@@ -65,3 +65,4 @@ The MapYourGrid Website combines resources from multiple repositories:
 4. [osm-wikidata Toolset](https://github.com/open-energy-transition/osm-wikidata-toolset)
 5. [osmose-per-country](https://github.com/open-energy-transition/osmose_per_country)
 6. [gem-per-country](https://github.com/open-energy-transition/gem_per_country)
+7. [KPI Tracker tools](https://github.com/open-energy-transition/KPI-OSM)

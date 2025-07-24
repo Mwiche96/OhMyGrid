@@ -145,7 +145,16 @@ WikiData provides access to Wikipedia articles about power infrastructure around
 1. You can now step through all WikiData entries by pressing 'Mark'.
 1. If you spot any power plants or industrial areas missing, please also include these in your mapping.
 
-<div style="float: right; margin: 5px 0 20px 20px; width: 250px;">
+<div class="wikidata-mobile-fix" style="float: right; margin: 0 0 20px 20px; width: 250px; max-width: 100%;">
+ <style>
+    @media (max-width: 768px) {
+      .wikidata-mobile-fix {
+        float: none !important;
+        width: 100% !important;
+        margin: 1rem 0 !important;
+      }
+    }
+  </style>
     <img src="../images/WikiData-id.jpg" class="img-border" alt="Wikidata Comparison GeoJSON Output">
     <figcaption class="image-caption">WikiData QID enables Open Infrastructure Map to link to databases like Global Energy Monitor.</figcaption>   
 </div>
@@ -154,6 +163,7 @@ WikiData provides access to Wikipedia articles about power infrastructure around
 
  Linking other datasets to OpenStreetMap objects, such as power plants, can significantly enrich the data and help to avoid licence issues. Often, other data catalogues provide more up-to-date information about objects than OpenStreetMap. WikiData provides an excellent means of linking all these different data sources together in a standardised way. The datasets we provide will also include the [WikiData QID](https://wiki.openstreetmap.org/wiki/Key:Wikidata). Adding these QIDs to OpenStreetMap objects greatly improves the quality and usability of data relating to power plants, substations, and interconnectors.
 
+<br>
 
 ## <div class="stradegy-header">Technical Mapping Strategies</div></h2>
 
@@ -233,7 +243,7 @@ This tool estimates the voltage of a substation busbar from aerial imagery by me
 Interconnectors between countries are essential to the functioning of the transmission grid. Therefore, these lines should be regularly validated and carefully extended. If you are mapping an interconnector between two countries and want to see what’s mapped on the “other” side of the border, you can either do a quick Download from OSM in a new layer or use the following Overpass query:
 
 <div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
-    <img src="../images/alternative_query.png" class="img-border" alt="Overpass Query Example" style="width:100%; float:right; margin: 5px 0 30px 20px;">
+    <img src="../images/alternative_query.png" class="img-border" alt="Overpass Query Example">
     <figcaption class="image-caption">Overpass Query Example</figcaption>
 </div>
 
