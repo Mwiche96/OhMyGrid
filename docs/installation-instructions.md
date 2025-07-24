@@ -36,7 +36,7 @@ Afterwards copy all commands into your terminal using `CTRL+SHIFT+V` and press `
 
 If this does not work, you can also install JOSM through your system’s **App Center**. We recommend using the **Snap** installation. Just search for JOSM and click install.
 
-### macOS
+## <div class="tools-header">macOS</div>
 
 To install JOSM on macOS, you’ll first need to install the Homebrew package manager. Follow the instructions at [https://brew.sh](https://brew.sh/).
 
