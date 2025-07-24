@@ -20,9 +20,21 @@
   </a>
 {% endblock %}
 
-{% block extrahead %}
-  {{ super() }}
-  <meta property="og:image"   content="https://MapYourGrid.org/images/website/mapyourgrid-preview.jpg">
-  <meta name="twitter:image"  content="https://MapYourGrid.org/images/website/mapyourgrid-preview.jpg">
-  <meta name="twitter:card"   content="summary_large_image">
-{% endblock %}
+{% if page.meta and page.meta.image %}
+  {% set preview_image = page.meta.image %}
+{% else %}
+  {% set preview_image = config.extra.social_preview %}
+{% endif %}
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.title | e }}">
+<meta property="og:description" content="{{ config.site_description | e }}">
+<meta property="og:image" content="{{ preview_image | url }}">
+<meta property="og:url" content="{{ page.canonical_url | default(config.site_url) }}">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | e }}">
+<meta name="twitter:description" content="{{ config.site_description | e }}">
+<meta name="twitter:image" content="{{ preview_image | url }}">

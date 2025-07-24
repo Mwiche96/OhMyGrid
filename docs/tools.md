@@ -83,7 +83,7 @@ As most large power plants are directly connected to the transmission grid, Conn
   <figcaption class="image-caption">A power plant in Colombia is located close to a large substation. Click to enlarge.</figcaption>
 </div>
 
-1. Select 'Global Energy Monitor – Power Plants' as the hint layer and press the country you like to map.
+1. Select 'Global Energy Monitor - Power Plants' as the hint layer and press the country you like to map.
 3. Drag and drop the GeoJSON file you have just downloaded into your JOSM window.
 4. Press `CTRL+A` to select all locations and click Add in the Todo List plugin window.
 5. Click on `Default Transmission (90 kV+)` in the `Transmission Overpass Query` selected and download the transmission grid data into another layer in JOSM. Activate this layer.

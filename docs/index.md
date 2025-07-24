@@ -3,6 +3,9 @@ hide:
   - navigation
   - toc
   - footer
+title: "MapYourGrid"
+description: "We empower individuals, communities and nations around the world to map the electrical grid." 
+image: images/website/mapyourgrid-preview.jpg
 ---
 
 <div class="hero-section">
