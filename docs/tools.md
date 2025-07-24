@@ -25,7 +25,7 @@ The Todo plugin is used for almost all pioneer mapping strategies, systematicall
 </div>
 
 1. Download any hint data layer into JOSM, or select other OpenStreetMap objects that you have filtered with `CTRL+F`.
-1. Download the Todo plugin for JSOM. `Edit → Preferences`. Search for Todo, mark it and press OK. Press `Windows → Todo list` to show the Todo list window. 
+1. Download the Todo plugin for JOSM. `Edit → Preferences`. Search for Todo, mark it and press OK. Press `Windows → Todo list` to show the Todo list window. 
 1. Press CTRL + A  to select all objects in the hint layer. Press the Add in the Todo plugin window (`Windows → Todo list`)
 1. Switch back to the OSM data layer.
 1. You can now systematically step through all the hints by pressing Mark.
@@ -37,7 +37,7 @@ To map efficiently and quickly, you need to know how to select all the nodes alo
 
 1. Press `A` and draw nodes as you follow the towers. This will create a long line of untagged nodes, all connected by a untagged way.
 1. Click on the way, and tag it as a power line.
-1. Click on the way again, and `CTRL+F` to open up search. Then paste as search string: `child selected type:node AND untagged`. This will select all untagged nodes of the way.
+1. Click on the way again, and `CTRL+F` to open up search. Then enter this search string: `child selected type:node AND untagged`. This will select all untagged nodes of the way.
 1. Use the preset power tower or poles to set all nodes at once.
 1. If you ever lose this query, click the right arrow on the search window and select it from your history.
 
@@ -51,7 +51,7 @@ To map efficiently and quickly, you need to know how to select all the nodes alo
 _Continue Open Lines_ is the most efficient and most beginner friendly strategy. It is directly integrated in [Map It📍](https://MapYourGrid.org/map-it/). The strategy mainly depends on [osmose](https://osmose.openstreetmap.fr/en/map/), a quality assurance tool that detects issues in OpenStreetMap data on a daily basis. These include different power classes of issues, such as "unfinished power transmission lines" : 
 
 1. Select `Unfinished power transmission line (Class 2) (recommended for beginners ⭐)` from the drop-down menu, then click on the country or state you wish to map. 
-2. Now drag and drop the GeoJSON file you have just downloaded into you JSOM window.
+2. Now drag and drop the GeoJSON file you have just downloaded into you JOSM window.
 3. Press `CTRL+A` to select all the location you have selected and press `Add` in the window of the Todo list plugin.
 4. Click on `Default Transmission (90 kV+)` in the `Transmission Overpass Query` selected and download the tranmission grid data into another layer in JOSM. Activate this layer.
 4. You can now step through all issues by pressing `Mark`.
@@ -84,7 +84,7 @@ As most large power plants are directly connected to the transmission grid, Conn
 </div>
 
 1. Select 'Global Energy Monitor – Power Plants' as the hint layer and press the country you like to map.
-3. Drag and drop the GeoJSON file you have just downloaded into your JSOM window.
+3. Drag and drop the GeoJSON file you have just downloaded into your JOSM window.
 4. Press `CTRL+A` to select all locations and click Add in the Todo List plugin window.
 5. Click on `Default Transmission (90 kV+)` in the `Transmission Overpass Query` selected and download the transmission grid data into another layer in JOSM. Activate this layer.
 6. You can now step through all the issues by pressing 'Mark'.
@@ -223,7 +223,7 @@ This tool estimates the voltage of a substation busbar from aerial imagery by me
     <figcaption class="image-caption">The OpenStreetMap Editor plugin that allows to roughly estimate the voltage levels based on phase to phase clearance measurements.</figcaption>   
 </div>
 
-1. Download the `PowerNetworkTools` plugin for JSOM. Go to Edit > Preferences. Search for `PowerNetworkTools`, select it and press OK. 
+1. Download the `PowerNetworkTools` plugin for JOSM. Go to Edit > Preferences. Search for `PowerNetworkTools`, select it and press OK. 
 1. Activate the Volage Estimator in the `Windows` menu.
 1. Press V to measure the distance between the two phases at the busbar.
 1. Read more about how to use the plugin in the README of the [official repository](https://github.com/openinframap/josm-power-network-tools).

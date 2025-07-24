@@ -86,7 +86,7 @@ hide:
       <div class="stat-number-wrapper">
         <span id="stat-towers" class="stat-number">...</span>
       </div>
-      <div class="stat-label">Power Towers Mapped</div>
+      <div class="stat-label">Power Towers</div>
     </div>
     <div class="stat-card">
       <div class="stat-icon ">
@@ -104,7 +104,7 @@ hide:
       <div id="stat-lines-wrapper" class="stat-number-wrapper">
         <span id="stat-lines" class="stat-number">...</span>
       </div>
-      <div class="stat-label">km of Power Lines</div>
+      <div class="stat-label">Power Lines in km</div>
     </div>
   </div>
 </div>
@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
       let displayText = `<span class="stat-number">${Math.round(lengthKm).toLocaleString('en-US')}</span>`;
       
       if (percentageOfMediumHigh !== null && percentageOfMediumHigh !== undefined) {
-        displayText += `<small class="stat-subtext">${percentageOfMediumHigh}% of all high-voltage lines in OpenStreetMap</small>`;
+        displayText += `<small class="stat-subtext">${percentageOfMediumHigh}% of the global transmission grid`;
       }
       
       linesWrapperEl.innerHTML = displayText;

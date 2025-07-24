@@ -43,7 +43,7 @@ We contribute to mapping the grid all around the world. Discover our main contri
 ![Flag Kazakhstan](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kazakhstan.svg){width=20px} [Kazakhstan](countrypages/Kazakhstan.md) - 
 ![Flag Kenya](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kenya.svg){width=20px} [Kenya](countrypages/Kenya.md) - 
 ![Flag Mongolia](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mongolia.svg){width=20px} [Mongolia](countrypages/Mongolia.md) - 
-![Flag Nepal](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nepal.svg){width=20px} [Nepal](countrypages/Nepal.md) 
+![Flag Nepal](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nepal.svg){width=20px} [Nepal](countrypages/Nepal.md) -
 ![Flag Nigeria](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nigeria.svg){width=20px} [Nigeria](countrypages/Nigeria.md) - 
 ![Flag Pakistan](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pakistan.svg){width=20px} [Pakistan](countrypages/Pakistan.md) - 
 ![Flag People's Republic of China](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20People%27s%20Republic%20of%20China.svg){width=20px} [People's Republic of China](countrypages/People's Republic of China.md) - 
