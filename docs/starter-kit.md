@@ -36,13 +36,12 @@ Get started by clicking on one of the OpenStreetMap editors:
 </div>
 
 1. Install JOSM using the [**recommended instructions**](installation-instructions.md) for your machine.
-1. Link your OSM account to JOSM. Go to `Preferences → OSM Server` and select "Authorise". Login with your OSM account. Be aware that your token is now stored in your local preferences.xml file. Do not share this file with anyone. <br>
-1. Enable `Remote control` in `Preferences → Remote Control`. This allows for grid data to be loaded automatically.
-1. Enable `Expert Mode` `View → Expert Mode` to enable search function that you will need. 
+1. Link your OSM account to JOSM. To do this, go to `Edit → Preferences → OSM Server` and select "Authorise". Login (or sign-up) with your OSM account. Your account should now be linked to JOSM on your device. Be aware that your token is now stored in your local preferences.xml file. Do not share this file with anyone. <br>
+1. Enable `Remote control` in `Edit → Preferences → Remote Control`. This allows for grid data to be loaded automatically.
+1. Enable `Expert Mode` in `View → Expert Mode` to enable search function that you will need later on. 
 1. Understanding JOSM layers. JOSM works with stacked layers, similar to Photoshop or GIS tools:
     * You’ll typically have an OSM data layer, imagery layers, and optionally GeoJSON or task layers.
     * You can switch between multiple satellite imagery sources (for instance, Esri, Mapbox) to use the clearest one for your area.
-1. Create an OSM [account](https://www.openstreetmap.org/user/new) if you don't have one. Once you do, go to `Preferences → OSM Server` and press authorise now. Login with your OSM account, and authorise. Your account is now linked to JOSM on your device.
 1. Load your Satellite Imagery via `Imagery` and select `Bing aerial imagery` and `Esri World Imagery`. In the `Layers` window on the right hand side you can now `Show/hide` the different imagery. This is also where you will load additional data layers. Changing the order of the data and imagery allows you to combine and overlap the different data sources.
 
 !!! note
