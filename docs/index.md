@@ -154,7 +154,7 @@ image: images/website/mapyourgrid-preview.jpg
 </div>
 </div>
 
-<div class="get-involved-section" style="padding: 2rem; background-color: #eaf5ec; border-radius: 8px; text-align: center;">
+<div class="our-mapping-section" style="text-align: center;">
   <h2 style="margin-bottom: 0.5rem; font-size: 2em; color: #205b2a;">Subscribe to Our Newsletter</h2>
   <p style="max-width: 700px; margin: 0 auto 2rem; font-size: 1.1em; color: #555555;">
     Stay informed about the latest tools, campaigns, and open data releases.<br>
