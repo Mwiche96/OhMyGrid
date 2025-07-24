@@ -12,11 +12,14 @@ Running `josm-setup.exe` on Microsoft Windows performs the following:
 3. Places JOSM shortcut icons on the Desktop and in the Start Menu
 4. Adds uninstall data in the appropriate system locations
 
+---
+If you are looking for further [instructions using the following link](https://josm.openstreetmap.de/wiki/Download#MSWindows)
+
 ## Linux (Ubuntu and Debian)
 
 This is the recommended method for installing JOSM on Ubuntu and Debian-based systems. For other distributions, please refer to the [official instructions here](https://josm.openstreetmap.de/wiki/Download#LinuxRepositories).
 
-To install, open your terminal using `CTRL+ALT+T`. Then paste and run the following commands:
+To install, open your terminal using `CTRL+ALT+T`. Then copy all the following command:
 
 ```bash
 echo "deb https://josm.openstreetmap.de/apt $(lsb_release -cs) universe" | sudo tee /etc/apt/sources.list.d/josm.list
@@ -25,9 +28,13 @@ sudo apt update
 sudo apt install josm
 ```
 
-If this does not work, you can also install JOSM through your system’s **App Center**. We recommend using the **Snap** installation. Just search for “JOSM” and click install.
+Afterwards copy all commands into your terminal using `CTRL+SHIFT+V` and press `Return`.
 
-### macOS
+---
+
+If this does not work, you can also install JOSM through your system’s **App Center**. We recommend using the **Snap** installation. Just search for JOSM and click install.
+
+## macOS
 
 To install JOSM on macOS, you’ll first need to install the Homebrew package manager. Follow the instructions at [https://brew.sh](https://brew.sh/).
 
