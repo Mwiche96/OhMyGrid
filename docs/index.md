@@ -118,28 +118,17 @@ MapYourGrid is a free, open-source initiative supported by the following organiz
 </div>
 </div>
 
-<div class="get-involved-section">
-<h2 style="margin-bottom: 0.5rem; font-size: 2em; color: #205b2a;">Subscribe to Our Newsletter</h2>
+<div class="get-involved-section" style="padding: 2rem; background-color: #eaf5ec; border-radius: 8px; text-align: center;">
+  <h2 style="margin-bottom: 0.5rem; font-size: 2em; color: #205b2a;">Subscribe to Our Newsletter</h2>
   <p style="max-width: 700px; margin: 0 auto 2rem; font-size: 1.1em; color: #555555;">
-    Stay informed about the latest tools, campaigns, and open data releases. We will be constantly posting, do not miss out.
+    Stay informed about the latest tools, campaigns, and open data releases.<br>
+    We'll be constantly posting. Don't miss out.
   </p>
 
-  <form action="https://your-subscription-link" method="post" target="_blank" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5em;">
-    <input 
-      type="email" 
-      name="EMAIL" 
-      placeholder="Your email address" 
-      required 
-      style="padding: 0.8em 1em; width: 280px; max-width: 90%; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; text-align: center;"
-    >
-    <button 
-      type="submit" 
-      style="padding: 0.8em 1.5em; background-color: #2c8a4b; color: white; font-weight: 600; border: none; border-radius: 6px; font-size: 1rem; cursor: pointer; transition: background 0.3s;"
-      onmouseover="this.style.backgroundColor='#256f3d'" 
-      onmouseout="this.style.backgroundColor='#2c8a4b'"
-    >
-      📬 Subscribe
-    </button>
-  </form>
+  <div style="display: flex; justify-content: center;">
+    <div style="max-width: 480px; width: 100%;">
+      <script async src="https://eocampaign1.com/form/c308f2c6-6898-11f0-9bf6-53fb9ff1b12b.js" data-form="c308f2c6-6898-11f0-9bf6-53fb9ff1b12b"></script>
+    </div>
+  </div>
 </div>
 
