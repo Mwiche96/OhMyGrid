@@ -35,8 +35,7 @@ Get started by clicking on one of the OpenStreetMap editors:
   <figcaption class="image-caption">Different preferences that need to be configured, including the Power Presets. Click to enlarge.</figcaption>
 </div>
 
-1. Install [Java](https://www.java.com/en/download/help/download_options.html) on your device. <br>
-1. Install [JOSM](https://josm.openstreetmap.de/) on your device (if needed, further instructions on how to install and use JOSM on your device can be found at [learnOSM](https://learnosm.org/en/josm/start-josm/)).
+1. Install JOSM using the [**recommended instructions**](installation-instructions.md) for your machine.
 1. Link your OSM account to JOSM. Go to `Preferences → OSM Server` and select "Authorise". Login with your OSM account. Be aware that your token is now stored in your local preferences.xml file. Do not share this file with anyone. <br>
 1. Enable `Remote control` in `Preferences → Remote Control`. This allows for grid data to be loaded automatically.
 1. Enable `Expert Mode` `View → Expert Mode` to enable search function that you will need. 
