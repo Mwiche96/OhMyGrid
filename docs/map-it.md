@@ -129,7 +129,7 @@ const regionsLayer = L.geoJSON(null, {
 
 
 // Make the popup message bigger and nicer for new mappers (like Ad-blocker...)
-map.options.maxPopupWidth = 300;
+map.options.maxPopupWidth = 400;
 
 // 2) Dynamic query‑mode discovery via GitHub Contents API
 const GITHUB_API_QUERIES =
@@ -479,15 +479,13 @@ setTimeout(() => {
 
   const html = `
     <div class="popup-success">
-      <p>🎉 <strong>Great!</strong> Now go back to JOSM and check if it is downloading. Depending on the country, this may take <em>60 seconds or more</em>. The grid of some countries are to large to be mapped on a national level. However, you can zoom in and click on regions or states.</p>
-      <p>For <strong>Osmose and GEM tools and hints</strong> selections, you will need to download the geojson file. Afterwards drag and drop the file into JOSM. For wikidata and powerplantmatching, the layer will be directly loaded in JOSM.</p>
-      <p>⚠️ <strong>If nothing happens:</strong></p>
+      <p>🎉 <strong>Great!</strong> Now go back to <a href="https://josm.openstreetmap.de/">JOSM</a> and check if it is downloading. Depending on the country, this may take <em>60 seconds or more</em>. The grid of some countries are to large to be mapped on a national level. However, you can zoom in and click on regions or states. For <strong>Osmose and GEM tools and hints</strong> selections, you will need to download the geojson file. Afterwards drag and drop the file into JOSM. For wikidata and powerplantmatching, the layer will be directly loaded in JOSM. ⚠️ <strong>If nothing happens:</strong></p>
       <ol>
-        <li>Check if your ad-blocker is off</li>
-        <li>Make sure JOSM is open</li>
+        <li>Check if your ad-blocker is off and JOSM is open</li>
         <li>Make sure Remote Control is enabled in JOSM</li>
         <li>If it’s enabled but still not working, toggle it off and on again</li>
         <li>Note that hint layers do not work on regional layers. In this case, please load the data onto a national layer.</li>
+        <li><a href="https://mapyourgrid.org/starter-kit/">Look into the Starter-Kit</a>
       </ol>
     </div>
   `;
@@ -786,9 +784,6 @@ fetch('../data/regionsv2.geojson')
       alt="Power Grid Legend"
       style="display: block; margin-left: auto; margin-right: auto;"
       width="600">
-
-:mag: Below you can find "Good First Lines" where we have found some lines which you can map if you are new. <br>
-**Please** check the box if you mapped this line, so as to not waste other people's time! Once part of the community, we can grant you access to this spreadsheet so you can add other lines if you want.
 
 ??? success "Good First Lines" (Click Me)"
     <iframe

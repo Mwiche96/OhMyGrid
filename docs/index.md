@@ -3,6 +3,9 @@ hide:
   - navigation
   - toc
   - footer
+title: "MapYourGrid"
+description: "We empower individuals, communities and nations around the world to map the electrical grid." 
+image: images/website/mapyourgrid-preview.jpg
 ---
 
 <div class="hero-section">
@@ -27,6 +30,7 @@ hide:
 <div class="initiative-section">
   <div class="initiative-content">
     <h2>Help Map the World's Electricity Grids to Power a Fossil-Free Future</h2>
+    <iframe width="1280" height="720" style="height: auto; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/6rcMVXc2lwc?si=JWOgvzKbadt2Nx9n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <p> Fossil fuels are responsible for over 75% of global greenhouse gas emissions. You can play a vital role in supporting the energy transition by helping to map electrical grids in your local area. These grids need modernization and expansion to meet the demands of electrification and decarbonization, but a lack of reliable data is a <a href="https://iea.blob.core.windows.net/assets/70f2de45-6d84-4e07-bfd0-93833e205c81/ElectricityGridsandSecureEnergyTransitions.pdf" target="_blank" rel="noopener">major barrier</a>. Grid data provides governments, utilities, developers, and researchers with the information needed to plan effectively. That's where you come in.</p>
     <p>In recent years, OpenStreetMap has emerged as the de facto standard for global electrical grid data. However, many developing countries are still lagging behind. This gap limits rural energy access and slows down climate action:</p>
     <blockquote class="blockquote">
@@ -74,11 +78,43 @@ hide:
 
 </div>
 
+<div class="our-mapping-section">
+  <h2>Our Mapping</h2>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-icon">
+        🗼
+      </div>
+      <div class="stat-number-wrapper">
+        <span id="stat-towers" class="stat-number">...</span>
+      </div>
+      <div class="stat-label">Power Towers</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon ">
+        👥
+      </div>
+      <div class="stat-number-wrapper">
+        <span id="stat-contributors" class="stat-number">...</span>
+      </div>
+      <div class="stat-label">Contributors</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">
+        ⚡️
+      </div>
+      <div id="stat-lines-wrapper" class="stat-number-wrapper">
+        <span id="stat-lines" class="stat-number">...</span>
+      </div>
+      <div class="stat-label">Power Lines in km</div>
+    </div>
+  </div>
+</div>
 
 <div class="who-we-are-section">
 <h2>Who We Are</h2>
 <p class="lead-statement">
-MapYourGrid is a free, open-source initiative supported by the following organizations. We want to empower a global community of citizens and organizations to create and maintain data on the core infrastructures of our modern society. Our open data can be used in public administration, industry, academia, and more. Would you like to join or support us? Contact <a href="mailto:MapYourGrid@openenergytransition.org" target="_blank" rel="noopener">us via email</a>. 
+ MapYourGrid is a free, open-source initiative supported by the following organizations. We want to empower a global community of citizens and organizations to create and maintain data on the core infrastructures of our modern society. Our open data can be used in public administration, industry, academia, and more. Would you like to join or support us? Contact <a href="mailto:MapYourGrid@openenergytransition.org" target="_blank" rel="noopener">us via email</a>. 
 </p>
 <div class="partners-grid">
 <div class="partner-item">
@@ -131,4 +167,82 @@ MapYourGrid is a free, open-source initiative supported by the following organiz
     </div>
   </div>
 </div>
+
+
+
+<!--Script for the progress numbers, insert stuff above this-->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+  // Fetch Ohsome Data (Contributors)
+  async function fetchOhsomeData() {
+    const contribEl = document.getElementById('stat-contributors');
+    try {
+      const startDate = '2025-03-12T22:00:00Z';
+      const hashtags = ['mapyourgrid'];
+      const urls = hashtags.map(tag => `https://stats.now.ohsome.org/api/stats/${tag}?startdate=${startDate}`);
+      
+      const responses = await Promise.all(urls.map(url => fetch(url)));
+      const dataArray = await Promise.all(responses.map(resp => {
+        if (!resp.ok) throw new Error(`HTTP error! status: ${resp.status}`);
+        return resp.json();
+      }));
+
+      const OHMYGRID_LEGACY_USERS = 3; //Hazem, Jbcharron, nolan, (cidomo but he also used the new one)
+      const total = dataArray.reduce((acc, data) => {
+        acc.users += (data.result.users || 0) + OHMYGRID_LEGACY_USERS;
+        return acc;
+      }, { users: 0 });
+
+      contribEl.textContent = total.users.toLocaleString('en-US');
+    } catch (err) {
+      console.error('Failed to fetch Ohsome data', err);
+      contribEl.textContent = 'Error';
+    }
+  }
+
+  // Fetch Line Length Data
+  async function fetchLineLengthData() {
+    const linesWrapperEl = document.getElementById('stat-lines-wrapper');
+    try {
+      const resp = await fetch('/data/line-length.json');
+      if (!resp.ok) throw new Error(resp.statusText);
+      const data = await resp.json();
+      const { lengthKm, percentageOfMediumHigh } = data;
+      
+      let displayText = `<span class="stat-number">${Math.round(lengthKm).toLocaleString('en-US')}</span>`;
+      
+      if (percentageOfMediumHigh !== null && percentageOfMediumHigh !== undefined) {
+        displayText += `<small class="stat-subtext">${percentageOfMediumHigh}% of the global transmission grid`;
+      }
+      
+      linesWrapperEl.innerHTML = displayText;
+
+    } catch(err) {
+      console.error('Failed to fetch line length data', err);
+      linesWrapperEl.innerHTML = `<span class="stat-number">Error</span>`;
+    }
+  }
+
+  // Fetch Tower Count Data
+  async function fetchTowerData() {
+    const towersEl = document.getElementById('stat-towers');
+    try {
+      const resp = await fetch('/data/tower-count.json');
+      if (!resp.ok) throw new Error(resp.statusText);
+      const { towerCount } = await resp.json();
+      towersEl.textContent = towerCount.toLocaleString('en-US');
+    } catch(err) {
+      console.error('Failed to fetch tower count data', err);
+      towersEl.textContent = 'Error';
+    }
+  }
+
+  // Initial fetch for all stats
+  fetchOhsomeData();
+  fetchLineLengthData();
+  fetchTowerData();
+});
+</script>
+
 

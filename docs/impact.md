@@ -3,7 +3,7 @@
 </div>
 
 
-OpenStreetMap’s unique value in creating high quality data for sustainable development has been proven by multiple initatives all around the world: 
+OpenStreetMap’s unique value in creating high quality data for sustainable development has been proven by multiple initiatives all around the world: 
 
 <div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
   <a href="https://pypsa-earth.readthedocs.io/en/latest/index.html" target="_blank">
@@ -11,55 +11,62 @@ OpenStreetMap’s unique value in creating high quality data for sustainable dev
   <figcaption class="image-caption">The PyPSA-Earth open-source energy system model uses OpenStreetMap data to study the future of energy around the world. Click to enlarge.</figcaption>
 </div> 
 
-1. The [Humanitarian OpenStreetMap Team](https://www.hotosm.org/) provides high-quality, open geospatial data to informe decision-makers during early disaster response. More than 419,000 volunteer mappers have contributed to this initiative. The platform is a collaboration between multiple organizations, including satellite imaging providers like Maxar and humanitarian agencies such as the Red Cross. This collaboration ensures that critical, life-saving decisions are grounded in traceable and verifiable data. Especially as the frequency of extreme weather events increases, accurate electrical grid data [plays a key role in disaster response at the Humanitarian OpenStreetMap Team](https://github.com/USAFORUNHCRhive/turkana-grid-mapping).
+1. The [Humanitarian OpenStreetMap Team](https://www.hotosm.org/) provides high-quality, open geospatial data to inform decision-makers during early disaster response. More than 419,000 volunteer mappers have contributed to this initiative. The platform allows collaboration between multiple organizations, like satellite imaging providers like Maxar and humanitarian agencies such as the Red Cross. This collaborative platform ensures that critical, life-saving decisions are grounded in traceable and verifiable data. Especially as the frequency of extreme weather events increases, accurate electrical grid data [plays a key role in disaster response at the Humanitarian OpenStreetMap Team](https://github.com/USAFORUNHCRhive/turkana-grid-mapping).
 
 1. The [Global Electrification Platform](https://electrifynow.energydata.info/), developed by the World Bank, estimates electrification in rural areas across 58 countries. Using OpenStreetMap data to map roads, buildings, and settlements, it helps identify off-grid populations and informs planning for both grid and off-grid electrification strategies.
 
-1. [EnergyData.info](https://energydata.info/dataset/?q=OpenStreetMap) hosts over 1,072 energy-related datasets, 533 of which directly depend on OpenStreetMap data. The World Bank uses this data to finance and support energy infrastructure projects in low- and middle-income countries, including expanding energy access, modernizing power systems, and promoting clean energy solutions.
+1. The World Bank's [EnergyData.info](https://energydata.info/dataset/?q=OpenStreetMap) website hosts over 1,072 energy-related datasets, 533 of which directly depend on OpenStreetMap data. The World Bank uses this data to finance and support energy infrastructure projects in low- and middle-income countries, including expanding energy access, modernizing power systems, and promoting clean energy solutions. This data is been used to create report for Decision Makers such as [Mini Grids for Half a Billion People](https://www.esmap.org/sites/default/files/esmap-files/Mini%20Grids%20for%20Half%20a%20Billion%20People%20-%20OKR%20Download%20Version_compressed_MKA.pdf).
 
 
 ## **<div class="tools-header">How and why is it used for the Electrical Grid?</div>**
+
 
 OpenStreetMap’s electrical grid data is actively used by grid operators, academic institutions, government agencies, local authorities, and private organizations. This data plays a crucial role in energy modeling and planning, informing both policy development and investment decisions. 
 
 These simulations help to evaluate technological options, the impact of policies, and the pathways to achieving full electrification, especially in developing countries. Energy models are essential for advancing decarbonization goals and achieving sustainable development. However, the effectiveness of these models depends heavily on the **quality and completeness of the data** they rely on.
 
-
+--- 
 
 ### Energy Modelling 
 
-<div style="float: right; margin: 5px 0 20px 20px; width: 400px;">
+<div style="float: right; margin: 5px 0 20px 20px; width: 500px;">
   <a href="https://pypsa-earth.readthedocs.io/en/latest/index.html" target="_blank">
   <img src="../images/impact/data-processing-PyPSA-EUR.png" class="img-border" style="width: 100%;"> </a>
   <figcaption class="image-caption">PyPSA combines transmission lines and substations (left) to form larger energy links and buses between different regions (right). Image Source: <a href="https://pypsa-earth.readthedocs.io/en/latest/index.html" target="_blank">Modelling the high-voltage grid using open data for
 Europe and beyond</a></figcaption> 
 </div> 
 
-[PyPSA-Earth](https://pypsa-earth.readthedocs.io/en/latest/index.html) is the first energy model to enable regional studies based on OpenStreetMap to be carried out across the globe. The data is clustered into larger regional electrical hubs to simplify the power system model and improve computational efficiency. However, the energy potential of entire regions is underestimated if lines and substations are missing. Therefore, improving the current state of the OpenStreetMap electrical grid significantly enhances the reliability and effectiveness of this planning tool for energy studies in [regions all around the world](https://pypsa-earth.readthedocs.io/en/latest/users_list.html#). Initial attempts to use OpenStreetMap data for energy modeling are being made by the German Aerospace Center with the [SciGrid](https://www.dlr.de/en/ve/research-and-transfer/projects/project-scigrid) project starting in 2014. Afterwards project like [OSMoGrid](https://github.com/ie3-institute/OSMoGrid), [GridTool](https://github.com/IEE-TUGraz/GridTool), [osmTGmod](https://github.com/wupperinst/osmTGmod) and [OpenGridMap](https://github.com/opengridmap) have continoued this development first focusing on the German electrical grid.
+
+[PyPSA-Earth](https://pypsa-earth.readthedocs.io/en/latest/index.html) is the first energy model to enable regional studies based on OpenStreetMap to be carried out across the globe. The data is clustered into larger regional electrical hubs to simplify the power system model and improve computational efficiency. However, the energy potential of entire regions is underestimated if lines and substations are missing. Therefore, improving the current state of the OpenStreetMap's electrical grid data significantly enhances the reliability and effectiveness of this planning tool for energy studies in [regions all around the world](https://pypsa-earth.readthedocs.io/en/latest/users_list.html#). Initial attempts to use OpenStreetMap data for energy modeling are being made by the German Aerospace Center with the [SciGrid](https://www.dlr.de/en/ve/research-and-transfer/projects/project-scigrid) project starting in 2014. Afterwards project like [OSMoGrid](https://github.com/ie3-institute/OSMoGrid), [GridTool](https://github.com/IEE-TUGraz/GridTool), [osmTGmod](https://github.com/wupperinst/osmTGmod) and [OpenGridMap](https://github.com/opengridmap) have continued this development first focusing on the German electrical grid.
 
 --- 
 
 ###  Valued by International Organizations
 
-Organizations such as the **World Bank** and the **International Energy Agency (IEA)** rely on OpenStreetMap data for regional and continental energy analyses. In many cases, OpenStreetMap provides the **only available** source of open, accessible infrastructure data. Making such data publicly available adds considerable **societal value** for planning and clean energy transitions, while also creating **economic value** for the private sector.
+Organizations such as the **World Bank** and the **International Energy Agency (IEA)** rely on OpenStreetMap data for regional and continental energy analyses. In many cases, OpenStreetMap provides the **only available** source of open, accessible infrastructure data. Making such data publicly available adds considerable **societal value** for planning and clean energy transitions, while also creating **economic value** for the private sector:
 
-One of the major global challenges in the clean energy transition is the modernization and expansion of transmission infrastructure. The IEA emphasizes the need for reliable data and collaborative platforms to support this effort:
+
+<div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
+  <img src="../images/impact/nigeria-osm.jpg" class="img-border" style="width: 100%;"> </a>
+  <figcaption class="image-caption"> More than 240 million people in Nigeria depend on electrical grid data from OpenStreetMap. The <a href="https://pypsa-earth.readthedocs.io/en/latest/index.html" target="_blank">Nigerian SE4ALL website</a>, which is hosted by the Federal Ministry of Power, uses OpenStreetMap as its main source on the transmission grid.</figcaption> 
+</div> 
 
 > **IEA Key Policy Recommendation in 2024:**
 > “Improve data reliability and availability to better assess and manage risks for clean energy projects in emerging markets and developing economies.”           
 [How to implement the COP28 energy goals](https://www.iea.org/events/from-taking-stock-to-taking-action-how-to-implement-the-cop28-energy-goals)</br>
 --- 
 > **IEA Actionable Recommendation in 2025:**
-> “Policy makers, regulators and utilities must support institutions, regulations, technical standards and collaboration platforms to build consensus on effective planning approaches that take full account of the changes in the profiles of power systems and their operations. Encouraging TSOs to share procurement and capacity planning data with regulators will further support informed policymaking.       
+> “Policy makers, regulators and utilities must support institutions, regulations, technical standards and collaboration platforms to build consensus on effective planning approaches that take full account of the changes in the profiles of power systems and their operations. Encouraging Transmission System Operator to share procurement and capacity planning data with regulators will further support informed policymaking.       
 [Building the Future Transmission Grid](https://iea.blob.core.windows.net/assets/a688d0f5-a100-447f-91a1-50b7b0d8eaa1/BuildingtheFutureTransmissionGrid.pdf)
 
+--- 
 
 ### Energy Grids Shape Our Future
 
 <div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
   <a href="https://iea.blob.core.windows.net/assets/a688d0f5-a100-447f-91a1-50b7b0d8eaa1/BuildingtheFutureTransmissionGrid.pdf" target="_blank">
   <img src="../images/impact/expected-grid-growth.jpg" class="img-border" style="width: 100%;"> </a>
-  <figcaption class="image-caption">Expanding and modernising grids is a key component of electricity security in each of the IEA scenarios. Adequate electricity transmission networks have strategic significance in outlooks that meet national and global climate goals. Click to enlarge.</figcaption>
+  <figcaption class="image-caption">Expanding and replacing transmission lines is vital to achieving global climate goals. By 2050, advanced economies aim to nearly double their grid capacity, while emerging economies plan to triple theirs. <a href="https://iea.blob.core.windows.net/assets/a688d0f5-a100-447f-91a1-50b7b0d8eaa1/BuildingtheFutureTransmissionGrid.pdf">IEA</a>, CC BY 4.0. Click to enlarge.</figcaption>
 </div> 
 
 
@@ -69,10 +76,11 @@ Reliable and open infrastructure data directly supports the **adoption and succe
 * **Resilience:** Clean energy strengthens resilience against climate impacts and extreme weather events.
 * **Energy security:** Reducing reliance on imports enhances national energy independence, especially from politically unstable or hostile regions.
 
+--- 
 
 ### Growing Academic Impact
 
-To understand the influence of OpenStreetMap electrical grid data in research, our team conducted an impact analysis using Google Scholar. We searched for publications combining **“OpenStreetMap”** with power-related terms such as **“power grid”**, **“electrical grid”**, **“renewable”**, and **“energy model.”**
+To assess the influence of OpenStreetMap electrical grid data in research, we analysed Google Scholar for publications combining `OpenStreetMap` with terms like `power grid`, `electrical grid`, `renewable` or `energy model`.
 
 * 10,700 publications since 2005 included combinations of these keywords.
 * A total of **2,460 publications** were released in the last year alone, demonstrating a rapid increase in academic engagement with, and recognition of, the power of OpenStreetMap data.
@@ -80,7 +88,7 @@ To understand the influence of OpenStreetMap electrical grid data in research, o
 
 ## **<div class="tools-header">Why is it important that this data is open?</div>**
 
-Access to open and accurate data on electricity infrastructure is essential for effective planning, development, and collaboration—especially in the context of the global energy transition. The benefits are far-reaching, particularly for developing countries and emerging economies.
+Access to open and accurate data on electricity infrastructure is essential for effective planning, development, and collaboration, especially in the context of the global energy transition. The benefits are far-reaching, particularly for developing countries and emerging economies.
 
 ### Bridging Data Gaps in Developing Countries
 
@@ -90,7 +98,7 @@ Access to open and accurate data on electricity infrastructure is essential for 
   <figcaption class="image-caption"> <a href="https://iea.blob.core.windows.net/assets/a688d0f5-a100-447f-91a1-50b7b0d8eaa1/BuildingtheFutureTransmissionGrid.pdf" target="_blank"> Ember - Africa Electricity Data Transparency 2025 </a>- Click to enlarge.</figcaption>
 </div> 
 
-In many low- and middle-income countries, data on electrical infrastructure is **outdated, incomplete, or fragmented**. This presents a significant barrier for governments, utilities, and planners. Even in high-income countries, while data may be more comprehensive, it is often **not publicly available** or limited by restrictive licensing—hampering transparency and the ability to collaborate or validate results.
+In many low- and middle-income countries, data on electrical infrastructure is **outdated, incomplete, or fragmented**. This presents a significant barrier for governments, utilities, and planners. Even in high-income countries, while data may be more comprehensive, it is often **not publicly available** or limited by restrictive licensing. This hinders transparency and the ability to collaborate or validate results.
 
 
 Open data ensures that:
@@ -98,6 +106,8 @@ Open data ensures that:
 * Infrastructure planning is **more inclusive and cost-effective**.
 * Datasets can be **cross-checked, reused, and improved** collaboratively.
 * Policymakers and planners have **a reliable foundation** for decision-making.
+
+--- 
 
 ### Transparency, Traceability and Public Trust
 
@@ -107,9 +117,11 @@ OpenStreetMap's unique mapping methodology, which cannot be replicated by propri
 
 Transparent planning, backed by open data, plays a key role in building **public trust**. Research has shown that openness increases public acceptance of infrastructure projects ([Ciupuliga & Cuppen, 2013](https://www.sciencedirect.com/science/article/abs/pii/S0301421513003601)).
 
-Because OpenStreetMap is editable and collaborative, **local communities, NGOs, and governments** can contribute directly—filling gaps, correcting errors, and improving the quality of infrastructure data. For example, the **YouthMappers** initiative in **Sierra Leone** enabled local students and organizations to map the power grid, helping electricity providers reduce planning costs and improve infrastructure deployment ([Charles, 2022](https://link.springer.com/chapter/10.1007/978-3-031-05182-1_11)).
+Because OpenStreetMap is editable and collaborative, **local communities, NGOs, and governments** can contribute directly. This  leads to filling gaps, correcting errors, and improving the quality of infrastructure data. For example, the **YouthMappers** initiative in **Sierra Leone** enabled local students and organizations to map the power grid, helping electricity providers reduce planning costs and improve infrastructure deployment ([Charles, 2022](https://link.springer.com/chapter/10.1007/978-3-031-05182-1_11)).
 
 Open grid data is also instrumental in identifying **off-grid communities** that could be connected to national networks, helping target interventions and investments ([Arderne et al., 2020](https://www.nature.com/articles/s41597-019-0347-4)).
+
+--- 
 
 ### Economic Savings Compared to Proprietary Datasets 
 
@@ -121,6 +133,7 @@ Open grid data is also instrumental in identifying **off-grid communities** that
 
 OpenStreetMap's data has enabled the government and local authorities to create high-quality datasets without having to pay for expensive proprietary ones. For example, the US Department of Energy and partners have created the "Electric Energy Infrastructure Data" utilising open-source data, which led to **"estimated savings of 65% (~2 million dollars) over proprietary datasets"** ([Singh et al., 2023](https://www.energy.gov/sites/default/files/2023-01/poster-%20Creating%20Foundation%20Electric%20Energy%20Infrastructure%20Data%20from%20Open-Sources.pdf)).
 
+--- 
 
 ### Examples from High-Income Countries
 In most developed countries, publishing high-resolution, open datasets about the transmission grid has been common practice more than a decade. For example:
@@ -143,16 +156,18 @@ In the United States, the Department of Homeland Security and other agencies pub
 
 The [Homeland Infrastructure Foundation-Level Data](https://resilience.climate.gov/datasets/fedmaps::u-s-electric-power-transmission-lines/explore?location=38.846475%2C-76.984997%2C8.86) has shown **strong alignment** with OpenStreetMap data, demonstrating how open contributions can match official datasets in coverage and accuracy.
 
+--- 
+
 ## **<div class="tools-header">Who uses OpenStreetMap grid data?</div>**
 
-How does mapping have an impact? When you map towers, substations, powerplants in OpenStreetMap, you are essentially adding valuable data that is used by many different entities. Below is a curated list of organisations and projects that have had an impact and have used this data. <br> 
+How does mapping have an impact? When you map towers, substations, power plants in OpenStreetMap, you are essentially adding valuable data that is used by many different entities. Below is a curated list of organisations and projects that have had an impact and have used this data. <br> 
 
 Disclaimer: These organisations are not affiliated with MapYourGrid nor endorse it. All logos and brand names are the property of their respective owners. Usage here is for informational purposes only, identifying organisations that utilise OpenStreetMap data.
 
 **International Energy Agency**  ![IEA logo](images/impact/International-energy-agency-logo.png){width=30px} 
 ??? "Energy and AI Observatory (Click Me)"
     
-    "[**Link to website**](https://www.iea.org/data-and-statistics/data-tools/energy-and-ai-observatory)"
+    [**Link to website**](https://www.iea.org/data-and-statistics/data-tools/energy-and-ai-observatory)
     
     ![map](images/impact/powerandai.jpg){: .img-border }
  
@@ -178,7 +193,7 @@ Disclaimer: These organisations are not affiliated with MapYourGrid nor endorse 
 
 
 **PyPSA-Earth** ![PyPSA-Earth](images/impact/pypsa-earth-logo.png){: width=70px} **+** **PyPSA-Eur** ![PyPSA-Eur](images/impact/pypsa-eur-logo.jpg){: width=30px}
-??? "PyPSA Earth and Europe use OpenStreetMap data for energy system studies all around the world. (Click Me)"
+??? "PyPSA-Earth and Europe use OpenStreetMap data for energy system studies all around the world. (Click Me)"
     
     [**Link to website**)](https://pypsa-earth.readthedocs.io/)
         
@@ -280,9 +295,9 @@ Disclaimer: These organisations are not affiliated with MapYourGrid nor endorse 
     ![map](images/impact/MAPOG.jpg){: .img-border } 
 
 **dvlp.energy** ![dvlp.energy](images/impact/dvlp-logo-purple.svg){width=40px}
-??? "With dvlp.energy, you can quickly and easily find the right space for your solar, wind or storage projects — and keep track of your entire project pipeline at all times. (Click Me)" 
+??? "With dvlp.energy, you can quickly and easily find the right space for your solar, wind or storage projects. (Click Me)" 
     
-    [**Link to website**](https://www.dvlp.energy/en)"
+    [**Link to website**](https://www.dvlp.energy/en)
         
     ![map](images/impact/dvlp-energy.jpg){: .img-border } 
 

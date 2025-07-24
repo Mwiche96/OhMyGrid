@@ -2,14 +2,14 @@
 <h1>Our Progress</h1>
 </div>
 
-<div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
-<img src="../images/MapYourGrid-Global-Progress.jpg" class="img-border" style="width: 100%;"></a> 
-<figcaption class="image-caption">Global overview of all lines mapped by MapYourGrid. Click to enlarge.
+<div style="float: right; margin: 5px 0 20px 20px; width: 450px;">
+<img src="../images/progress/mapyourgrid-globalprogress.jpg" style="width: 100%; border: 4px solid #2a6d3c;"></a> 
+<figcaption class="image-caption">Global overview of all lines mapped by MapYourGrid in 2025. Click to enlarge.
 </figcaption>
 </div>
 
 
-MapYourGrid measures its progress at user, hashtag and country level. We would be honoured to show you your progress as part of the initiative if you use our tools and training courses. Just use the #MapYourGrid hashtag in your changesets or add your user id to our [KPI script](https://github.com/open-energy-transition/MapYourGrid/blob/main/.github/workflows/update-tower-count.yml). If you would like to contribute to our development or keep up to date with our progress, take a look at our public [organization project management](https://github.com/orgs/open-energy-transition/projects/25/views/7) and [roadmap](https://github.com/orgs/open-energy-transition/projects/25/views/13).
+MapYourGrid measures its progress at user, hashtag and country level. We would be honoured to make your progress part of the initiative. If you use our tools and training courses please use the #MapYourGrid hashtag in your changesets or add your user id to our [KPI script](https://github.com/open-energy-transition/MapYourGrid/blob/main/.github/workflows/update-tower-count.yml). If you would like to contribute to our development or keep up to date with our progress, take a look at our public [organization project management](https://github.com/orgs/open-energy-transition/projects/25/views/7) and [roadmap](https://github.com/orgs/open-energy-transition/projects/25/views/13). You may have noticed that our KPIs currently prioritise coverage over data quality. This is because our initiative is working to increase coverage in low- and middle-income countries, resulting in more issues appearing in this grid. However, quality KPIs are currently under development and will be based on the [quality assurance layers that we are implementing simultaneously](tools.md/#quality-assurance-and-validation).
 
 
 <div class="starter-kit-buttons">
@@ -30,7 +30,7 @@ MapYourGrid measures its progress at user, hashtag and country level. We would b
 <!-- Countries Section -->
 ## **<div class="tools-header">Country list </div>**
 
-We contribute to mapping grid all around the world. Discover our main contributions in different countries:
+We contribute to mapping the grid all around the world. Discover our main contributions in different countries:
 
 ![Flag Bangladesh](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bangladesh.svg){width=20px} [Bangladesh](countrypages/Bangladesh.md) - 
 ![Flag Benin](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Benin.svg){width=20px} [Benin](countrypages/Benin.md) 
@@ -43,7 +43,7 @@ We contribute to mapping grid all around the world. Discover our main contributi
 ![Flag Kazakhstan](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kazakhstan.svg){width=20px} [Kazakhstan](countrypages/Kazakhstan.md) - 
 ![Flag Kenya](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kenya.svg){width=20px} [Kenya](countrypages/Kenya.md) - 
 ![Flag Mongolia](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mongolia.svg){width=20px} [Mongolia](countrypages/Mongolia.md) - 
-![Flag Nepal](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nepal.svg){width=20px} [Nepal](countrypages/Nepal.md) 
+![Flag Nepal](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nepal.svg){width=20px} [Nepal](countrypages/Nepal.md) -
 ![Flag Nigeria](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nigeria.svg){width=20px} [Nigeria](countrypages/Nigeria.md) - 
 ![Flag Pakistan](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pakistan.svg){width=20px} [Pakistan](countrypages/Pakistan.md) - 
 ![Flag People's Republic of China](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20People%27s%20Republic%20of%20China.svg){width=20px} [People's Republic of China](countrypages/People's Republic of China.md) - 
@@ -64,13 +64,13 @@ We contribute to mapping grid all around the world. Discover our main contributi
 
 
   <div class="progress-item">
-    <label>Contributors mapping with <code>#mapyourgrid</code> and <code>#ohmygrid</code> hashtag:</label>
+    <label>Contributors mapping with <code>#MapYourGrid</code> hashtag:</label>
     <div class="progress"> <div class="progress-bar" id="contributors-bar" style="background-color: #28a745;"></div> </div>
     <span id="contributors-count">Loading…</span>
   </div>
 
   <div class="progress-item">
-    <label>Total Edits for <code>#mapyourgrid</code> hashtag:</label>
+    <label>Total Edits for <code>#MapYourGrid</code> hashtag:</label>
     <div class="progress">
       <div class="progress-bar" id="edits-bar" style="background-color: #28a745;"></div> </div>
     <span id="edits-count">Loading…</span>
@@ -182,13 +182,15 @@ We contribute to mapping grid all around the world. Discover our main contributi
       const dataArray = await Promise.all(responses.map(resp => resp.json()));
 
       // Aggregate the results (sum of users and edits)
-      const total = dataArray.reduce((acc, data) => {
-        acc.users += data.result.users ?? 0;
-        acc.edits += data.result.edits ?? 0;
-        return acc;
-      }, { users: 0, edits: 0 });
+      const totalEdits = dataArray.reduce((acc, data) => {
+      acc += data.result.edits ?? 0;
+      return acc;
+      }, 0);
 
-      const { users, edits } = total;
+      const OHMYGRID_LEGACY_USERS = 3; //Hazem, Jbcharron, nolan, (cidomo but he also used the new one)
+      const mapyourgridData = dataArray[0]; // mapyourgrid is first in the array
+      const users = (mapyourgridData.result.users ?? 0) + OHMYGRID_LEGACY_USERS;
+      const edits = totalEdits;
 
       // write DOM
       contribCountEl.textContent = users.toLocaleString();
@@ -459,7 +461,7 @@ This table shows the total growth in line length for all countries around the wo
 <!-- Countries Section -->
 ## **<div class="tools-header">Interconnectors </div>**
 
-We mapped several international interconnectors, as it is shown on map below:
+We mapped several international interconnectors, as it is shown on the map below:
 
 <div style="text-align:center;">
 <img src="https://raw.githubusercontent.com/ben10dynartio/apps/refs/heads/main/osm_interconnectors/international-power-grid-connections.jpg" width="75%"></td>

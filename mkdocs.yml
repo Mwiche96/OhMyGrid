@@ -1,6 +1,6 @@
 site_name: MapYourGrid
 site_url: 'https://MapYourGrid.org/'
-site_description: A global community of citizen contributors creates and maintains data on the core infrastructures of our modern society. Let's empower them! 
+site_description: We empower individuals, communities and nations around the world to map the electrical grid. 
 repo_name: 'MapYourGrid'
 repo_url: 'https://github.com/open-energy-transition/MapYourGrid'
 
@@ -58,6 +58,7 @@ extra:
   - icon: fontawesome/brands/discord
     link: https://discord.gg/a5znpdFWfD
   image: images/MapYourGrid.ico
+  social_preview: images/website/mapyourgrid-preview.jpg
 
 extra_javascript:
   - js/umami.js

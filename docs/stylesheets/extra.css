@@ -115,7 +115,7 @@
 /* CSS of images on starterkit and other pages  */
 .img-border {
   border: 2px solid #000 !important;
-  padding: 0.25px;
+  padding: 0.1px;
   border-radius: 0;
   /* Remove if you want rounded corners */
 }

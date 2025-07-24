@@ -2,7 +2,7 @@
 <h1>Starter-Kit </h1>
 </div>
 
-<div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
+<div style="float: right; margin: 5px 0 20px 20px; width: 450px;">
 <a href="https://openinframap.org/#6.54/39.026/-7.548" target="_blank">
 <img src="../images/openinframap-portugal.jpg" class="img-border icon-svg off-glb" style="width: 100%;"></a> 
 <figcaption class="image-caption">
@@ -10,7 +10,7 @@
 </figcaption>
 </div>
 
-This starter kit empowers you how to map your first line of the electrical transmission grid. If you ever get stuck with the Starter Kit or would like to provide feedback, please contact us via our [community chat](https://discord.gg/fBw7ARTUeR) or [via email](mailto:MapYourGrid@openenergytransition.org). A MapYourGrid community member will help you finish your first line and set up your environment.
+This Starter-Kit empowers you how to map your first line of the electrical transmission grid. If you ever get stuck with the Starter-Kit or would like to provide feedback, please contact us via our [community chat](https://discord.gg/fBw7ARTUeR) or [via email](mailto:MapYourGrid@openenergytransition.org). A MapYourGrid community member will help you finish your first line and set up your environment.
 
 We recommend JOSM for professional, large-scale grid mapping and to inspect the electrical grid. However, if you only want to make minor edits or leave notes without installing anything, the iD editor in combination with [Open Infrastructure Map](https://openinframap.org/) and MapComplete is a better choice. These tools also offer enhanced usability for field mapping tasks and data validation.
 
@@ -23,7 +23,7 @@ Get started by clicking on one of the OpenStreetMap editors:
 </div>
 
 
-## <div class="stradegy-header">JOSM Starter Kit</div></h3>
+## <div class="stradegy-header">JOSM Starter-Kit</div></h3>
     
 ### **<div class="tools-header">1. Install and Configure JOSM  <img src="../images/josm_logo.jpg" style="height: 1.2em; vertical-align: middle; margin-left: 10px;"></div>** 
 
@@ -35,8 +35,7 @@ Get started by clicking on one of the OpenStreetMap editors:
   <figcaption class="image-caption">Different preferences that need to be configured, including the Power Presets. Click to enlarge.</figcaption>
 </div>
 
-1. Install [Java](https://www.java.com/en/download/help/download_options.html) on your device. <br>
-1. Install [JOSM](https://josm.openstreetmap.de/) on your device (if needed, further instructions on how to install and use JOSM on your device can be found at [learnOSM](https://learnosm.org/en/josm/start-josm/)).
+1. Install JOSM using the [**recommended instructions**](installation-instructions.md) for your machine.
 1. Link your OSM account to JOSM. Go to `Preferences → OSM Server` and select "Authorise". Login with your OSM account. Be aware that your token is now stored in your local preferences.xml file. Do not share this file with anyone. <br>
 1. Enable `Remote control` in `Preferences → Remote Control`. This allows for grid data to be loaded automatically.
 1. Enable `Expert Mode` `View → Expert Mode` to enable search function that you will need. 
@@ -56,7 +55,7 @@ Get started by clicking on one of the OpenStreetMap editors:
   <figcaption class="image-caption">Default MapYourGrid Presets in JOSM toolbar. Click to enlarge.</figcaption>
 </div>
 
-1. For ease of mapping, customise your top toolbar with presets if you have not used the default preferences. Right click the toolbar and choose `Configure toolbar`, then select `Presets → Man Made → Man Made/Power` and add `Power Towers`, `Power Portal`, `Power Substation`, `Power Plants`, `Power Line` and `Power Generators`. This are the main objects to will need for transmission grid mapping. 
+1. For ease of mapping, customise your top toolbar with presets if you have not used the default preferences. Right click the toolbar and choose `Configure toolbar`, then select `Presets → Man Made → Man Made/Power` and add `Power Towers`, `Power Portal`, `Power Substation`, `Power Plants`, `Power Line` and `Power Generators`. This are the main objects you will need for transmission grid mapping. 
 2. Another important Preset your will need is `Add Node`. You will find it under `Tools` → `Add Node`. 
 
     
@@ -175,7 +174,7 @@ Also, if you just want to add a note or report an issue, or if you want to sugge
 
 ### <div class="stradegy-header">Reporting Issues in the Grid using iD</div></h3>
 
-The fastest and easiest way to contribute to your electrical grid is by adding notes where you see missing or incorrect information in OpenStreetMap. You can do this fully anonymously—no login required.
+The fastest and easiest way to contribute to your electrical grid is by adding notes where you see missing or incorrect information in OpenStreetMap. You can do this fully anonymously with no login required.
 
 <div style="float: right; margin: 5px 0 10px 20px; width: 350px;">
   <img src="../images/starter-kit/easy-notes.jpg" class="img-border" style="width: 100%;">
