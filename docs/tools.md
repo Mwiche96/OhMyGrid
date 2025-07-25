@@ -33,18 +33,21 @@ The Todo plugin is used for almost all pioneer mapping strategies, systematicall
 ### <div class="tools-header">Map Fast </div>
 
 
+<div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
+  <img src="../images/mapfaster.jpg" class="img-border" style="width: 100%;">
+  <figcaption class="image-caption"> Selecting all the untagged nodes along your line allows you to tag them all at once, saving you lots of time. Remember to tag the portal, as well as the start and end of the line. Click to enlarge </figcaption>
+</div>
+
+
 To map efficiently and quickly, you need to know how to select all the nodes along your new line and convert them into power towers in one go. This will save you loads of time:
 
+1. Enable Expert Mode by selecting the View drop-down menu in the top panel.
 1. Press `A` and draw nodes as you follow the towers. This will create a long line of untagged nodes, all connected by a untagged way.
 1. Click on the way, and tag it as a power line.
 1. Click on the way again, and `CTRL+F` to open up search. Then enter this search string: `child selected type:node AND untagged`. This will select all untagged nodes of the way.
 1. Use the preset power tower or poles to set all nodes at once.
 1. If you ever lose this query, click the right arrow on the search window and select it from your history.
 
-<div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
-  <img src="../images/osmose-unfinished-transmission-lines.jpg" class="img-border" style="width: 100%;">
-  <figcaption class="image-caption"> The Osmose "Unfinished power transmission line" issues reveal all transmission lines that are not connected to a substation. Click to enlarge.</figcaption>
-</div>
 
 ### <div class="tools-header">Copy Coordinates from and into JOSM </div>
 
@@ -55,6 +58,11 @@ There are many reasons why you might want to share your location with someone el
 
 
 ### <div class="tools-header">Continue Open Lines</div>
+
+<div style="float: right; margin: 5px 0 20px 20px; width: 350px;">
+  <img src="../images/osmose-unfinished-transmission-lines.jpg" class="img-border" style="width: 100%;">
+  <figcaption class="image-caption"> The Osmose "Unfinished power transmission line" issues reveal all transmission lines that are not connected to a substation. Click to enlarge.</figcaption>
+</div>
 
 _Continue Open Lines_ is the most efficient and most beginner friendly strategy. It is directly integrated in [Map It📍](https://MapYourGrid.org/map-it/). The strategy mainly depends on [osmose](https://osmose.openstreetmap.fr/en/map/), a quality assurance tool that detects issues in OpenStreetMap data on a daily basis. These include different power classes of issues, such as "unfinished power transmission lines" : 
 
