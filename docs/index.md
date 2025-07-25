@@ -156,11 +156,6 @@ image: images/website/mapyourgrid-preview.jpg
 
 <div class="our-mapping-section" style="text-align: center;">
   <h2 style="margin-bottom: 0.5rem; font-size: 2em; color: #205b2a;">Subscribe to Our Newsletter</h2>
-  <p style="max-width: 700px; margin: 0 auto 2rem; font-size: 1.1em; color: #555555;">
-    Stay informed about the latest tools, campaigns, and open data releases.<br>
-    We'll be constantly posting. Don't miss out.
-  </p>
-
   <div style="display: flex; justify-content: center;">
     <div style="max-width: 480px; width: 100%;">
       <script async src="https://eocampaign1.com/form/c308f2c6-6898-11f0-9bf6-53fb9ff1b12b.js" data-form="c308f2c6-6898-11f0-9bf6-53fb9ff1b12b"></script>
