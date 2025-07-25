@@ -30,7 +30,7 @@ image: images/website/mapyourgrid-preview.jpg
 <div class="initiative-section">
   <div class="initiative-content">
     <h2>Help Map the World's Electricity Grids to Power a Fossil-Free Future</h2>
-    <iframe width="840" height="472" style="height: auto; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/6rcMVXc2lwc?si=JWOgvzKbadt2Nx9n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="1280" height="720" style="height: auto; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/6rcMVXc2lwc?si=JWOgvzKbadt2Nx9n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <p> Fossil fuels are responsible for over 75% of global greenhouse gas emissions. You can play a vital role in supporting the energy transition by helping to map electrical grids in your local area. These grids need modernization and expansion to meet the demands of electrification and decarbonization, but a lack of reliable data is a <a href="https://iea.blob.core.windows.net/assets/70f2de45-6d84-4e07-bfd0-93833e205c81/ElectricityGridsandSecureEnergyTransitions.pdf" target="_blank" rel="noopener">major barrier</a>. Grid data provides governments, utilities, developers, and researchers with the information needed to plan effectively. That's where you come in.</p>
     <p>In recent years, OpenStreetMap has emerged as the de facto standard for global electrical grid data. However, many developing countries are still lagging behind. This gap limits rural energy access and slows down climate action:</p>
     <blockquote class="blockquote">
@@ -154,29 +154,13 @@ image: images/website/mapyourgrid-preview.jpg
 </div>
 </div>
 
-<div class="get-involved-section">
-<h2 style="margin-bottom: 0.5rem; font-size: 2em; color: #205b2a;">Subscribe to Our Newsletter</h2>
-  <p style="max-width: 700px; margin: 0 auto 2rem; font-size: 1.1em; color: #555555;">
-    Stay informed about the latest tools, campaigns, and open data releases. We will be constantly posting, do not miss out.
-  </p>
-
-  <form action="https://your-subscription-link" method="post" target="_blank" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5em;">
-    <input 
-      type="email" 
-      name="EMAIL" 
-      placeholder="Your email address" 
-      required 
-      style="padding: 0.8em 1em; width: 280px; max-width: 90%; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; text-align: center;"
-    >
-    <button 
-      type="submit" 
-      style="padding: 0.8em 1.5em; background-color: #2c8a4b; color: white; font-weight: 600; border: none; border-radius: 6px; font-size: 1rem; cursor: pointer; transition: background 0.3s;"
-      onmouseover="this.style.backgroundColor='#256f3d'" 
-      onmouseout="this.style.backgroundColor='#2c8a4b'"
-    >
-      📬 Subscribe
-    </button>
-  </form>
+<div class="our-mapping-section" style="text-align: center;">
+  <h2 style="margin-bottom: 0.5rem; font-size: 2em; color: #205b2a;">Subscribe to Our Newsletter</h2>
+  <div style="display: flex; justify-content: center;">
+    <div style="max-width: 480px; width: 100%;">
+      <script async src="https://eocampaign1.com/form/c308f2c6-6898-11f0-9bf6-53fb9ff1b12b.js" data-form="c308f2c6-6898-11f0-9bf6-53fb9ff1b12b"></script>
+    </div>
+  </div>
 </div>
 
 

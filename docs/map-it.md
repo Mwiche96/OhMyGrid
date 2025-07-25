@@ -479,7 +479,7 @@ setTimeout(() => {
 
   const html = `
     <div class="popup-success">
-      <p>🎉 <strong>Great!</strong> Now go back to <a href="https://josm.openstreetmap.de/">JOSM</a> and check if it is downloading. Depending on the country, this may take <em>60 seconds or more</em>. The grid of some countries are to large to be mapped on a national level. However, you can zoom in and click on regions or states. For <strong>Osmose and GEM tools and hints</strong> selections, you will need to download the geojson file. Afterwards drag and drop the file into JOSM. For wikidata and powerplantmatching, the layer will be directly loaded in JOSM. ⚠️ <strong>If nothing happens:</strong></p>
+      <p>🎉 <strong>Great!</strong> Now go back to <a href="https://josm.openstreetmap.de/">JOSM</a> and check if it is downloading. Depending on the country, this may take <em>60 seconds or more</em>. The grid of some countries are too large to be mapped on a national level. However, you can zoom in and click on regions or states. For <strong>Osmose and GEM tools and hints</strong> selections, you will need to download the geojson file. Afterwards drag and drop the file into JOSM. For wikidata and powerplantmatching, the layer will be directly loaded in JOSM. <br>⚠️ <strong>If nothing happens:</strong></p>
       <ol>
         <li>Check if your ad-blocker is off and JOSM is open</li>
         <li>Make sure Remote Control is enabled in JOSM</li>

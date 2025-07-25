@@ -2,7 +2,7 @@
 <h1>Our Progress</h1>
 </div>
 
-<div style="float: right; margin: 5px 0 20px 20px; width: 450px;">
+<div style="float: right; margin: 5px 0 20px 20px; width: 450px; max-width: 100%">
 <img src="../images/progress/mapyourgrid-globalprogress.jpg" style="width: 100%; border: 4px solid #2a6d3c;"></a> 
 <figcaption class="image-caption">Global overview of all lines mapped by MapYourGrid in 2025. Click to enlarge.
 </figcaption>
@@ -33,25 +33,22 @@ MapYourGrid measures its progress at user, hashtag and country level. We would b
 We contribute to mapping the grid all around the world. Discover our main contributions in different countries:
 
 ![Flag Bangladesh](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bangladesh.svg){width=20px} [Bangladesh](countrypages/Bangladesh.md) - 
-![Flag Benin](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Benin.svg){width=20px} [Benin](countrypages/Benin.md) 
+![Flag Benin](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Benin.svg){width=20px} [Benin](countrypages/Benin.md) -
 ![Flag Bolivia](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bolivia.svg){width=20px} [Bolivia](countrypages/Bolivia.md) - 
 ![Flag Bosnia and Herzegovina](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bosnia%20and%20Herzegovina.svg){width=20px} [Bosnia and Herzegovina](countrypages/Bosnia and Herzegovina.md) - 
 ![Flag Cambodia](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cambodia.svg){width=20px} [Cambodia](countrypages/Cambodia.md) - 
 ![Flag Colombia](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Colombia.svg){width=20px} [Colombia](countrypages/Colombia.md) -
 ![Flag Georgia](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Georgia.svg){width=20px} [Georgia](countrypages/Georgia.md) - 
-![Flag Ivory Coast](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20C%C3%B4te%20d%27Ivoire.svg){width=20px} [Ivory Coast](countrypages/Ivory Coast.md) - 
 ![Flag Kazakhstan](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kazakhstan.svg){width=20px} [Kazakhstan](countrypages/Kazakhstan.md) - 
 ![Flag Kenya](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kenya.svg){width=20px} [Kenya](countrypages/Kenya.md) - 
 ![Flag Mongolia](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mongolia.svg){width=20px} [Mongolia](countrypages/Mongolia.md) - 
 ![Flag Nepal](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nepal.svg){width=20px} [Nepal](countrypages/Nepal.md) -
 ![Flag Nigeria](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nigeria.svg){width=20px} [Nigeria](countrypages/Nigeria.md) - 
 ![Flag Pakistan](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pakistan.svg){width=20px} [Pakistan](countrypages/Pakistan.md) - 
-![Flag People's Republic of China](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20People%27s%20Republic%20of%20China.svg){width=20px} [People's Republic of China](countrypages/People's Republic of China.md) - 
 ![Flag Sri Lanka](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sri%20Lanka.svg){width=20px} [Sri Lanka](countrypages/Sri Lanka.md) - 
 ![Flag Turkmenistan](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Turkmenistan.svg){width=20px} [Turkmenistan](countrypages/Turkmenistan.md) -
 ![Flag Uganda](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uganda.svg){width=20px} [Uganda](countrypages/Uganda.md) - 
 ![Flag Uzbekistan](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uzbekistan.svg){width=20px} [Uzbekistan](countrypages/Uzbekistan.md) - 
-![Flag Vietnam](http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vietnam.svg){width=20px} [Vietnam](countrypages/Vietnam.md)
 
 
 <!-- Progress Bars Section -->
