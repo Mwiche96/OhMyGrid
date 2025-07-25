@@ -12,12 +12,12 @@ from datetime import datetime, timedelta
 
 # --- CONFIGURATION ---
 TEAM_MEMBERS = {
-    # Add all your core team usernames here
+    # Our team usernames here so not picked up as community mappers
     "Andreas Hernandez", "Tobias Augspurger", "Mwiche", "davidtt92", 
     "relaxxe", "Russ", "map-dynartio", "overflorian", "nlehuby", 
     "ben10dynartio", "InfosReseaux"
 }
-HASHTAG = "ohmygrid"
+HASHTAG = "mapyourgrid"
 STATS_FILE = "docs/data/community-stats.json"
 
 class CommunityStatsAnalyzer:
@@ -147,8 +147,8 @@ def main(mode, start_date_str):
             "users": {},
             "updated": ""
         }
-    else: # weekly mode
-        start_date = end_date - timedelta(days=7)
+    else: # weekly mode. Set to 2 days, but then will be updated to 7 days
+        start_date = end_date - timedelta(days=2)
         # Load previous stats to update them
         try:
             with open(STATS_FILE, 'r') as f:
