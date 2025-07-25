@@ -148,7 +148,7 @@ def main(mode, start_date_str):
             "updated": ""
         }
     else: # weekly mode. Set to 2 days, but then will be updated to 7 days
-        start_date = end_date - timedelta(days=2)
+        start_date = end_date - timedelta(days=7)
         # Load previous stats to update them
         try:
             with open(STATS_FILE, 'r') as f:
