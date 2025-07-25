@@ -81,6 +81,8 @@ Get started by clicking on one of the OpenStreetMap editors:
 Our community is constantly investigating transmission lines that are suitable for beginner friendly mapping experiences. Simply select a 'Good First Lines' from the following spreadsheet, and tick it if you have started mapping it. For now, just keep in mind in which country (or region) your picked 'Good first line' is in, as the next step is to load that countries' grid!
 
 ??? success "Good First Lines (Click Me)"
+    [**Open this Spreadsheet in another Window**](https://docs.google.com/spreadsheets/d/13YZftK9xZ09t2oSvhwjE0Zb7P25nl9OaUAxIBVNH0js/edit?gid=0#gid=0)
+
     <iframe
      src="https://docs.google.com/spreadsheets/d/13YZftK9xZ09t2oSvhwjE0Zb7P25nl9OaUAxIBVNH0js/edit?usp=sharing&rm=minimal"
      class="iframestyle"

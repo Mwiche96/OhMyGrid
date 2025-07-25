@@ -788,6 +788,8 @@ fetch('../data/regionsv2.geojson')
       width="600">
 
 ??? success "Good First Lines (Click Me)"
+    [**Open this Spreadsheet in another Window**](https://docs.google.com/spreadsheets/d/13YZftK9xZ09t2oSvhwjE0Zb7P25nl9OaUAxIBVNH0js/edit?gid=0#gid=0)
+    
     <iframe
      src="https://docs.google.com/spreadsheets/d/13YZftK9xZ09t2oSvhwjE0Zb7P25nl9OaUAxIBVNH0js/edit?usp=sharing&rm=minimal"
      class="iframestyle"
