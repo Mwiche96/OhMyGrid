@@ -29,7 +29,7 @@ These simulations help to evaluate technological options, the impact of policies
 
 ### Energy Modelling 
 
-<div style="float: right; margin: 5px 0 20px 20px; width: 500px;">
+<div style="float: right; margin: 5px 0 20px 20px; width: 500px; max-width: 100%">
   <a href="https://pypsa-earth.readthedocs.io/en/latest/index.html" target="_blank">
   <img src="../images/impact/data-processing-PyPSA-EUR.png" class="img-border" style="width: 100%;"> </a>
   <figcaption class="image-caption">PyPSA combines transmission lines and substations (left) to form larger energy links and buses between different regions (right). Image Source: <a href="https://pypsa-earth.readthedocs.io/en/latest/index.html" target="_blank">Modelling the high-voltage grid using open data for

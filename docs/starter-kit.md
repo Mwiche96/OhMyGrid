@@ -2,7 +2,7 @@
 <h1>Starter-Kit </h1>
 </div>
 
-<div style="float: right; margin: 5px 0 20px 20px; width: 450px;">
+<div style="float: right; margin: 5px 0 20px 20px; width: 450px; max-width: 100%">
 <a href="https://openinframap.org/#6.54/39.026/-7.548" target="_blank">
 <img src="../images/openinframap-portugal.jpg" class="img-border icon-svg off-glb" style="width: 100%;"></a> 
 <figcaption class="image-caption">
@@ -12,7 +12,7 @@
 
 This Starter-Kit empowers you how to map your first line of the electrical transmission grid. If you ever get stuck with the Starter-Kit or would like to provide feedback, please contact us via our [community chat](https://discord.gg/fBw7ARTUeR) or [via email](mailto:MapYourGrid@openenergytransition.org). A MapYourGrid community member will help you finish your first line and set up your environment.
 
-We recommend JOSM for professional, large-scale grid mapping and to inspect the electrical grid. However, if you only want to make minor edits or leave notes without installing anything, the iD editor in combination with [Open Infrastructure Map](https://openinframap.org/) and MapComplete is a better choice. These tools also offer enhanced usability for field mapping tasks and data validation.
+We recommend JOSM generally, particularly for professional, large-scale grid mapping and to inspect the electrical grid. However, if you only want to make minor edits or leave notes without installing anything, the iD editor in combination with [Open Infrastructure Map](https://openinframap.org/) and MapComplete is a better choice. These tools also offer enhanced usability for field mapping tasks and data validation.
 
 Get started by clicking on one of the OpenStreetMap editors:
 
