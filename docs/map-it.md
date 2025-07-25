@@ -858,7 +858,27 @@ The following list provides the main good practices for mapping different power 
     **⚠️ Before you start mapping, please find out about the mapping restrictions in the respective country. In some countries, the mapping of transmission lines is not permitted. Get in touch with local users by finding out about [local projects](https://wiki.openstreetmap.org/wiki/Power_networks#Local_projects).  If you can't find a local community, please send us an [email](mailto:MapYourGrid@openenergytransition.org) and we will help you set up a local group.**
 
     **⚠️ By following our [Code of Mappers](./code-of-mappers.md), we collectively protect the integrity of the OpenStreetMap platform, foster trust with communities, and unlock the power of open data for a more resilient and just energy future. Please do NOT copy any data from hint layer directly into your OpenStreetMap data layer. Every data point in your OpenStreetMap data layer must be manually set and [verified](https://wiki.openstreetmap.org/wiki/Verifiability). The metadata must also be verified against compatible licensed sources or by people on the ground. If you cannot verify the data using satellite images or any other compatible source, please do not add this information from hint layers. This may seem like a high burden at first, but it ensures the high quality of OpenStreetMap.** 
-    
+
+## <div class="tools-header">JOSM Hotkey </div>
+
+These JOSM hotkeys have proven helpful for grid mapping:
+
+| Hotkey         | Function Description                                      |
+|----------------|-----------------------------------------------------------|
+| S              | Select tool (for selecting objects)                       |
+| A              | Add tool (for drawing new nodes or ways)                  |
+| CTRL+C         | Copy selected objects                                     |
+| CTRL+V         | Paste objects from clipboard                              |
+| CTRL+F         | Search (Needs expert mode activated under `View`)         |
+| CTRL+Z         | Undo last action                                          |
+| CTRL+Y         | Redo last undone action                                   |
+| CTRL+SHIFT+C   | Copy coordinates of the selected point(s) to clipboard    |
+| CTRL+W         | Switch between activated Map Paint Style and Wireframe    |
+| CTRL+H         | History (opens history dialog for selected objects)       |
+| Shift+V        | Validate (runs data validation on the current layer)      |
+| Tabulator      | Show/hide Sidebar and Edit toolbar                        |
+
+
 
 ## Join the Chat <img src="/icons/discord.svg" alt="Discord" class="social-icon" style="width:1.2em; vertical-align:middle; margin-left:0.5ch;"> {.tools-header style="font-weight:700"}
 We welcome everyone to join our [📍-MapYourGrid discord channel](https://discord.gg/a5znpdFWfD). Here you can ask questions, and interact with the community. For mapping specific questions and to participate in our free personalized training, please join our [📍-MapYourGrid-support-and-training](https://discord.gg/fBw7ARTUeR) channel. We share this server with [PyPSA-Earth](https://pypsa-earth.readthedocs.io/en/latest/), a global, open-source energy system model thats uses mainly OpenStreetMap's transmission grid data.

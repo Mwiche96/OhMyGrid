@@ -451,7 +451,7 @@ You can find more stats for #mapyourgrid at [OhsomeNowstats](https://stats.now.o
 
 ## **<div class="tools-header">Line Length Growth per Country </div>**
 
-The following table shows the total growth in line length across all OpenStreetMap edits worldwide, calculated using pre-processed statistical data of [ohsome stats](https://stats.now.ohsome.org/).
+The following table shows the **total growth in line length across all OpenStreetMap edits** worldwide, calculated using pre-processed statistical data of [ohsome stats](https://stats.now.ohsome.org/).
 
 <iframe src="../data/power_line_length_table.html" width="100%" height="600px" style="border:none;"></iframe>
 
