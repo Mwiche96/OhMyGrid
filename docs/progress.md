@@ -77,7 +77,7 @@ We contribute to mapping the grid all around the world. Discover our main contri
   </div>
 
   <div class="progress-item">
-    <label>Total estimated power towers added by mappers of the MapYourGrid funding organisations:</label>
+    <label>Total estimated power towers added by mappers of the MapYourGrid organisations:</label>
     <div class="progress">
       <div class="progress-bar" id="tower-bar" style="background-color: #17a2b8;"></div>
     </div>
@@ -87,7 +87,7 @@ We contribute to mapping the grid all around the world. Discover our main contri
   </div>
 
   <div class="progress-item">
-    <label>Total estimated length of power lines added by mappers of the MapYourGrid funding organisations:</label>
+    <label>Total estimated length of power lines added by mappers of the MapYourGrid organisations:</label>
     <div class="progress">
       <div class="progress-bar" id="line-length-bar" style="background-color: #17a2b8;"></div>
     </div>
@@ -98,7 +98,7 @@ We contribute to mapping the grid all around the world. Discover our main contri
   </div>
 
   <div class="progress-item">
-    <label>Total Estimated Global Power Capacity added by mappers of the MapYourGrid funding organisations:</label>
+    <label>Total Estimated Global Power Capacity added by mappers of the MapYourGrid organisations:</label>
     <div class="progress">
       <div class="progress-bar" id="plant-capacity-bar" style="background-color: #17a2b8;"></div>
     </div>
@@ -108,7 +108,7 @@ We contribute to mapping the grid all around the world. Discover our main contri
   </div>
 
   <div class="progress-item">
-    <label>Total estimated substations added by mappers of the MapYourGrid funding organisations:</label>
+    <label>Total estimated substations added by mappers of the MapYourGrid organisations:</label>
     <div class="progress">
       <div class="progress-bar" id="substation-bar" style="background-color: #17a2b8;"></div>
     </div>
@@ -454,15 +454,15 @@ You can find more stats for #mapyourgrid at [OhsomeNowstats](https://stats.now.o
 
 ## **<div class="tools-header">Line Length Growth per Country </div>**
 
-This table shows the total growth in line length for all countries around the world, as calculated using pre-processed statistical data of [ohsome stats](https://stats.now.ohsome.org/).
+The following table shows the total growth in line length across all OpenStreetMap edits worldwide, calculated using pre-processed statistical data of [ohsome stats](https://stats.now.ohsome.org/).
 
 <iframe src="../data/power_line_length_table.html" width="100%" height="600px" style="border:none;"></iframe>
 
 <!-- Countries Section -->
 ## **<div class="tools-header">Interconnectors </div>**
 
-We mapped several international interconnectors, as it is shown on the map below:
+MapYourGrid mapped several international interconnectors within the transmission grid, as it is shown on the map below:
 
 <div style="text-align:center;">
-<img src="https://raw.githubusercontent.com/ben10dynartio/apps/refs/heads/main/osm_interconnectors/international-power-grid-connections.jpg" width="75%"></td>
+<img src="https://raw.githubusercontent.com/ben10dynartio/apps/refs/heads/main/osm_interconnectors/international-power-grid-connections.jpg" width="100%"></td>
 </div>

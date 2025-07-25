@@ -46,6 +46,14 @@ To map efficiently and quickly, you need to know how to select all the nodes alo
   <figcaption class="image-caption"> The Osmose "Unfinished power transmission line" issues reveal all transmission lines that are not connected to a substation. Click to enlarge.</figcaption>
 </div>
 
+### <div class="tools-header">Copy Coordinates from and into JOSM </div>
+
+There are many reasons why you might want to share your location with someone else. Many popular mapping platforms allow you to copy coordinates from a map by right-clicking on an arbitrary position.
+
+1. To copy coordinates from a node in JOSM, simply select the node and press CTRL+SHIFT+C.
+2. To create a node from a given coordinate, press SHIFT+D or click the Add Node button in the Tools drop-down window. It is recommended that you add this button to your upper toolbar.
+
+
 ### <div class="tools-header">Continue Open Lines</div>
 
 _Continue Open Lines_ is the most efficient and most beginner friendly strategy. It is directly integrated in [Map It📍](https://MapYourGrid.org/map-it/). The strategy mainly depends on [osmose](https://osmose.openstreetmap.fr/en/map/), a quality assurance tool that detects issues in OpenStreetMap data on a daily basis. These include different power classes of issues, such as "unfinished power transmission lines" : 

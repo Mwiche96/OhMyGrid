@@ -518,7 +518,7 @@ async function fetchOsmoseAndDownload(sovName) {
   const apiUrl = 
     `https://osmose.openstreetmap.fr/api/0.3/issues.json?` +
     `country=${encodeURIComponent(base)}` +
-    `&item=${item}&class=${cls}&limit=500` +
+    `&item=${item}&class=${cls}&limit=1000` +
     `&useDevItem=all`;
 
   const resp = await fetch(apiUrl);
