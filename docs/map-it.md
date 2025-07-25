@@ -129,7 +129,7 @@ const regionsLayer = L.geoJSON(null, {
 
 
 // Make the popup message bigger and nicer for new mappers (like Ad-blocker...)
-map.options.maxPopupWidth = 400;
+map.options.maxPopupWidth = 300;
 
 // 2) Dynamic query‑mode discovery via GitHub Contents API
 const GITHUB_API_QUERIES =
@@ -189,13 +189,13 @@ async function initQueryUI() {
     border-radius: 8px;
     margin: 1em 0;
     font-family: sans-serif;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     line-height: 1.5;
   `;
   introBox.innerHTML = `
-    <strong>📍 Click on the country you want to load in JOSM</strong><br/>
+    <strong>📍LOAD POWER INFRASTRUCTURE</strong><br/>
     <ol style="margin: 0.5em 0 0 1em; padding-left: 1em;">
-      <li>Zoom in to select states or provinces.</li>
+      <li>Click on the country you want to load in JOSM. Zoom in to select states or provinces.</li>
       <li>Click on Tools and Hints to download data layers to support grid mapping.</li>
       <li>Don't forget to checkout the Map Legend, Good First Lines and Curated Electrical Grid Maps below.</li>
       
