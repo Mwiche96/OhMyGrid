@@ -447,7 +447,7 @@ async function loadSubstationCount() {
   });
 </script>
 
-You can find more stats for #mapyourgrid at [OhsomeNowstats](https://stats.now.ohsome.org/dashboard#hashtag=MapYourGrid&start=2025-03-12T22:00:00Z&end=2025-05-14T21:59:59Z&interval=P1M&countries=&topics=).
+You can find more stats for #MapYourGrid at [OhsomeNowstats](https://stats.now.ohsome.org/dashboard#hashtag=MapYourGrid&start=2025-03-12T22:00:00Z&end=2025-05-14T21:59:59Z&interval=P1M&countries=&topics=).
 
 ## **<div class="tools-header">Line Length Growth per Country </div>**
 
@@ -458,7 +458,7 @@ The following table shows the **total growth in line length across all OpenStree
 <!-- Countries Section -->
 ## **<div class="tools-header">Interconnectors </div>**
 
-MapYourGrid mapped several international interconnectors within the transmission grid, as it is shown on the map below:
+The #MapYourGrid team is continuously improving the mapping of international connectors. The map below shows the interconnectors that the team has worked on.
 
 <div style="text-align:center;">
 <img src="https://raw.githubusercontent.com/ben10dynartio/apps/refs/heads/main/osm_interconnectors/international-power-grid-connections.jpg" width="100%"></td>
