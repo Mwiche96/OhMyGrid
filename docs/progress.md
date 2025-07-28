@@ -458,7 +458,7 @@ The following table shows the **total growth in line length across all OpenStree
 <!-- Countries Section -->
 ## **<div class="tools-header">Interconnectors </div>**
 
-MapYourGrid mapped several international interconnectors within the transmission grid, as it is shown on the map below:
+The #MapYourGrid team is continuously improving the mapping of international connectors. The map below shows the interconnectors that the team has worked on.
 
 <div style="text-align:center;">
 <img src="https://raw.githubusercontent.com/ben10dynartio/apps/refs/heads/main/osm_interconnectors/international-power-grid-connections.jpg" width="100%"></td>
